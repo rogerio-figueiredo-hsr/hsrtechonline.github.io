@@ -1,0 +1,30 @@
+# Site settings
+title: HSR Tech
+email: your-email@example.com
+description: "Manual fastquest"
+baseurl: ""
+url: "https://hsrtechonline.github.io" 
+manualColeta: "Manual Coleta" 
+manualAdmin: "Manual Admin" 
+manualColetaDocTec: "Manual Técnico Coleta"
+manualAdminDocTec: "Manual Técnico Admin "
+github_username:  HSRTech
+
+# Build settings
+markdown: kramdown
+theme: hsr-tech-fast-quest-template
+permalink: /:title
+plugins:
+  - jekyll-feed
+  
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

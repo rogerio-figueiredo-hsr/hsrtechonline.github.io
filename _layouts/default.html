@@ -1,0 +1,14 @@
+{% include head.html %}
+<body>                   
+    <div class="main" id="main">
+            <header id="header"> 
+                <a href="{{ site.url}}">
+                    <img src="{{ "/assets/fonts/HSRTech_RGB_Cor-cinza.svg" | prepend: site.baseurl}}" alt="" class="logo-svg">				
+                </a>               
+            </header>
+            <div class="container">          
+                {{ content }}
+            </div>      
+    </div> 
+</body>
+</html>

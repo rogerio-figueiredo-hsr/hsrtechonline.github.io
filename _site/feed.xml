@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-26T14:54:06-03:00</updated><id>http://localhost:4000/</id><title type="html">HSR Tech</title><subtitle>Manual fastquest</subtitle><entry><title type="html">Introdução</title><link href="http://localhost:4000/fastQuestAdminDocTec/teste" rel="alternate" type="text/html" title="Introdução" /><published>2018-09-26T00:00:00-03:00</published><updated>2018-09-26T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdminDocTec/TesteAdminTec</id><content type="html" xml:base="http://localhost:4000/fastQuestAdminDocTec/teste">&lt;h1 id=&quot;introdução&quot;&gt;Introdução&lt;/h1&gt;</content><author><name></name></author><summary type="html">Introdução</summary></entry><entry><title type="html">Agendamentos/Retornos</title><link href="http://localhost:4000/fastQuestColeta/agendamentos-retorno" rel="alternate" type="text/html" title="Agendamentos/Retornos" /><published>2018-06-20T00:00:00-03:00</published><updated>2018-06-20T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestColeta/agendamentos-retornos</id><content type="html" xml:base="http://localhost:4000/fastQuestColeta/agendamentos-retorno">&lt;h1 id=&quot;agendamentosretornos&quot;&gt;Agendamentos/Retornos&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/agendament-retornos-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;CodCliente: Código do cliente;&lt;/li&gt;
+  &lt;li&gt;Data: Dia agendado para ligação;&lt;/li&gt;
+  &lt;li&gt;Hora: Hora agendada para ligação;&lt;/li&gt;
+  &lt;li&gt;Contato do Agendamento: Nome do cliente que teve a ligação agendada;&lt;/li&gt;
+  &lt;li&gt;Telefone Agendado: Número do telefone agendado;&lt;/li&gt;
+  &lt;li&gt;Tipo: será agendamento ou retorno;&lt;/li&gt;
+  &lt;li&gt;Procurar registros:
+    &lt;ol&gt;
+      &lt;li&gt;Para procurar uma entrevista realizada clique no ícone da “Lupa” laranja localizado no canto inferior esquerdo da página;&lt;/li&gt;
+      &lt;li&gt;Então teremos os campos por padrão Ligar, igual e um campo vazio:
+        &lt;ul&gt;
+          &lt;li&gt;Ligar: É o campo em que define a coluna do que será procurado. Pode ser alterado para CodCliente ou todos os campos da listagem importada;&lt;/li&gt;
+          &lt;li&gt;Igual: É o campo em que define a condição para achar o que será procurado. Pode ser Alterado para diferente, inicia com, não inicia com, termina com, não termina com, contém, não contém, nulo, não nulo, está em e não está em.&lt;/li&gt;
+          &lt;li&gt;Campo vazio: É o campo em que se coloca o que será procurado. Por exemplo se está definido como Status você irá colocar o Status do cliente;&lt;/li&gt;
+          &lt;li&gt;Preencha os campos de acordo com sua pesquisa.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Para procurar clique em “Procurar”, se deseja limpar os campos clique em “Resetar”.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Recarregando a tabela: Após uma pesquisa de projeto clique em Recarregando tabela, localizado no canto inferior esquerdo, para todos os projetos voltarem ao Grid;&lt;/li&gt;
+  &lt;li&gt;Quantidade de agendamentos por página;&lt;/li&gt;
+  &lt;li&gt;Ligar: abrirá uma nova aba com as seguintes opções:
+&lt;img src=&quot;/assets/img/agendament-retornos-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Contato: Nome do contato;&lt;/li&gt;
+  &lt;li&gt;ID do Contato;&lt;/li&gt;
+  &lt;li&gt;Obs: comentário;&lt;/li&gt;
+  &lt;li&gt;Telefone disponível para ligação;&lt;/li&gt;
+  &lt;li&gt;Ligar;&lt;/li&gt;
+  &lt;li&gt;Iniciar Pesquisa, irá abrir uma nova tela com as opções:
+    &lt;ul&gt;
+      &lt;li&gt;DDD: preencha com o DDD do telefone contatado;&lt;/li&gt;
+      &lt;li&gt;Telefone: preencha com o telefone contatado;&lt;/li&gt;
+      &lt;li&gt;Clique em OK e a pesquisa iniciará.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Encerrar: para saber mais sobre as opções de encerramento, clique aqui;&lt;/li&gt;
+  &lt;li&gt;Histórico: histórico de ocorrências com as seguintes opções:
+&lt;img src=&quot;/assets/img/agendament-retornos-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;ID do Status;&lt;/li&gt;
+  &lt;li&gt;Descrição do status;&lt;/li&gt;
+  &lt;li&gt;Data e dia da ocorrência;&lt;/li&gt;
+  &lt;li&gt;Nome do usuário;&lt;/li&gt;
+  &lt;li&gt;Observação;&lt;/li&gt;
+  &lt;li&gt;Telefone contatado;&lt;/li&gt;
+  &lt;li&gt;Agendamento.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Agendamentos/Retornos CodCliente: Código do cliente; Data: Dia agendado para ligação; Hora: Hora agendada para ligação; Contato do Agendamento: Nome do cliente que teve a ligação agendada; Telefone Agendado: Número do telefone agendado; Tipo: será agendamento ou retorno; Procurar registros: Para procurar uma entrevista realizada clique no ícone da “Lupa” laranja localizado no canto inferior esquerdo da página; Então teremos os campos por padrão Ligar, igual e um campo vazio: Ligar: É o campo em que define a coluna do que será procurado. Pode ser alterado para CodCliente ou todos os campos da listagem importada; Igual: É o campo em que define a condição para achar o que será procurado. Pode ser Alterado para diferente, inicia com, não inicia com, termina com, não termina com, contém, não contém, nulo, não nulo, está em e não está em. Campo vazio: É o campo em que se coloca o que será procurado. Por exemplo se está definido como Status você irá colocar o Status do cliente; Preencha os campos de acordo com sua pesquisa. Para procurar clique em “Procurar”, se deseja limpar os campos clique em “Resetar”. Recarregando a tabela: Após uma pesquisa de projeto clique em Recarregando tabela, localizado no canto inferior esquerdo, para todos os projetos voltarem ao Grid; Quantidade de agendamentos por página; Ligar: abrirá uma nova aba com as seguintes opções: Contato: Nome do contato; ID do Contato; Obs: comentário; Telefone disponível para ligação; Ligar; Iniciar Pesquisa, irá abrir uma nova tela com as opções: DDD: preencha com o DDD do telefone contatado; Telefone: preencha com o telefone contatado; Clique em OK e a pesquisa iniciará. Encerrar: para saber mais sobre as opções de encerramento, clique aqui; Histórico: histórico de ocorrências com as seguintes opções: ID do Status; Descrição do status; Data e dia da ocorrência; Nome do usuário; Observação; Telefone contatado; Agendamento.</summary></entry><entry><title type="html">Tipo Questão RU e RM</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-ru-e-rm" rel="alternate" type="text/html" title="Tipo Questão RU e RM" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-quest%C3%A3o-ru-e-rm</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-ru-e-rm">&lt;h1 id=&quot;tipo-questão-ru-e-rm&quot;&gt;Tipo Questão RU e RM&lt;/h1&gt;
+
+&lt;p&gt;Temos os campos:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tipo resposta: RU ou RM.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Se for selecionado RU temos:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; principal:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;&lt;/li&gt;
+  &lt;li&gt;Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de “bolinha” ou “quadrado”, você seleciona a descrição da opção;&lt;/li&gt;
+  &lt;li&gt;Obrigatório: Exige uma resposta para a questão;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.
+&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; opções:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cadastro de Opções
+    &lt;ul&gt;
+      &lt;li&gt;Criar nova opção;&lt;/li&gt;
+      &lt;li&gt;Importar opções;&lt;/li&gt;
+      &lt;li&gt;Excluir.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Base de Opções Alternativa&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cadastro-de-opções&quot;&gt;Cadastro de Opções&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Criar nova opção.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; principal:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Opção: Indica o valor da opção selecionada;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Exclusivo: Caso esta opção seja selecionada, desconsidera as demais;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a opção será exibida;&lt;/li&gt;
+  &lt;li&gt;Descrição: Texto que aparece na opção.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; especifique:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Especifique: A opção terá um especifique;&lt;/li&gt;
+  &lt;li&gt;Nr. Questão: Não precisa colocar, será preenchido automaticamente;&lt;/li&gt;
+  &lt;li&gt;Opções do especifique: Selecione de acordo com sua questão.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;se-for-selecionado-rm-temos&quot;&gt;Se for selecionado RM temos:&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; principal:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de “bolinha” ou “quadrado”, você seleciona a descrição da opção;&lt;/li&gt;
+  &lt;li&gt;Obrigatório: Exige uma resposta para a questão;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;&lt;/li&gt;
+  &lt;li&gt;Qtd. Mín. Seleção: Quantidade mínima de opções selecionadas;&lt;/li&gt;
+  &lt;li&gt;Qtd. Max. Seleção: Quantidade máxima de opções selecionadas;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-04.png&quot; alt=&quot;Imagem de apoio 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; opções&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Criar nova opção.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; Principal:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Opção: Indica o valor da opção selecionada;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Exclusivo: Caso esta opção seja selecionada, desconsidera as demais;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a opção será exibida;&lt;/li&gt;
+  &lt;li&gt;Descrição: Texto que aparece na opção.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-05.png&quot; alt=&quot;Imagem de apoio 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Menu”&lt;/em&gt; Especifique:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Especifique: A opção terá um especifique;&lt;/li&gt;
+  &lt;li&gt;Nr. Questão: Não precisa colocar, será preenchido automaticamente;&lt;/li&gt;
+  &lt;li&gt;Opções do especifique: Selecione de acordo com sua questão;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-06.png&quot; alt=&quot;Imagem de apoio 6&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;base-de-opções-alternativa&quot;&gt;Base de Opções Alternativa&lt;/h2&gt;
+
+&lt;p&gt;Existe a alternativa de utilizar na lista de opções uma base alternativa, que é uma tabela pré configurada pelo programador para conter a lista de opções.&lt;/p&gt;
+
+&lt;p&gt;Ex: lista de cidades e a lista de estados brasileiros&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-07.png&quot; alt=&quot;Imagem de apoio 7&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo-do-componente-de-resposta-única&quot;&gt;Exemplo do Componente de resposta única&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ru-e-rm-08.png&quot; alt=&quot;Imagem de apoio 8&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão RU e RM</summary></entry><entry><title type="html">Tipo Questão Verbalização</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-verbalizacao" rel="alternate" type="text/html" title="Tipo Questão Verbalização" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-verbalizacao</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-verbalizacao">&lt;h1 id=&quot;tipo-questão-verbalização&quot;&gt;Tipo Questão Verbalização&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-verbalizacao-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Obrigatório: Exige uma resposta para a questão;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Max. Dígitos: Quantidade máxima de caracteres que cabem no espaço destinado;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-verbalizacao-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Verbalização “Menu” Principal</summary></entry><entry><title type="html">Tipo Questão Valor</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-valor" rel="alternate" type="text/html" title="Tipo Questão Valor" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-valor</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-valor">&lt;h1 id=&quot;tipo-questão-valor&quot;&gt;Tipo Questão Valor&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-valor-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Descrição;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Texto alternativo;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rodapé;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Obrigatório: Exige uma resposta para a questão;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-formatação&quot;&gt;“Menu” Formatação&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-valor-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-valor-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Valor “Menu” Principal</summary></entry><entry><title type="html">Tipo Questão Ranking</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-ranking" rel="alternate" type="text/html" title="Tipo Questão Ranking" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-ranking</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-ranking">&lt;h1 id=&quot;tipo-questão-ranking&quot;&gt;Tipo Questão Ranking&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ranking-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Obrigatório: Exige uma resposta para a questão;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Min. Seleção: Mínimo de opções selecionadas;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Max. Seleção: Máximo de opções selecionadas;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Descrição;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Texto alternativo;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rodapé.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;criar-nova-opção&quot;&gt;Criar Nova Opção&lt;/h2&gt;
+&lt;h3 id=&quot;menu-opções&quot;&gt;“Menu” Opções&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ranking-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mostrar: Indica se a opção será exibida;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Opção: Indica o valor da opção selecionada;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Descrição: Texto que aparece na opção;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Criar nova opção;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Importar opções;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Excluir opção.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-ranking-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Ranking</summary></entry><entry><title type="html">Tipo Questão Grid RU e RM</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-grid-ru-e-rm" rel="alternate" type="text/html" title="Tipo Questão Grid RU e RM" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-grid-ru-e-rm</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-grid-ru-e-rm">&lt;h1 id=&quot;tipo-questão-grid-ru-e-rm&quot;&gt;Tipo Questão Grid RU e RM&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-ru-e-rm-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tipo resposta: Define se será uma RU ou RM;&lt;/li&gt;
+  &lt;li&gt;Inverter: Define se o grid será montado com as questões na vertical ou na horizontal;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Repetir Cabec: Quantidade de linhas para repetir o cabeçalho do Grid, por exemplo se colocar 10 a cada 10 linhas irá repetir o cabeçalho do GRID;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;criando-colunas&quot;&gt;Criando Colunas&lt;/h2&gt;
+&lt;h3 id=&quot;menu-principal-1&quot;&gt;“Menu” Principal&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-ru-e-rm-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Opção: Indica o valor da opção selecionada;&lt;/li&gt;
+  &lt;li&gt;Exclusivo: Torna exclusiva a seleção da opção se for RM e a opção exclusiva for selecionada todas outras serão desmarcadas;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a opção será exibida;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Descrição: Texto que aparece na opção;&lt;/li&gt;
+  &lt;li&gt;Criar nova opção;&lt;/li&gt;
+  &lt;li&gt;Importar opções;&lt;/li&gt;
+  &lt;li&gt;Excluir opção.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-especifique&quot;&gt;“Menu” especifique&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-ru-e-rm-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Nr. Questão: Não precisa colocar, será preenchido automaticamente;&lt;/li&gt;
+  &lt;li&gt;Especifique: A opção terá um especifique, selecione de acordo com sua questão;&lt;/li&gt;
+  &lt;li&gt;Criar nova opção;&lt;/li&gt;
+  &lt;li&gt;Importar opções;&lt;/li&gt;
+  &lt;li&gt;Excluir opção.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;criando-linhas&quot;&gt;Criando Linhas&lt;/h2&gt;
+&lt;h3 id=&quot;menu-principal-2&quot;&gt;“Menu” Principal&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-ru-e-rm-04.png&quot; alt=&quot;Imagem de apoio 4&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Nr. Questão: Indica o código da questão da linha do GRID. (Não pode ser igual a nenhum código de qualquer opção);&lt;/li&gt;
+  &lt;li&gt;Min. Op: Mínimo de opções selecionadas;&lt;/li&gt;
+  &lt;li&gt;Max. Op: Máximo de opções selecionadas;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé;&lt;/li&gt;
+  &lt;li&gt;Obrigatório: Exige uma resposta para a questão;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-ru-e-rm-05.png&quot; alt=&quot;Imagem de apoio 5&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Grid RU e RM</summary></entry><entry><title type="html">Tipo Questão Grid Matriz</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-grid-matriz" rel="alternate" type="text/html" title="Tipo Questão Grid Matriz" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-grid-matriz</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-grid-matriz">&lt;h1 id=&quot;tipo-questão-grid-matriz&quot;&gt;Tipo Questão Grid Matriz&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-matriz-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Repetir Cabec: Quantidade de linhas para repetir o cabeçalho do Grid, por exemplo se colocar 10 a cada 10 linhas irá repetir o cabeçalho do GRID;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;criando-colunas&quot;&gt;Criando Colunas&lt;/h2&gt;
+&lt;h3 id=&quot;menu-principal-1&quot;&gt;“Menu” Principal&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-matriz-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mostrar: Indica se a opção será exibida;&lt;/li&gt;
+  &lt;li&gt;Nr. Questao: Indica o número da coluna;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Descrição: Texto que aparece na opção;&lt;/li&gt;
+  &lt;li&gt;Criar nova opção;&lt;/li&gt;
+  &lt;li&gt;Importar opções;&lt;/li&gt;
+  &lt;li&gt;Excluir opção.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;criando-linhas&quot;&gt;Criando Linhas&lt;/h2&gt;
+&lt;h3 id=&quot;menu-principal-2&quot;&gt;“Menu” Principal&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-matriz-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Nr. Questao: Indica o número da linha;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a opção será exibida;&lt;/li&gt;
+  &lt;li&gt;Descrição: Texto que aparece na opção;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Cruzamento&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Selecione a coluna;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clique na coluna;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Selecione o tipo do campo: textbox, combo ou checkbox;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Se for Combo:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clique em opções e adicione todas opções desejadas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Se for Textbox:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clique em formatação e escolha de acordo com a questão.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Se for Checkbox:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Apenas selecione checkbox.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol Start=&quot;4&quot;&gt;
+  &lt;li&gt;Após tudo feito clique em replicar tudo e depois clique em Gravar.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Obs: usando o replicar tudo não é necessário colocar todas opções em cada coluna! O sistema mesmo replicará tudo para todas colunas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-matriz-04.png&quot; alt=&quot;Imagem de apoio 4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-grid-matriz-05.png&quot; alt=&quot;Imagem de apoio 5&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Grid Matriz</summary></entry><entry><title type="html">Tipo Questão Encerramento</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-encerramento" rel="alternate" type="text/html" title="Tipo Questão Encerramento" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-encerramento</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-encerramento">&lt;h1 id=&quot;tipo-questão-encerramento&quot;&gt;Tipo Questão Encerramento&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-encerramento-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-encerramento-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Encerramento</summary></entry><entry><title type="html">Tipo Questão Dinâmica</title><link href="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-dinamica" rel="alternate" type="text/html" title="Tipo Questão Dinâmica" /><published>2018-06-18T00:00:00-03:00</published><updated>2018-06-18T00:00:00-03:00</updated><id>http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-dinamica</id><content type="html" xml:base="http://localhost:4000/fastQuestAdmin/questionario/tipo-questao-dinamica">&lt;h1 id=&quot;tipo-questão-dinâmica&quot;&gt;Tipo Questão Dinâmica&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-principal&quot;&gt;“Menu” Principal&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-dinamica-01.png&quot; alt=&quot;Imagem de apoio 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de “bolinha” ou “quadrado”, você seleciona a descrição da opção;&lt;/li&gt;
+  &lt;li&gt;Obrigatório: Exige uma resposta para a questão;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a questão será exibida na página ou não;&lt;/li&gt;
+  &lt;li&gt;Qtd. Max. Seleção: Quantidade máxima de opções selecionadas;&lt;/li&gt;
+  &lt;li&gt;Qtd. Mín. Seleção: Quantidade mínima de opções selecionadas;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;&lt;/li&gt;
+  &lt;li&gt;Descrição;&lt;/li&gt;
+  &lt;li&gt;Texto alternativo;&lt;/li&gt;
+  &lt;li&gt;Rodapé.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;criando-opções&quot;&gt;Criando Opções&lt;/h2&gt;
+&lt;h3 id=&quot;menu-principal-1&quot;&gt;“Menu” Principal&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-dinamica-02.png&quot; alt=&quot;Imagem de apoio 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Exclusivo: Torna exclusiva a seleção da opção;&lt;/li&gt;
+  &lt;li&gt;Mostrar: Indica se a opção será exibida;&lt;/li&gt;
+  &lt;li&gt;Opção: Indica o valor da opção selecionada;&lt;/li&gt;
+  &lt;li&gt;Agrupamento: Utilizado para rodiziar as questões;&lt;/li&gt;
+  &lt;li&gt;Descrição: Texto que aparece na opção.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;menu-especifique&quot;&gt;“Menu” especifique:&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-dinamica-03.png&quot; alt=&quot;Imagem de apoio 3&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Nr. Questão: Não precisa colocar, será preenchido automaticamente;&lt;/li&gt;
+  &lt;li&gt;Especifique: A opção terá um especifique, selecione de acordo com sua questão;&lt;/li&gt;
+  &lt;li&gt;Criar nova opção;&lt;/li&gt;
+  &lt;li&gt;Importar opções;&lt;/li&gt;
+  &lt;li&gt;Excluir opção.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Após configurar as opções teremos que criar uma nova página dentro desta questão para gerarmos as perguntas que serão feitas somente para as alternativas assinaladas.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Selecione a questão dinâmica;&lt;/li&gt;
+  &lt;li&gt;Clique em criar nova página;&lt;/li&gt;
+  &lt;li&gt;Configure a página de acordo com suas necessidades;&lt;/li&gt;
+  &lt;li&gt;Crie uma nova questão dentro desta página clicando em “Criar nova questão” com a página selecionada;&lt;/li&gt;
+  &lt;li&gt;Selecione o tipo da questão e coloque um número para identificar a mesma;&lt;/li&gt;
+  &lt;li&gt;Configure a questão de acordo com o seu tipo;&lt;/li&gt;
+  &lt;li&gt;Clique em gravar.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exemplo&quot;&gt;Exemplo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-dinamica-04.png&quot; alt=&quot;Imagem de apoio 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Como foi selecionado as 3 operadoras, ele irá me perguntar 3 vezes a pergunta que eu configurei na questão dentro da página que está dentro da questão dinâmica.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/tipo-questao-dinamica-05.png&quot; alt=&quot;Imagem de apoio 5&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tipo Questão Dinâmica</summary></entry></feed>

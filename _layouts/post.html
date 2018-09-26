@@ -1,0 +1,36 @@
+{% include head.html %}
+<body>               
+    {% include nav.html %}        
+    <div class="main" id="main">            
+        <header id="header"> 
+            <nav class="left">
+                <a href="#menu" onclick="openNav()" ><span>Menu</span></a>
+            </nav>                
+            {%if page.projeto == "fastQuestColeta" %}
+                <a href="" class="logo">{{ site.manualColeta}}</a> 
+            {% elsif page.projeto  == "fastQuestAdminDocTec" %}
+                <a href="" class="logo">{{ site.manualAdminDocTec}}</a> 
+            {% elsif page.projeto  == "fastQuestColetaDocTec" %}
+                <a href="" class="logo">{{ site.manualColetaDocTec}}</a> 
+            {% else %}
+                <a href="" class="logo">{{ site.manualAdmin}}</a>
+            {% endif %}                                   
+            <a href="{{site.url}}"><img src="{{ "/assets/fonts/HSRTech_RGB_Cor-cinza.svg" | prepend: site.baseurl}}" alt="" class="logo-svg"></a>
+                                       
+        </header>
+            <div class="container">          
+                {{ content }}
+            </div>      
+    </div>      
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>    
+    <script src="{{"/assets/js/jquery.min.js"  | prepend: site.baseurl}}"></script>
+    <script src="{{"/assets/js/jquery.scrolly.min.js"  | prepend: site.baseurl}}"></script>
+    <script src="{{"/assets/js/util.js"  | prepend: site.baseurl}}"></script>
+    <script src="{{"/assets/js/skel.min.js"  | prepend: site.baseurl}}"></script>
+    <script src="{{"/assets/js/main.js"  | prepend: site.baseurl}}"></script>    
+</body>
+</html>
