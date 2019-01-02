@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trava Opção"
+title:  "Troca Contato"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoes/trocar-contato
 pasta: "funcoes"
