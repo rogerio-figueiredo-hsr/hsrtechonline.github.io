@@ -5,11 +5,13 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoes/resposta-unica
 pasta: "funcoes"
 ---
-# $FUNCAO_APAGA_RESPOSTA(NRQUESTAO) - teste
-*Apaga uma determinada resposta.*
+# $FUNCAO_RESPOSTA_DUPLICADA(NRQUESTAO;VALOR_BUSCA;SOMENTE_REALIZADAS)
+*Busca em uma determinada questão (NRQUESTAO) o valor passado na (VALOR_BUSCA).*
 - Parâmetros:
     - NrQuestao: identificador da questão.
+    - VALOR_BUSCA: valor a ser localizado
+    - SOMENTE_REALIZADAS: passar (true) caso queira que a busca seja executada apenas em entrevistas realizadas, ou passar (false) para buscar em todas
 - Exemplo:
-    - **$FUNCAO_APAGA_RESPOSTA(Q1)**
+    - **$FUNCAO_RESPOSTA_DUPLICADA(NOTA;$FUNCAO_RETORNA_RESPOSTA(NOTA);true)**
 - Resultado:
-    - Se houver uma resposta gravada para o cliente na questão "Q1" a mesma será apagada.
+    - Se houver uma outra resposta com o mesmo valor dado para a questão NOTA retorna 1 caso contrário retorna zero.
