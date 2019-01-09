@@ -2,7 +2,7 @@
 layout: post
 title:  "Gravar Pontuação"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoes/apagar-resposta
+permalink: /fastQuestAdmin/funcoes/gravar-pontuacao
 pasta: "funcoes"
 ---
 # $FUNCAO_GRAVAR_PONTUCAO(NRQUESTAO;PONTOS)
