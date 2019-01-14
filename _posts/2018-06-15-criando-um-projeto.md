@@ -26,13 +26,13 @@ pasta: "Projetos"
 
 6. Defina um data de início e uma data de fim.
 
-7. Defina o número AP;
+7. Defina o número AP.
 
-8. Defina se o projeto está ativo ou não, selecionando a opção "ativo";
+8. Defina se o projeto está ativo ou não, selecionando a opção "ativo".
 
-9. Defina se o questionário está ativo ou não, selecionando a opção "ativo";
+9. Defina se o questionário está ativo ou não, selecionando a opção "ativo".
 
-10. Defina a Versão do Layout;
+10. Defina a Versão do Layout.
 
 11. Clique em "Enviar".
 </div>
