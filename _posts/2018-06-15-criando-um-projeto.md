@@ -18,13 +18,13 @@ pasta: "Projetos"
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 {:start="3"}
-3. Selecione o tipo de coleta;
+3. Selecione o tipo de coleta.
 
-4. Selecione qual repositório (banco de dados) que o projeto ficará armazenado;
+4. Selecione qual repositório (banco de dados) que o projeto ficará armazenado.
 
-5. De uma descrição para o projeto;
+5. De uma descrição para o projeto.
 
-6. Defina um data de início e uma data de fim;
+6. Defina um data de início e uma data de fim.
 
 7. Defina o número AP;
 
