@@ -19,20 +19,20 @@ pasta: Projetos
 {% if page.title == "Página Teste" %}
     teste
 {% else %}
-    <h1>{{ "texto" | append: "teste"}}</h1>
-    <h1>{{ -10 | abs }}</h1>
-    <h1>{{ "texto" | capitalize}}</h1>
-    <h1>{{ page.title | upcase}}</h1>
+    {{ "texto" | append: "teste"}}
+    {{ -10 | abs }}
+    {{ "texto" | capitalize}}
+    {{ page.title | upcase}}
 {% endif %}
 
 {% if page.teste == "testando" %}
     {{ page.title | size }}
 {% else %}
-    <p>{{ page.url }}</p>
+    {{ page.url }}
 {% endif %}
 
 {:start="4"}
 
-4. eqopiewqq
-5. qwopeioqweo
-6. qwopeiqoe
+1. eqopiewqq
+2. qwopeioqweo
+3. qwopeiqoe
