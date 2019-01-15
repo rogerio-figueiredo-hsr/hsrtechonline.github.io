@@ -34,7 +34,6 @@ pasta: Projetos
 
 {% for cont in (cont...10) %}
     {% increment cont %}
-    {{ cont }}
 {% endfor %}
 
 {:start="4"}
