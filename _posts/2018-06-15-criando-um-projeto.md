@@ -38,6 +38,5 @@ pasta: "Projetos"
 </div>
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 2]({{ "/assets/img/criando-projeto-02.jpg" | prepend: site.baseurl }})
-![Imagem de apoio 2]({{ "/assets/img/adicionando-cotas-01.png" | prepend: site.baseurl }})
 </div>                               
 </div>
