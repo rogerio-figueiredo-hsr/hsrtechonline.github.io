@@ -15,7 +15,6 @@ pasta: Projetos
     **testando**
 
 ----
-{% assign nums = "1", "3", "2", "0" %}
 
 {% assign cont = 0 %}
 
@@ -40,8 +39,15 @@ pasta: Projetos
 
 {:start="4"}
 
+{% assign nome = "Asaopdsdasjd" %}
+
+{% if nome.size > 10 %}
+    {{ nome }}, ok
+{% else %}
+    {{ nome }}, not ok
+{% endif %}
+
+
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
-
-{{ nums[2] }}
