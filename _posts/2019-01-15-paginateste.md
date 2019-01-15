@@ -30,8 +30,12 @@ teste: [1, 2, 3, 4]
     {{ page.title | size }}
 {% else %}
     {{ page.url }}
-    {{ teste[0] }}
+    {{ site.teste[0] }}
 {% endif %}
+
+{% assign num = 1 %}
+
+{{ num }}
 
 {:start="4"}
 
