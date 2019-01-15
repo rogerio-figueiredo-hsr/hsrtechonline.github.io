@@ -43,5 +43,3 @@ pasta: Projetos
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
-
-{{ array[1] }}
