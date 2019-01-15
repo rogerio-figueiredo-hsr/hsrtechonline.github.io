@@ -15,10 +15,11 @@ pasta: Projetos
     **testando**
 
 ----
+
 {% if page.title == "Página Teste" %}
     teste
 {% else %}
-    texto | append: site.baseurl
+    {{ "texto" | append: site.baseurl }}
 {% endif %}
 
 {:start="4"}
