@@ -6,4 +6,4 @@ permalink: /fastQuestAdmin/teste
 pasta: Projetos
 ---
 
-<h1>Testando a página</h1>
+{{ site.pages }}
