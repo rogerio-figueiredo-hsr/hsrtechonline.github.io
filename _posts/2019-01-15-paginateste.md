@@ -44,4 +44,4 @@ pasta: Projetos
 2. qwopeioqweo
 3. qwopeiqoe
 
-{{ array | sort }}
+{{ array[1] }}
