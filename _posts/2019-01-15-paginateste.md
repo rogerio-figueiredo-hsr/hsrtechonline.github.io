@@ -15,6 +15,8 @@ pasta: Projetos
     **testando**
 
 ----
+{% assign array = 4, 2, 1, 3 %}
+
 {% assign cont = 0 %}
 
 {% if page.title == "Página Teste" %}
@@ -41,3 +43,5 @@ pasta: Projetos
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
+
+{{ array | sort }}
