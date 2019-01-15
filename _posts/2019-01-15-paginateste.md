@@ -39,8 +39,6 @@ pasta: Projetos
 
 <ul>
 {% for page in site.pages %}
-  <li>
-    <a href="https://github.com/"> </a>
-  </li>
+  {{ page }}
 {% endfor %}
 </ul>
