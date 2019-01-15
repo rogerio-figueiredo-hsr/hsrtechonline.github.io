@@ -26,10 +26,11 @@ teste: "testando"
     <h1>{{ page.title | upcase}}</h1>
 {% endif %}
 
-{% if page.teste == "testando"}
+{% if page.teste == "testando" %}
     {{ page.title | size }}
 {% else %}
     <p>{{ page.url }}</p>
+{% endif %}
 
 {:start="4"}
 
