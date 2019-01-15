@@ -16,7 +16,7 @@ pasta: Projetos
 
 ----
 
-{% assign beatles = "John, Paul, George, Ringo" | split: ", " %}
+{% assign beatles = "3, 4, 2, 1" | split: ", " %}
 
 {% for member in beatles %}
   {{ member }}
