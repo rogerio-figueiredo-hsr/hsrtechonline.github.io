@@ -16,10 +16,10 @@ pasta: Projetos
 
 ----
 
-{% assign testarray = "ab, cd, ef, gh" | split: ", " %}
+{% assign beatles = "John, Paul, George, Ringo" | split: ", " %}
 
-{% for member in testarray %}
-    {{ member }}
+{% for member in beatles %}
+  {{ member }}
 {% endfor %}
 
 {% assign cont = 0 %}
