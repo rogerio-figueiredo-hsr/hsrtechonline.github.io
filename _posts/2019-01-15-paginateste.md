@@ -15,21 +15,22 @@ pasta: Projetos
     **testando**
 
 ----
+<div class="row">
+    {% if page.title == "Página Teste" %}
+        teste
+    {% else %}
+        {{ "texto" | append: "teste"}}
+        {{ -10 | abs }}
+        {{ "texto" | capitalize}}
+        {{ page.title | upcase}}
+    {% endif %}
 
-{% if page.title == "Página Teste" %}
-    teste
-{% else %}
-    {{ "texto" | append: "teste"}}
-    {{ -10 | abs }}
-    {{ "texto" | capitalize}}
-    {{ page.title | upcase}}
-{% endif %}
-
-{% if page.teste == "testando" %}
-    {{ page.title | size }}
-{% else %}
-    {{ page.url }}
-{% endif %}
+    {% if page.teste == "testando" %}
+        {{ page.title | size }}
+    {% else %}
+        {{ page.url }}
+    {% endif %}
+</div>
 
 {:start="4"}
 
