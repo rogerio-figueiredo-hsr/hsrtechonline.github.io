@@ -19,7 +19,10 @@ pasta: Projetos
 {% if page.title == "Página Teste" %}
     teste
 {% else %}
-    <h1>{{ "texto" | append: "teste"</h2>}}
+    <h1>{{ "texto" | append: "teste"}}</h1>
+    <h1>{{ -10 | abs }}</h1>
+    <h1>{{ "texto" | capitalize}}</h1>
+    <h1>{{ page.title | capitalize}}</h1>
 {% endif %}
 
 {:start="4"}
