@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: "Página Testes"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/teste
