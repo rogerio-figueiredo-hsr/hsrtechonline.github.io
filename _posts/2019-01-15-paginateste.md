@@ -4,7 +4,6 @@ title: "Página Testes"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/teste
 pasta: Projetos
-teste: [1, 2, 3, 4]
 ---
 
 # Testando a página
@@ -16,6 +15,7 @@ teste: [1, 2, 3, 4]
     **testando**
 
 ----
+{{% assign teste = ["a", "b", "c", "d"] %}}
 
 {% if page.title == "Página Teste" %}
     teste
@@ -30,7 +30,7 @@ teste: [1, 2, 3, 4]
     {{ page.title | size }}
 {% else %}
     {{ page.url }}
-    {{ site.teste[0] }}
+    {{ teste[0] }}
 {% endif %}
 
 {% assign num = 1 %}
