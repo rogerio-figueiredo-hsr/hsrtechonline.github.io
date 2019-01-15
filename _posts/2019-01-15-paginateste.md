@@ -18,7 +18,17 @@ pasta: Projetos
 
 {% assign beatles = "3, 4, 2, 1" | split: ", " %}
 
-{{ beatles | sort }}
+{{ beatles | sort | join: ", " }}
+
+{% assign handle = 'cake' %}
+{% case handle %}
+  {% when 'bolo' %}
+     é um bolo
+  {% when 'biscoito' %}
+     é um biscoito
+  {% else %}
+     nem bolo nem biscoito
+{% endcase %}
 
 {% assign cont = 0 %}
 
