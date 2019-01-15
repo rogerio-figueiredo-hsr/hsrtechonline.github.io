@@ -19,7 +19,7 @@ pasta: Projetos
 {% assign beatles = "3, 4, 2, 1" | split: ", " %}
 
 {% for member in beatles %}
-  {{ member }}
+  {{ member | sort }}
 {% endfor %}
 
 {% assign cont = 0 %}
