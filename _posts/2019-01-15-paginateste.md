@@ -3,6 +3,7 @@ layout: default
 title: "Página Testes"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/teste
+pasta: Projetos
 ---
 
 # Testando a página
