@@ -16,7 +16,7 @@ pasta: Projetos
 
 ----
 
-{% assign testarray = "1, 2, 3, 4" | split: ", " %}
+{% assign testarray = "ab, cd, ef, gh" | split: ", " %}
 
 {% for member in testarray %}
     {{ member }}
