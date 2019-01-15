@@ -18,8 +18,8 @@ pasta: Projetos
 
 {% assign testarray = "1, 2, 3, 4" | split: ", " %}
 
-{% for i in testarray %}
-    {{ i }}
+{% for member in testarray %}
+    {{ member }}
 {% endfor %}
 
 {% assign cont = 0 %}
