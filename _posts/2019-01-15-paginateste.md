@@ -4,4 +4,4 @@ title: "Página Teste"
 permalink: /fastQuestAdmin/teste
 ---
 
-{{ site.pages}}
+<h1>Testando a página</h1>
