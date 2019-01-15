@@ -38,11 +38,9 @@ pasta: Projetos
 3. qwopeiqoe
 
 <ul>
-{% for member in site.data.members %}
+{% for page in site.pages %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
+    <a href="https://github.com/"> </a>
   </li>
 {% endfor %}
 </ul>
