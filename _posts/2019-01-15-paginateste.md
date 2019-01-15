@@ -2,8 +2,8 @@
 layout: post
 title: "Página Testes"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/teste
-pasta: Projetos
+permalink: /fastQuestAdmin/projetos/teste
+pasta: "Projetos"
 ---
 
 # Testand a página
