@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/teste
 pasta: Projetos
 ---
 
-# Testando a página
+# Testand a página
 1. asdaskodd
 2. sakkosdapkod
 3. askdpoakodsa
@@ -32,7 +32,7 @@ pasta: Projetos
     {{ page.url }}
 {% endif %}
 
-{% for cont < 10 %}
+{% for cont in (cont...10) %}
     {% increment cont %}
     {{ cont }}
 {% endfor %}
