@@ -36,3 +36,13 @@ pasta: Projetos
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
+
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
