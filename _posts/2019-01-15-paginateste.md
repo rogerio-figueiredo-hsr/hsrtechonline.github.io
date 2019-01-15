@@ -15,7 +15,7 @@ pasta: Projetos
     **testando**
 
 ----
-{% assign array = 4, 2, 1, 3 %}
+{% assign nums = "1", "3", "2", "0" %}
 
 {% assign cont = 0 %}
 
@@ -43,3 +43,5 @@ pasta: Projetos
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
+
+{{ nums[2] }}
