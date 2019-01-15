@@ -16,8 +16,12 @@ pasta: Projetos
 
 ----
 {% if page.title == "Página Teste" %}
-    {:start="4"}
+    teste
+{% else %}
+    texto | append: site.baseurl
 {% endif %}
+
+{:start="4"}
 
 4. eqopiewqq
 5. qwopeioqweo
