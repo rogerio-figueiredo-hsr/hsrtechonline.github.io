@@ -13,9 +13,12 @@ pasta: Projetos
 
 - Teste
     **testando**
-----
 
-{:start="4"}
+----
+{%if post.layout == default %}
+    {:start="4"}
+{% endif %}
+
 4. eqopiewqq
 5. qwopeioqweo
 6. qwopeiqoe
