@@ -15,7 +15,7 @@ pasta: Projetos
     **testando**
 
 ----
-{{% assign teste = ["a", "b", "c", "d"] %}}
+{% assign teste = ["a", "b", "c", "d"] %}
 
 {% if page.title == "Página Teste" %}
     teste
