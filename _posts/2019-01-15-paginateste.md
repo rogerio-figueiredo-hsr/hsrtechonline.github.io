@@ -15,8 +15,8 @@ pasta: Projetos
     **testando**
 
 ----
-{%if post.layout == default %}
-    {{:start="4"}}
+{% if post.layout == home %}
+    {:start="4"}
 {% endif %}
 
 4. eqopiewqq
