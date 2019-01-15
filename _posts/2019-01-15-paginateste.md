@@ -4,6 +4,7 @@ title: "Página Testes"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/teste
 pasta: Projetos
+teste: [1, 2, 3, 4]
 ---
 
 # Testando a página
@@ -15,31 +16,25 @@ pasta: Projetos
     **testando**
 
 ----
-<div class="row">
-    {% if page.title == "Página Teste" %}
-        teste
-    {% else %}
-        {{ "texto" | append: "teste"}}
-        {{ -10 | abs }}
-        {{ "texto" | capitalize}}
-        {{ page.title | upcase}}
-    {% endif %}
 
-    {% if page.teste == "testando" %}
-        {{ page.title | size }}
-    {% else %}
-        {{ page.url }}
-    {% endif %}
-</div>
+{% if page.title == "Página Teste" %}
+    teste
+{% else %}
+    {{ "texto" | append: "teste"}}
+    {{ -10 | abs }}
+    {{ "texto" | capitalize}}
+    {{ page.title | upcase}}
+{% endif %}
+
+{% if page.teste == "testando" %}
+    {{ page.title | size }}
+{% else %}
+    {{ page.url }}
+    {{ teste }}
+{% endif %}
 
 {:start="4"}
 
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
-
-<ul>
-{% for page in site.pages %}
-  {{ page }}
-{% endfor %}
-</ul>
