@@ -16,6 +16,12 @@ pasta: Projetos
 
 ----
 
+{% assign testarray = "1, 2, 3, 4" | split: ", " %}
+
+{% for i in testarray %}
+    {{i}}
+{% endfor %}
+
 {% assign cont = 0 %}
 
 {% if page.title == "Página Teste" %}
