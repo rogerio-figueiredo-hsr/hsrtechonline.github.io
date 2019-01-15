@@ -48,6 +48,8 @@ pasta: Projetos
 {% endif %}
 
 
+{{ site.posts }}
+
 1. eqopiewqq
 2. qwopeioqweo
 3. qwopeiqoe
