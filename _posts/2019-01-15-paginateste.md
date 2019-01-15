@@ -19,8 +19,10 @@ pasta: Projetos
 {% if page.title == "Página Teste" %}
     teste
 {% else %}
-    {{ "texto" | append: site.baseurl }}
+    { "texto" | append: site.baseurl }
 {% endif %}
+
+{{ "texto" | append: site.baseurl }}
 
 {:start="4"}
 
