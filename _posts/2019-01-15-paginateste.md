@@ -15,7 +15,7 @@ pasta: Projetos
     **testando**
 
 ----
-{% assign teste = ["a", "b", "c", "d"] %}
+{% assign cont = 0 %}
 
 {% if page.title == "Página Teste" %}
     teste
@@ -30,12 +30,12 @@ pasta: Projetos
     {{ page.title | size }}
 {% else %}
     {{ page.url }}
-    {{ teste[0] }}
 {% endif %}
 
-{% assign num = 1 %}
-
-{{ num }}
+{% for cont < 10 %}
+    {% increment cont %}
+    {{ cont }}
+{% endfor %}
 
 {:start="4"}
 
