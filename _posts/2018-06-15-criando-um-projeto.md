@@ -12,7 +12,7 @@ pasta: "Projetos"
 2. Clique em "Incluir novo registro" no canto inferior esquerdo;
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 2]({{ "/assets/img/criando-projeto-01.png" | prepend: site.baseurl }})
+![Imagem de apoio 1]({{ "/assets/img/criando-projeto-01.png" | prepend: site.baseurl }})
 </div>                               
 </div>
 <div class="row" markdown="1">
