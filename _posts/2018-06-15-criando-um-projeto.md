@@ -32,9 +32,7 @@ pasta: "Projetos"
 
 9. Defina se o questionário está ativo ou não, selecionando a opção "ativo".
 
-    **Se o tipo de coleta for CAWI:**
-
-    10. Defina a Versão do Layout.
+10. Defina a Versão do Layout.
 
 11. Clique em "Enviar".
 </div>
