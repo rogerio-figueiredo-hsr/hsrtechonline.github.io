@@ -15,7 +15,7 @@ pasta: Projetos
     **testando**
 
 ----
-{% if post.layout == home %}
+{% if post.title == "Página Teste" %}
     {:start="4"}
 {% endif %}
 
