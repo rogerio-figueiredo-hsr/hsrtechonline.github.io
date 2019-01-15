@@ -19,7 +19,7 @@ pasta: Projetos
 {% assign testarray = "1, 2, 3, 4" | split: ", " %}
 
 {% for i in testarray %}
-    {{i}}
+    {{ i }}
 {% endfor %}
 
 {% assign cont = 0 %}
