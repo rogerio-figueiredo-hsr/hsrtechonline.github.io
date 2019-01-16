@@ -28,15 +28,10 @@ Após localizar o id clique no botão "Editar Respostas"  (Botão azul em forma 
 
 Você será direcionado para dentro do questionário conforme imagem abaixo:
 
-![Imagem de apoio 4]({{ "/assets/img/editar-respostas-04.png" | prepend: site.baseurl }})![Imagem de apoio 1]({{ "/assets/img/editar-respostas-01.png" | prepend: site.baseurl }})
-
 Dentro do questionário, no cabeçalho, é possível selecionar qualquer questão e navegar diretamente para ela através da "seleção de questão"
 
-![Imagem de apoio 5]({{ "/assets/img/editar-respostas-05.png" | prepend: site.baseurl }})![Imagem de apoio 1]({{ "/assets/img/editar-respostas-01.png" | prepend: site.baseurl }})
 
 A questão será exibida com a resposta coletada originalmente e pode ser trocada, a troca só será efetivada após clicar no botão "Prosseguir" conforme imagem abaixo:
-
-![Imagem de apoio 6]({{ "/assets/img/editar-respostas-06.png" | prepend: site.baseurl }})![Imagem de apoio 1]({{ "/assets/img/editar-respostas-01.png" | prepend: site.baseurl }})
 
 Importante:
 - A resposta alterada será substituída no banco de dados, gerando um log de alteração em nome do usuário que editou o questionário.
