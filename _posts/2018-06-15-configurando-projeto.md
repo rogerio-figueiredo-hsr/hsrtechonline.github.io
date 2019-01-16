@@ -33,6 +33,6 @@ pasta: "Projetos"
 ----
 
 {:start="3"}
-3. Após alterar os campos desejados, clique em alterar.
+3. Após alterar os campos desejados, clique em salvar alterações.
 ![Imagem de apoio 5]({{ "/assets/img/configurando-um-projeto-05.png" | prepend: site.baseurl }})
 
