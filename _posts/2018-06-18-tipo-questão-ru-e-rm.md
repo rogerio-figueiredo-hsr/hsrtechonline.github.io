@@ -12,22 +12,22 @@ pasta: "Questionario"
 ## "Menu"* Principal
 
 Temos os campos:
-- Tipo resposta: RU ou RM.
+1. Tipo resposta: RU ou RM.
 
 **Se for selecionado RU temos:**
 
 ### RU
 
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-ru-e-rm-01.png" | prepend: site.baseurl }})
-- Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;
-- Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
-- Obrigatório: Exige uma resposta para a questão;
-- Mostrar: Indica se a questão será exibida na página ou não;
-- Agrupamento: Utilizado para rodiziar as questões;
-- Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;
-- Descrição;
-- Texto alternativo;
-- Rodapé.
+2. Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;
+3. Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
+4. Obrigatório: Exige uma resposta para a questão;
+5. Mostrar: Indica se a questão será exibida na página ou não;
+6. Agrupamento: Utilizado para rodiziar as questões;
+7. Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;
+8. Descrição;
+9. Texto alternativo;
+10. Rodapé.
 
 ----
 
@@ -36,16 +36,16 @@ Temos os campos:
 ### RM
 
 ![Imagem de apoio 4]({{ "/assets/img/tipo-questao-ru-e-rm-04.png" | prepend: site.baseurl }})
-- Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
-- Obrigatório: Exige uma resposta para a questão;
-- Mostrar: Indica se a questão será exibida na página ou não;
-- Agrupamento: Utilizado para rodiziar as questões;
-- Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;
-- Qtd. Mín. Seleção: Quantidade mínima de opções selecionadas;
-- Qtd. Max. Seleção: Quantidade máxima de opções selecionadas;
-- Descrição;
-- Texto alternativo;
-- Rodapé.
+2. Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
+3. Obrigatório: Exige uma resposta para a questão;
+4. Mostrar: Indica se a questão será exibida na página ou não;
+5. Agrupamento: Utilizado para rodiziar as questões;
+6. Qtd. Colunas: Indica a quantidade de colunas que as opções serão dividas;
+7. Qtd. Mín. Seleção: Quantidade mínima de opções selecionadas;
+8. Qtd. Max. Seleção: Quantidade máxima de opções selecionadas;
+9. Descrição;
+10. Texto alternativo;
+11. Rodapé.
 
 ----
 
