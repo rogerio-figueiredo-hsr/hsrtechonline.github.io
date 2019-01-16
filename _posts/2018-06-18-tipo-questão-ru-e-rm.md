@@ -15,9 +15,6 @@ Temos os campos:
 1. Tipo resposta: RU ou RM.
 
 **Se for selecionado RU temos:**
-
-### RU
-
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-ru-e-rm-01.png" | prepend: site.baseurl }})
 {:start="2"}
 2. Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;
@@ -33,9 +30,6 @@ Temos os campos:
 ----
 
 **Se for selecionado RM temos:**
-
-### RM
-
 ![Imagem de apoio 4]({{ "/assets/img/tipo-questao-ru-e-rm-04.png" | prepend: site.baseurl }})
 {:start="2"}
 2. Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
@@ -53,18 +47,17 @@ Temos os campos:
 
 ## "Menu"* Opções
 
-### Cadastro de Opções
-
-**Criar nova opção.**
+### Criar nova opção.**
 
 **"Menu" principal:**
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-ru-e-rm-02.png" | prepend: site.baseurl }})
-- Opção: Indica o valor da opção selecionada;
-- Agrupamento: Utilizado para rodiziar as questões;
-- Exclusivo: Caso esta opção seja selecionada, desconsidera as demais;
-- Mostrar: Indica se a opção será exibida;
-- Descrição: Texto que aparece na opção.
+1. Opção: Indica o valor da opção selecionada;
+2. Exclusivo: Caso esta opção seja selecionada, desconsidera as demais;
+3. Mostrar: Indica se a opção será exibida;
+4. Omite Selec: Omite o selecionador da opção;
+5. Agrupamento: Utilizado para rodiziar as questões;
+6. Descrição: Texto que aparece na opção.
 
 **"Menu" especifique:**
 
