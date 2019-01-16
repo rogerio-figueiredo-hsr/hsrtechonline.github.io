@@ -16,15 +16,15 @@ pasta: "Ticket"
 </div>
 Então teremos os campos Ticket, Data Ocorrência, codJob, Exceção Original e Informações Adicionais.
 
-Ticket: Código do Ticket.
+**Ticket:** Código do Ticket.
 
-Data Ocorrência: Dia, mês e ano que gerou o ticket.
+**Data Ocorrência:** Dia, mês e ano que gerou o ticket.
 
-codJob: Código do projeto.
+**CodJob:** Código do projeto.
 
-Exceção Original: Erro não tratado.
+**Exceção Original:** Erro não tratado.
 
-Informações Adicionais: Erro tratado.
+**Informações Adicionais:** Erro tratado.
 
 ![Imagem de apoio 2]({{ "/assets/img/consulta-ticket-02.png" | prepend: site.baseurl }})
 
