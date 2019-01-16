@@ -46,11 +46,14 @@ pasta: "Questionario"
 3. Mostrar: Indica se a opção será exibida;
 4. Descrição: Texto que aparece na opção;
 
-**Cruzamento**
+----
+
+## Cruzamento
+
+![Imagem de apoio 4]({{ "/assets/img/tipo-questao-grid-matriz-04.png" | prepend: site.baseurl }})
+
 1.  Selecione a coluna;
-
 2.  Clique na coluna;
-
 3.  Selecione o tipo do campo: textbox, combo ou checkbox;
 
 **Se for Combo:**
@@ -66,8 +69,6 @@ pasta: "Questionario"
 4.  Após tudo feito clique em replicar tudo e depois clique em Gravar.
 
 Obs: usando o replicar tudo não é necessário colocar todas opções em cada coluna! O sistema mesmo replicará tudo para todas colunas.
-
-![Imagem de apoio 4]({{ "/assets/img/tipo-questao-grid-matriz-04.png" | prepend: site.baseurl }})
 
 ----
 
