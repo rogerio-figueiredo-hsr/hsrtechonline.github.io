@@ -9,7 +9,7 @@ pasta: "Questionario"
 
 ----
 
-## *"Menu"* principal
+## "Menu" principal
 
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-combo-ru-01.png" | prepend: site.baseurl }})
 
@@ -22,8 +22,8 @@ pasta: "Questionario"
 
 ----
 
-## *"Menu"* opções
-**Criar nova opção.**
+## Criando Opções
+### "Menu" Principal
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-combo-ru-02.png" | prepend: site.baseurl }})
 
@@ -34,7 +34,7 @@ pasta: "Questionario"
 
 ----
 
-**Base de Opções Alternativa**
+### Base de Opções Alternativa
 
 Existe a alternativa de utilizar na lista de opções uma base alternativa, que é uma tabela pré configurada pelo programador para conter a lista de opções.
 
