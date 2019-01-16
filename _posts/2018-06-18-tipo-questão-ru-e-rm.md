@@ -47,7 +47,7 @@ Temos os campos:
 
 ## "Menu"* Opções
 
-### Criar nova opção.**
+### Criar nova opção
 
 **"Menu" principal:**
 
