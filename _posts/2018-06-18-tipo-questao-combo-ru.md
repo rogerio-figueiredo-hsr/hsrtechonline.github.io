@@ -7,24 +7,32 @@ pasta: "Questionario"
 ---
 # Tipo Questão Combo RU e RM
 
-*"Menu"* principal
-- Obrigatório: Exige uma resposta para a questão;
-- Mostrar: Indica se a questão será exibida na página ou não;
-- Agrupamento: Utilizado para rodiziar as questões;
-- Descrição;
-- Texto alternativo;
-- Rodapé.
+----
+
+## *"Menu"* principal
 
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-combo-ru-01.png" | prepend: site.baseurl }})
 
-*"Menu"* opções
+1. Agrupamento: Utilizado para rodiziar as questões;
+2. Obrigatório: Exige uma resposta para a questão;
+3. Mostrar: Indica se a questão será exibida na página ou não;
+4. Descrição;
+5. Texto alternativo;
+6. Rodapé.
+
+----
+
+## *"Menu"* opções
 **Criar nova opção.**
-- Opção: Indica o valor da opção selecionada;
-- Agrupamento: Utilizado para rodiziar as questões;
-- Mostrar: Indica se a opção será exibida;
-- Descrição: Texto que aparece na opção.
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-combo-ru-02.png" | prepend: site.baseurl }})
+
+1. Opção: Indica o valor da opção selecionada;
+2. Mostrar: Indica se a opção será exibida;
+3. Agrupamento: Utilizado para rodiziar as questões;
+4. Descrição: Texto que aparece na opção.
+
+----
 
 **Base de Opções Alternativa**
 
