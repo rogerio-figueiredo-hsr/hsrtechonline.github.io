@@ -26,7 +26,7 @@ pasta: "Questionario"
 
 ---- 
 
-## Criando Opções
+## "Menu" Opções
 ### "Menu" Principal
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-dinamica-02.png" | prepend: site.baseurl }})
@@ -37,9 +37,7 @@ pasta: "Questionario"
 4. Agrupamento: Utilizado para rodiziar as questões;
 5. Descrição: Texto que aparece na opção.
 
----
-
-## "Menu" especifique:
+### "Menu" especifique:
 
 ![Imagem de apoio 3]({{ "/assets/img/tipo-questao-dinamica-03.png" | prepend: site.baseurl }})
 
