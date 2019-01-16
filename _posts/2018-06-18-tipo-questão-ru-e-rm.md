@@ -32,6 +32,7 @@ Temos os campos:
 
 **Se for selecionado RM temos:**
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-ru-e-rm-04.png" | prepend: site.baseurl }})
+
 {:start="2"}
 2. Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
 3. Obrigatório: Exige uma resposta para a questão;
