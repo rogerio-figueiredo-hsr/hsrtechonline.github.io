@@ -12,13 +12,9 @@ pasta: "Questionario"
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-apresentacao-01.png" | prepend: site.baseurl }})
 
 1. Agrupamento: Utilizado para rodiziar as questões;
-
 2. Descrição;
-
 3. Texto alternativo;
-
 4. Rodapé;
-
 5. Mostrar: Indica se a questão será exibida na página ou não.
 
 ----
