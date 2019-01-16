@@ -29,8 +29,9 @@ pasta: "Questionario"
 
 1. Opção: Indica o valor da opção selecionada;
 2. Mostrar: Indica se a opção será exibida;
-3. Agrupamento: Utilizado para rodiziar as questões;
-4. Descrição: Texto que aparece na opção.
+3. Omite o selecionador da opção;
+4. Agrupamento: Utilizado para rodiziar as questões;
+5. Descrição: Texto que aparece na opção.
 
 ----
 
