@@ -7,12 +7,16 @@ pasta: "Questionario"
 ---
 # Tipo Questão RU e RM
 
+----
+
+## "Menu"* Principal
+
 Temos os campos:
 - Tipo resposta: RU ou RM.
 
 **Se for selecionado RU temos:**
 
-*"Menu"* principal:
+### RU
 
 - Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;
 - Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
@@ -25,39 +29,11 @@ Temos os campos:
 - Rodapé.
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-ru-e-rm-01.png" | prepend: site.baseurl }})
 
-*"Menu"* opções:
+----
 
-- Cadastro de Opções
-    - Criar nova opção;
-    - Importar opções;
-    - Excluir.
-- Base de Opções Alternativa
+**Se for selecionado RM temos:**
 
-## Cadastro de Opções
-
-**Criar nova opção.**
-
-*"Menu"* principal:
-
-- Opção: Indica o valor da opção selecionada;
-- Agrupamento: Utilizado para rodiziar as questões;
-- Exclusivo: Caso esta opção seja selecionada, desconsidera as demais;
-- Mostrar: Indica se a opção será exibida;
-- Descrição: Texto que aparece na opção.
-
-![Imagem de apoio 2]({{ "/assets/img/tipo-questao-ru-e-rm-02.png" | prepend: site.baseurl }})
-
-*"Menu"* especifique:
-
-- Especifique: A opção terá um especifique;
-- Nr. Questão: Não precisa colocar, será preenchido automaticamente;
-- Opções do especifique: Selecione de acordo com sua questão.
-
-![Imagem de apoio 3]({{ "/assets/img/tipo-questao-ru-e-rm-03.png" | prepend: site.baseurl }})
-
-## Se for selecionado RM temos:
-
-*"Menu"* principal:
+### RM
 
 - Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
 - Obrigatório: Exige uma resposta para a questão;
@@ -72,28 +48,40 @@ Temos os campos:
 
 ![Imagem de apoio 4]({{ "/assets/img/tipo-questao-ru-e-rm-04.png" | prepend: site.baseurl }})
 
-*"Menu"* opções
+----
+
+## "Menu"* Opções
+
+### Cadastro de Opções
+- Cadastro de Opções
+    - Criar nova opção;
+    - Importar opções;
+    - Excluir.
+- Base de Opções Alternativa
+
+----
 
 **Criar nova opção.**
 
-*"Menu"* Principal:
+**"Menu"* principal:**
+
 - Opção: Indica o valor da opção selecionada;
 - Agrupamento: Utilizado para rodiziar as questões;
 - Exclusivo: Caso esta opção seja selecionada, desconsidera as demais;
 - Mostrar: Indica se a opção será exibida;
 - Descrição: Texto que aparece na opção.
 
-![Imagem de apoio 5]({{ "/assets/img/tipo-questao-ru-e-rm-05.png" | prepend: site.baseurl }})
+![Imagem de apoio 2]({{ "/assets/img/tipo-questao-ru-e-rm-02.png" | prepend: site.baseurl }})
 
-*"Menu"* Especifique:
+**"Menu"* especifique:**
 
 - Especifique: A opção terá um especifique;
 - Nr. Questão: Não precisa colocar, será preenchido automaticamente;
-- Opções do especifique: Selecione de acordo com sua questão;
+- Opções do especifique: Selecione de acordo com sua questão.
 
-![Imagem de apoio 6]({{ "/assets/img/tipo-questao-ru-e-rm-06.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/tipo-questao-ru-e-rm-03.png" | prepend: site.baseurl }})
 
-## Base de Opções Alternativa
+### Base de Opções Alternativa
 
 Existe a alternativa de utilizar na lista de opções uma base alternativa, que é uma tabela pré configurada pelo programador para conter a lista de opções.
 
