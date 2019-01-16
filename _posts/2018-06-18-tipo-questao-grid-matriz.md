@@ -21,8 +21,7 @@ pasta: "Questionario"
 
 ---- 
 
-## Criando Colunas
-### "Menu" Principal
+## "Menu" Colunas
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-grid-matriz-02.png" | prepend: site.baseurl }})
 
@@ -36,8 +35,7 @@ pasta: "Questionario"
 
 ----
 
-## Criando Linhas
-### "Menu" Principal
+## "Menu" Linhas
 
 ![Imagem de apoio 3]({{ "/assets/img/tipo-questao-grid-matriz-03.png" | prepend: site.baseurl }})
 
@@ -48,7 +46,7 @@ pasta: "Questionario"
 
 ----
 
-## Cruzamento
+## "Menu" Cruzamento
 
 ![Imagem de apoio 4]({{ "/assets/img/tipo-questao-grid-matriz-04.png" | prepend: site.baseurl }})
 
