@@ -13,13 +13,9 @@ pasta: "Questionario"
 
 1. Agrupamento: Utilizado para rodiziar as questões;
 2. Descrição;
-
 3. Texto alternativo;
-
 4. Rodapé;
-
 5. Obrigatório: Exige uma resposta para a questão;
-
 6. Mostrar: Indica se a questão será exibida na página ou não.
 
 ----
