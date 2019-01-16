@@ -5,7 +5,7 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/grupo/excluindo-grupo
 pasta: "Grupo"
 ---	
-# Criando Grupo
+# Excluindo Grupo
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
