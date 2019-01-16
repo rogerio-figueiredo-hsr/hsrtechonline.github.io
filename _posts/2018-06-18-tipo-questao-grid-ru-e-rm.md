@@ -23,7 +23,7 @@ pasta: "Questionario"
 
 ---- 
 
-## Criando Colunas
+## "Menu" Colunas
 ### "Menu" Principal
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-grid-ru-e-rm-02.png" | prepend: site.baseurl }})
@@ -37,9 +37,7 @@ pasta: "Questionario"
 7. Importar opções;
 8. Excluir opção.
 
-----
-
-## "Menu" especifique
+### "Menu" especifique
 
 ![Imagem de apoio 3]({{ "/assets/img/tipo-questao-grid-ru-e-rm-03.png" | prepend: site.baseurl }})
 
@@ -51,8 +49,7 @@ pasta: "Questionario"
 
 ----
 
-## Criando Linhas
-### "Menu" Principal
+## "Menu" Linhas
 
 ![Imagem de apoio 4]({{ "/assets/img/tipo-questao-grid-ru-e-rm-04.png" | prepend: site.baseurl }})
 
