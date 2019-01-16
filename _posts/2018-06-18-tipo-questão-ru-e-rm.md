@@ -14,6 +14,8 @@ pasta: "Questionario"
 Temos os campos:
 1. Tipo resposta: RU ou RM;
 
+**Se for selecionado RU temos:**
+
 {:start="2"}
 2. Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;
 3. Omite selec: Omite os selecionadores, ao invés de você selecionar o espaço vazio em forma de "bolinha" ou "quadrado", você seleciona a descrição da opção;
