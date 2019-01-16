@@ -14,7 +14,7 @@ pasta: "Questionario"
 Temos os campos:
 1. Tipo resposta: RU ou RM;
 
-**Se for selecionado RU temos:**
+**Se for selecionado RU temos**
 ![Imagem de apoio 1]({{ "/assets/img/tipo-questao-ru-e-rm-01.png" | prepend: site.baseurl }})
 {:start="2"}
 2. Pros. Aut: A questão avança automaticamente ao selecionar alguma opção;
