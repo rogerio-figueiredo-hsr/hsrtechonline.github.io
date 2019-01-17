@@ -8,7 +8,7 @@ pasta: "funcoes"
 # $FUNCAO_{% wbr %}RETORNA_{% wbr %}VALOR_{% wbr %}OP_{% wbr %}SOMATORIO (NRQUESTAO;OPCAO)
 *Retorna o valor atribuido a opção de soma indicada no parametro*
 
-- Parametrosa: 
+- Parametros: 
     - NRQUESTAO: identificador da questão
     - OPCAO: código da opção
 - Exemplo:
