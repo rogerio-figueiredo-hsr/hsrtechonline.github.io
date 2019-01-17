@@ -29,10 +29,11 @@ pasta: "Projetos"
 
 ## Itens disponíveis para alteração no CAWI
 ![Imagem de apoio 4]({{ "/assets/img/configurando-um-projeto-04.png" | prepend: site.baseurl }})
+![Imagem de apoio 5]({{ "/assets/img/configurando-um-projeto-06.png" | prepend: site.baseurl }})
 
 ----
 
 {:start="3"}
 3. Após alterar os campos desejados, clique em salvar alterações.
-![Imagem de apoio 5]({{ "/assets/img/configurando-um-projeto-05.png" | prepend: site.baseurl }})
+![Imagem de apoio 6]({{ "/assets/img/configurando-um-projeto-05.png" | prepend: site.baseurl }})
 
