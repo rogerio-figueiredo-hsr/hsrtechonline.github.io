@@ -5,7 +5,7 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoes/valor-opcao-soma
 pasta: "funcoes"
 ---	
-# $FUNCAO_RETORNA_VALOR_OP_SOMATORIO (NRQUESTAO;OPCAO)
+# $FUNCAO_{% wbr %}RETORNA_{% wbr %}VALOR_{% wbr %}OP_{% wbr %}SOMATORIO (NRQUESTAO;OPCAO)
 *Retorna o valor atribuido a opção de soma indicada no parametro*
 
 - Parametros: 
