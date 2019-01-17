@@ -5,7 +5,7 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoes/trava-especifique
 pasta: "funcoes"
 ---	
-# $FUNCAO_TRAVA_ESPECIFIQUE (NRQUESTAO;OPCAO)
+# $FUNCAO_{% wbr %}TRAVA_{% wbr %}ESPECIFIQUE (NRQUESTAO;OPCAO)
 *Bloqueia o especifique de uma determinada questão/opção*
 
 - Parametros: 
@@ -14,4 +14,4 @@ pasta: "funcoes"
 - Exemplo:
     - **$FUNCAO_TRAVA_ESPECIFIQUE(Q1;4)**
 - Resultado:
-    - O especifique da opção nr. 4 da Q1 ficará desabilitado.
+    - O especifique da opção nr. 4 da Q1 ficará desabilitado.testesteteste
