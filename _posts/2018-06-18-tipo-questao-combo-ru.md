@@ -22,7 +22,7 @@ pasta: "Questionario"
 
 ----
 
-## Criando Opções
+## "Menu" Opções
 ### "Menu" Principal
 
 ![Imagem de apoio 2]({{ "/assets/img/tipo-questao-combo-ru-02.png" | prepend: site.baseurl }})

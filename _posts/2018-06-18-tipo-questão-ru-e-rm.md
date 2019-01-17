@@ -49,7 +49,7 @@ Temos os campos:
 
 ## "Menu"* Opções
 
-### Criar nova opção
+### Cadastro de Opções
 
 **"Menu" principal:**
 

@@ -17,6 +17,7 @@ pasta: "Questionario"
     - Apresentação;
     - RU e RM;
     - Verbalização;
+    - Valor;
     - GRID RU e RM;
     - Combo RU;
     - GRID Matriz;
