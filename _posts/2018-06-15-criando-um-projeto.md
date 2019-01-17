@@ -9,9 +9,9 @@ pasta: "Projetos"
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
-- Na página inicial clique em "Gestão de Job";
+Na página inicial clique em "Gestão de Job";
 
-- Clique em "Incluir novo registro" no canto inferior esquerdo;
+Clique em "Incluir novo registro" no canto inferior esquerdo;
 </div>
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 1]({{ "/assets/img/criando-projeto-01.png" | prepend: site.baseurl }})
@@ -42,7 +42,7 @@ pasta: "Projetos"
 
 11. Se o tipo de coleta for CAWI defina a Versão do Layout.
 
-- Clique em "Enviar".
+Clique em "Enviar".
 </div>
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 2]({{ "/assets/img/criando-projeto-02.jpg" | prepend: site.baseurl }})
