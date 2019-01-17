@@ -15,7 +15,7 @@ permalink: /fastQuestColeta/pagina-principal
     - CAPI: Entrevista Pessoal Assistida por Computador, ou seja, entrevista realizada via tablets ou smartphones.
 3. Início: Data de início do projeto;
 4. Fim: Data de término do projeto;
-5 .Procurar projeto:
+5. Procurar projeto:
     1. Para procurar um projeto clique no ícone da "Lupa" laranja localizado no canto inferior esquerdo da página;
     2. Então teremos os campos por padrão Descrição do Job, igual e um campo vazio:
         - Descrição do Job: É o campo em que define a coluna do que será procurado. Pode ser alterado para tipo, início e fim;
