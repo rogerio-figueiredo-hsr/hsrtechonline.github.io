@@ -18,7 +18,7 @@ permalink: /fastQuestColeta/receber-ligacoes
 </div>
 1. Assim que clicarmos em Receber ligações podemos perceber que o ícone mudará para "Online" e irá abrir uma tela "Aguardando ligação.";
 <div class="12u 12u$(small)" markdown="1">
-![Imagem de apoio 2]({{ "/assets/img/receber-ligacoes-03.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/receber-ligacoes-03.png" | prepend: site.baseurl }})
 </div>
 <div class="6u 12u$(small)" markdown="1">
 {:start="2"}
@@ -31,7 +31,7 @@ permalink: /fastQuestColeta/receber-ligacoes
 - Treinamento.
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 2]({{ "/assets/img/receber-ligacoes-04.png" | prepend: site.baseurl }})
+![Imagem de apoio 4]({{ "/assets/img/receber-ligacoes-04.png" | prepend: site.baseurl }})
 </div>
 <div class="6u 12u$(small)" markdown="1">
 {:start="3"}

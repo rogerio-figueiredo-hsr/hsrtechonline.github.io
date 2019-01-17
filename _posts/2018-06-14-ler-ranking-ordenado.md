@@ -18,17 +18,17 @@ Retorna a resposta de uma questão de RANKING ordenada do primeiro ao último cl
     - POSIÇÃO: número inteiro que quando informado, retorna apenas uma opção de acordo com a ordem solicitada
         - (vazio) quando este parâmetro for vazio retorna a lista de opções respeitando a quantidade máxima informada no 2o. parâmetro
         - 3: retornará a opção que foi clicada em 3o. lugar
-- Exemplo1:
+- Exemplo 1:
     - **$FUNCAO_RETORNA_RANKING(RNK1;5;;)**
 - Resultado:
     - 7\|10\|2\|4\|5
     - Acima pode-se ver a lista retornada pela função do exemplo os números separdos por "pipe" são as opçoes declaradas na questão RNK1 na ordem em que foram clicadas, ou seja, a opção 7 foi a primeira a receber um clique e a opção 5 foi a quinta
-- Exemplo2:
+- Exemplo 2:
     - **$FUNCAO_RETORNA_RANKING(RNK1;5;DESC;)**
 - Resultado:
     - 5\|4\|2\|10\|7
     - Acima pode-se ver a lista retornada pela função do exemplo2, onde: a opção 5 foi a última a receber um clique e a 7 a primeira
-- Exemplo3:
+- Exemplo 3:
     - **$FUNCAO_RETORNA_RANKING(RNK1;5;;3)**
 - Resultado:
     - 2
