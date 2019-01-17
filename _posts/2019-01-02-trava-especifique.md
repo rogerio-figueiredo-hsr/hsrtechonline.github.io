@@ -14,4 +14,4 @@ pasta: "funcoes"
 - Exemplo:
     - **$FUNCAO_TRAVA_ESPECIFIQUE(Q1;4)**
 - Resultado:
-    - O especifique da opção nr. 4 da Q1 ficará desabilitado.
+    - O especifique da opção nr. 4 da Q1 ficará desabilitado. dsadsadsad
