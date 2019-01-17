@@ -21,7 +21,7 @@ pasta: "Cota"
 </div>
 
 {:start="4"}
-4. De um duplo clique em cima da cota;
+4. Dê um duplo clique em cima da cota;
 
 5. Altere todos os dados desejados;
 
