@@ -5,7 +5,7 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/relatorios/banco-de-respostas
 pasta: "Relatorio"
 ---
-#Banco de Respostas
+# Banco de Respostas
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
