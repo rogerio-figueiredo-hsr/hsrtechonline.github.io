@@ -5,7 +5,7 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/listagem/excluir-listagem
 pasta: "Listagem"
 ---
-#Excluir Listagem
+# Excluir Listagem
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
