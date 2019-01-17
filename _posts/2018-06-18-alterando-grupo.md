@@ -26,4 +26,4 @@ pasta: "Grupo"
 
 6.  Clique em "Salvar".
 
-![Imagem de apoio 1]({{ "/assets/img/alterando-grupo-1.jpg" | prepend: site.baseurl }})
+![Imagem de apoio 2]({{ "/assets/img/alterando-grupo-1.jpg" | prepend: site.baseurl }})

@@ -48,7 +48,7 @@ pasta: "Segmentacao"
 11. Clique em "Enviar";
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 1]({{ "/assets/img/adicionar-segmentacao-03.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/adicionar-segmentacao-03.png" | prepend: site.baseurl }})
 </div>                               
 </div>
 
@@ -58,6 +58,6 @@ pasta: "Segmentacao"
 12. Clique em "Segmentar listagens" para as configurações da segmentação funcionarem no PABX.
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 1]({{ "/assets/img/adicionar-segmentacao-04.png" | prepend: site.baseurl }})
+![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-04.png" | prepend: site.baseurl }})
 </div>                               
 </div>

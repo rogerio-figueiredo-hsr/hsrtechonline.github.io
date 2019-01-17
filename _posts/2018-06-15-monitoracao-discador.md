@@ -12,7 +12,7 @@ pasta: "Discador"
 2. Irá abrir um SubMenu, ache a opção "Discador" e clique;
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 2]({{ "/assets/img/monitoracao-discador-01.png" | prepend: site.baseurl }})
+![Imagem de apoio 1]({{ "/assets/img/monitoracao-discador-01.png" | prepend: site.baseurl }})
 </div>                               
 </div>
 Como visto no item "Alimentação de contatos" existem dois serviços responsáveis para manter a integração com o PABX: o Alimentador e o Recuperador.
