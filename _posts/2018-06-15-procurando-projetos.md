@@ -21,6 +21,8 @@ A Pasta Favoritos virá pré selecionada caso haja jobs na lista de favoritos, c
 
 Os contadores acima indicam a quantidade de jobs que cada pasta tem.
 
+----
+
 # Escolhendo seus jobs favoritos
 
 ![Lista de Jobs]({{ "/assets/img/EstrelaFavorito.png" | prepend: site.baseurl }})
@@ -28,6 +30,8 @@ Os contadores acima indicam a quantidade de jobs que cada pasta tem.
 A estrela é um botão que permite colocar o job como favorito ou tirá-lo do favorito. Basta clicar na estrela.
 Quando a estrela estiver amarela significa que o job já é seu favorito.
 Ao clicar na estrela se ela já estiver amarela o job sairá da sua lista de favoritos. Caso contrário o job passára para sua lista de favoritos.
+
+----
 
 # Localizando um projeto
 ![Lista de Jobs]({{ "/assets/img/LocalizarJob.png" | prepend: site.baseurl }})
