@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoes/valor-opcao-soma
 pasta: "funcoes"
 ---	
 
-# *$FUNCAO_RETORNA_VALOR_OP_SOMATORIO*{: style="word-break: break-word"} (NRQUESTAO;OPCAO)
+# *$FUNCAO_RETORNA_VALOR_OP_SOMATORIO*{: style="word-wrap: normal"} (NRQUESTAO;OPCAO)
 
 *Retorna o valor atribuido a opção de soma indicada no parametro*
 
@@ -16,4 +16,4 @@ pasta: "funcoes"
 - Exemplo:
     - **$FUNCAO_RETORNA_VALOR_OP_SOMATORIO(Q1;4)**
 - Resultado:
-    - Retorna o valor digitado para a opção 4 da questão Q1 que é do tipo SOMATÓRIO
+    - Retorna o valor digitado para a opção 4 da questão Q1 que é do tipo SOMATÓRIO.
