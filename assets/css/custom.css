@@ -160,8 +160,8 @@ ol>li{
 }
 
 @media only screen and (max-width: 480px){
-    h1 {
-        font-size: 12px;
+    .teste {
+        font-size: 5px;
     }
 }
 .menuPrincipal{
