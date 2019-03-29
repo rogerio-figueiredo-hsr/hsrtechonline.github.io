@@ -18,13 +18,16 @@ pasta: "funcoesv2"
 - Resultado:
     - Questionário será redirecionado para a página/questão fornecida  
 
+
 # Próxima Página
 *Pula para a próxima página*
-- Sintaxe: Questionario().ProximaPagina()
+- Sintaxe: 
+    - **Questionario().ProximaPagina()**
 - Exemplo:
     - **Questionario().ProximaPagina()**
 - Resultado:
     - Questionário pulará para a próxima página.
+
 
 # Ocultar Questão
 *Oculta a questao conforme parâmetro informado na função "Questão"*
@@ -32,26 +35,35 @@ pasta: "funcoesv2"
     - **Questionario().Questao(QUESTOES).Ocultar()**
 - Parâmetros:
     - QUESTOES: Nomes das questões entre chaves em sequência literal entre aspas duplas separados por vírgula.
+- Exemplo:
+    - **Questionario().Questao([“Q1”,”Q2”,”Q3”]).Ocultar()**
+- Resultado:
+    - Questões informadas serão ocultadas
 
-Ex.:
-Questionario().Questao([“Q1”,”Q2”,”Q3”]).Ocultar()
 
 # Ocultar botão voltar
-**
-Sintaxe: Questionario().OcultarVoltar()
-Ex.:
-Questionario().OcultarVoltar()
+*Oculta o botão "Voltar"*
+- Sintaxe:
+    - **Questionario().OcultarVoltar()**
+- Exemplo:
+    - **Questionario().OcultarVoltar()**
+- Resultado:
+    - Botão voltar será ocultado
 
 # Ocultar botão Prosseguir
-**
-Sintaxe: Questionario().OcultarProsseguir()
-Ex.:
-Questionario().OcultarProsseguir()
-
+*Oculta o botão "Prosseguir"*
+- Sintaxe: 
+    - **Questionario().OcultarProsseguir()**
+- Exemplo:
+    - **Questionario().OcultarProsseguir()**
+- Resultado:
+    - Botão prosseguir será ocultado
 
 # Liberar botão Voltar
-**
+*Exibe o botão "Voltar" caso esteja oculto*
 - Sintaxe:
-    - Questionario().LiberaVoltar()
+    - **Questionario().LiberaVoltar()**
+- Exemplo: 
+    - **Questionario().LiberaVoltar()**
+    
 
-Ex.: Questionario().LiberaVoltar()
