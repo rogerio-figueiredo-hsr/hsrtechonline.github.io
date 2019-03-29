@@ -3,21 +3,16 @@ layout: post
 title:  "Questionario"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/questionario
-pasta: "questionario"
 ---
-# Questionario
-
-Funções são códigos pré desenvolvidos para a programação de questionários.
-<div class="row">    
-    {% for post in site.posts %}
-        {%if post.projeto == "fastQuestAdmin" %}
-            {%if post.pasta == page.nomePasta %}  
-            <ul  class="4u 6u$(small)">
-                <li>
-                    <a href="{{ site.baseurl}}{{ post.url}}">{{ post.title }}</a>  
-                </li>
-            </ul>
-            {% endif %}
-        {% endif %}
-    {% endfor %}    
-</div>    
+# Pular Página
+*Indica para qual página o questionário será redirecionado.*
+- Sintaxe:
+    - Questionario().Pagina(PARAMETROS)
+- Parâmetros:
+    - NUMERO: informar o número da página.
+    - NOME DA QUESTAO: informar o nome da questão.
+- Exemplo:
+    - **Questionario().Pagina(1)**
+    - **Questionario().Pagina(“Q1”)**
+- Resultado:
+    - Questionário será redirecionado para a página/questão fornecida  
