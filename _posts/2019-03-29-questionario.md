@@ -16,3 +16,11 @@ permalink: /fastQuestAdmin/funcoesv2/questionario
     - **Questionario().Pagina(“Q1”)**
 - Resultado:
     - Questionário será redirecionado para a página/questão fornecida  
+
+# Próxima Página
+*Pula para a próxima página*
+- Sintaxe: Questionario().ProximaPagina()
+- Exemplo:
+    - **Questionario().ProximaPagina()**
+- Resultado:
+    - Questionário pulará para a próxima página.
