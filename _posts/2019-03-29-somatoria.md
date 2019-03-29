@@ -9,54 +9,58 @@ pasta: "funcoesv2"
 # Somar Opções
 *Retorna a soma dos valores das opções informadas.*
 
-Sintaxe: 
-SM(“NRQUESTAO”).SomarOpcoes([OPCOES])}
-Parâmetros:
-NRQUESTAO = Código da questão (Texto entre aspas duplas) ou variável sem aspas
-OPCOES = Sequência numérica informado com o numero das opções da questão.
-
-Ex.: 
-SM(“Soma”).SomarOpcoes([1,2,3])
-var nrquestao = (pode ser o retorno de uma função ou estático)
-var opcoes = (pode ser o retorno de uma função ou estático)
-SM(nrquestao).SomarOpcoes(opcoes)
-
-Retorno: a soma dos valores
+- Sintaxe: 
+  - `SM(“NRQUESTAO”).SomarOpcoes([OPCOES])}`
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - OPCOES: Sequência numérica informado com o numero das opções da questão.
+- Exemplo 1: 
+  - `SM(“Soma”).SomarOpcoes([1,2,3])`
+- Exemplo 2: 
+  - <pre>
+      <code>var nrquestao = (pode ser o retorno de uma função ou estático)
+          var opcoes = (pode ser o retorno de uma função ou estático)
+          SM(nrquestao).SomarOpcoes(opcoes)</code>
+    </pre>
+- Retorno: 
+  - A soma dos valores
 
 # Max
 *Retorna o maior valor entre as opções respondidas*
 
-Sintaxe: 
-SM(“NRQUESTAO”).Max()
-Parâmetros:
-NRQUESTAO = Código da questão (Texto entre aspas duplas) ou variável sem aspas
-
-Ex.: 
-1@10|2@20|3@30|4@0
-SM(“Soma”).Max()
-
-Var nrquestao = (pode ser o retorno de uma função ou estático)
-SM(nrquestao).Max()
-
-Retorno: 30
+- Sintaxe: 
+  - `SM(“NRQUESTAO”).Max()`
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+- Exemplo 1:
+  - 1@10|2@20|3@30|4@0
+  - `SM(“Soma”).Max()`
+- Exemplo 2:
+  - <pre>
+      <code>var nrquestao = (pode ser o retorno de uma função ou estático)
+            SM(nrquestao).Max()</code>
+    </pre>
+- Retorno:
+  - 30
 
 
 # Min
 *Retorna o menor valor entre as opções respondidas*
 
-Sintaxe: 
-SM(“NRQUESTAO”).Min()
-Parâmetros:
-NRQUESTAO = Código da questão (Texto entre aspas duplas) ou variável sem aspas
-
-Ex.: 
-1@10|2@20|3@30|4@0
-SM(“Soma”).Min()
-
-var nrquestao = (pode ser o retorno de uma função ou estático)
-SM(nrquestao).Min()
-
-Retorno: 10
+- Sintaxe: 
+  - `SM(“NRQUESTAO”).Min()`
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+- Exemplo 1:
+  - `1@10|2@20|3@30|4@0`
+  - `SM(“Soma”).Min()`
+- Exemplo 2:  
+  - <pre>
+      <code>var nrquestao: (pode ser o retorno de uma função ou estático)
+            SM(nrquestao).Min()</code>
+    </pre>
+- Retorno:
+  - 10
 
 
 # Selecionadas
