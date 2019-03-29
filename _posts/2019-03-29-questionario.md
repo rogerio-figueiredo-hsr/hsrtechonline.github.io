@@ -10,11 +10,13 @@ pasta: "funcoesv2"
 - Sintaxe:
     - **Questionario().Pagina(PARAMETROS)**
 - Parâmetros:
-    - NUMERO: informar o número da página.
-    - NOME DA QUESTAO: informar o nome da questão.
-- Exemplo:
+    - PARAMETROS: informar o número da página, o nome da questão entre aspas ou uma variável.
+- Exemplo 1:
     - **Questionario().Pagina(1)**
     - **Questionario().Pagina(“Q1”)**
+- Exemplo 2:
+    - **var param = (pode ser o retorno de uma função ou estático)**
+    - **Questionario().Pagina(param)**    
 - Resultado:
     - Questionário será redirecionado para a página/questão fornecida  
 
@@ -30,13 +32,16 @@ pasta: "funcoesv2"
 
 
 # Ocultar Questão
-*Oculta a questao conforme parâmetro informado na função "Questão"*
+*Oculta uma ou mais questões conforme parâmetro informado na função "Questão"*
 - Sintaxe: 
     - **Questionario().Questao(QUESTOES).Ocultar()**
 - Parâmetros:
     - QUESTOES: Nomes das questões entre chaves em sequência literal entre aspas duplas separados por vírgula.
-- Exemplo:
+- Exemplo 1:
     - **Questionario().Questao([“Q1”,”Q2”,”Q3”]).Ocultar()**
+- Exemplo 2:
+    - **var param = (pode ser o retorno de uma função ou estático)**
+    - **Questionario().Questao(param).Ocultar()**
 - Resultado:
     - Questões informadas serão ocultadas
 
