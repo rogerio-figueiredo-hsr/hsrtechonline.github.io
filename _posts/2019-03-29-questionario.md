@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cliente"
+title:  "Questionario"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/questionario
 pasta: "funcoesv2"
