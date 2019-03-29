@@ -62,7 +62,7 @@ pasta: "funcoesv2"
 - Exemplo:
     - **Questionario().OcultarProsseguir()**
 - Resultado:
-    - Botão prosseguir será ocultado
+    - Botão "Prosseguir" será ocultado
 
 # Liberar botão Voltar
 *Exibe o botão "Voltar" caso esteja oculto*
@@ -70,5 +70,7 @@ pasta: "funcoesv2"
     - **Questionario().LiberaVoltar()**
 - Exemplo: 
     - **Questionario().LiberaVoltar()**
+- Resultado:
+    - Botão "Voltar" será exibido    
     
 
