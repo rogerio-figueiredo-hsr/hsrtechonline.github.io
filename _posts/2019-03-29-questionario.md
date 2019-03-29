@@ -3,7 +3,7 @@ layout: post
 title:  "Questionario"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/questionario
-pasta: "funcoesv2"
+pasta: "questionario"
 ---
 # Questionario
 
