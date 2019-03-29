@@ -3,6 +3,7 @@ layout: post
 title:  "Questionario"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/questionario
+pasta: "funcoesv2"
 ---
 # Pular Página
 *Indica para qual página o questionário será redirecionado.*
