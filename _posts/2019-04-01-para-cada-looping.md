@@ -7,20 +7,22 @@ pasta: "funcoesv2"
 ---
 
 # ParaCada()
-*Trava as opções declaradas na função "Travar"*
+*Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro "op" representa cada opção retornada da funçao anterior*
 
-- Sintaxe:
-
-
+- Sintaxe
+  - <pre>
+    <code>RM("NRQUESTAO").Selecionadas().ParaCada(op){
+    "Sentença para ser executada"
+    }</code>
+    </pre>
+  *Obs.: **ParaCada** pode ser usada após as seguintes funçoes: Todas(), Selecionadas ou NaoSelecionadas().*
+  
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
-  - OPCOES: Códigos da opções numéricos entre colchetes
-- Exemplo 1:
-  - `RM("Q1").Todas().Travar([1])`
-  - `RM("Q1").Selecionadas().Travar([1])`
-- Exemplo 2:
-    - <pre>
-      <code>var opcoes = (pode ser o retorno de uma função ou estático)
-      var nrquestao = (pode ser o retorno de uma função ou estático)
-      RM(nrquestao).Todas().Travar(opções)</code>
-      </pre>
+  - op: representa cada uma das opções retornadas da função anterior
+- Exemplo:
+  - <pre>
+    <code>RM("Q1").Selecionadas().ParaCada(op){
+      RM("Q2").Todas().Ocultar(op)
+    }
+    </pre>
