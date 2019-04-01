@@ -7,7 +7,7 @@ pasta: "funcoesv2"
 ---
 
 # Opcoes()
-*Lista as opções declaradas na função "Opcoes()"*
+*Lista as opções declaradas na função **"Opcoes()"***
 
 - Sintaxe:
 - Lista as opções declaradas na função "Travar" retornadas da funçao "Todas()"
@@ -23,6 +23,7 @@ pasta: "funcoesv2"
 - Exemplo 1:
   - `RM("Q1").Todas().Opcoes([1])`
   - `RM("Q1").Selecionadas().Opcoes([1])`
+  - `RM("Q1").NaoSelecionadas().Opcoes([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
