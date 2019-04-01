@@ -26,10 +26,10 @@ pasta: "funcoesv2"
     - <pre>
       <code>var opcoes = (pode ser o retorno númerico de uma função ou estático) ou
       var nrquestao = (pode ser o retorno de uma função ou estático)
-      RM(nrquestao).Todas().Selecionar(opções)
+      RM(nrquestao).Todas().Selecionar(opções)</code>
       </pre>
     - <pre>
-      var opcao = (pode ser o retorno de um único número de uma função ou estático)
+      <code>var opcao = (pode ser o retorno de um único número de uma função ou estático)
       var nrquestao = (pode ser o retorno de uma função ou estático)
       RU(nrquestao).Todas().Selecionar(opcao)</code>
       </pre>
