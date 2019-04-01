@@ -30,7 +30,7 @@ pasta: "funcoesv2"
 - Exemplo 1:
   - `RM("Q1").Todas().Ocultar([1])`
   - `RM("Q1").Selecionadas().Ocultar([1])`
-  - `RM("NRQUESTAO").NaoSelecionadas().Ocultar(OPCOES)`
+  - `RM("Q1").NaoSelecionadas().Ocultar([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
