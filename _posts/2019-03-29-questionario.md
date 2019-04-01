@@ -8,15 +8,17 @@ pasta: "funcoesv2"
 # Pular Página
 *Indica para qual página o questionário será redirecionado.*
 - Sintaxe:
-    - **Questionario().Pagina(PARAMETROS)**
+    - `Questionario().Pagina(PARAMETROS)`
 - Parâmetros:
     - PARAMETROS: informar o número da página, o nome da questão entre aspas ou uma variável.
 - Exemplo 1:
-    - **Questionario().Pagina(1)**
-    - **Questionario().Pagina(“Q1”)**
+    - `Questionario().Pagina(1)`
+    - `Questionario().Pagina(“Q1”)`
 - Exemplo 2:
-    - **var param = (pode ser o retorno de uma função ou estático)**
-    - **Questionario().Pagina(param)**    
+    - <pre>
+      <code>var param = (pode ser o retorno de uma função ou estático)`
+      Questionario().Pagina(param)</code>
+      </pre>
 - Resultado:
     - Questionário será redirecionado para a página/questão fornecida  
 
@@ -24,9 +26,9 @@ pasta: "funcoesv2"
 # Próxima Página
 *Pula para a próxima página*
 - Sintaxe: 
-    - **Questionario().ProximaPagina()**
+    - `Questionario().ProximaPagina()`
 - Exemplo:
-    - **Questionario().ProximaPagina()**
+    - `Questionario().ProximaPagina()`
 - Resultado:
     - Questionário pulará para a próxima página.
 
@@ -34,14 +36,16 @@ pasta: "funcoesv2"
 # Ocultar Questão
 *Oculta uma ou mais questões conforme parâmetro informado na função "Questão"*
 - Sintaxe: 
-    - **Questionario().Questao(QUESTOES).Ocultar()**
+    - `Questionario().Questao(QUESTOES).Ocultar()`
 - Parâmetros:
     - QUESTOES: Nomes das questões entre chaves em sequência literal entre aspas duplas separados por vírgula.
 - Exemplo 1:
-    - **Questionario().Questao([“Q1”,”Q2”,”Q3”]).Ocultar()**
+    - `Questionario().Questao([“Q1”,”Q2”,”Q3”]).Ocultar()`
 - Exemplo 2:
-    - **var param = (pode ser o retorno de uma função ou estático)**
-    - **Questionario().Questao(param).Ocultar()**
+    - <pre>
+      <code>var param = (pode ser o retorno de uma função ou estático)
+      Questionario().Questao(param).Ocultar()</code>
+      </pre>
 - Resultado:
     - Questões informadas serão ocultadas
 
@@ -49,27 +53,27 @@ pasta: "funcoesv2"
 # Ocultar botão voltar
 *Oculta o botão "Voltar"*
 - Sintaxe:
-    - **Questionario().OcultarVoltar()**
+    - `Questionario().OcultarVoltar()`
 - Exemplo:
-    - **Questionario().OcultarVoltar()**
+    - `Questionario().OcultarVoltar()`
 - Resultado:
     - Botão voltar será ocultado
 
 # Ocultar botão Prosseguir
 *Oculta o botão "Prosseguir"*
 - Sintaxe: 
-    - **Questionario().OcultarProsseguir()**
+    - `Questionario().OcultarProsseguir()`
 - Exemplo:
-    - **Questionario().OcultarProsseguir()**
+    - `Questionario().OcultarProsseguir()`
 - Resultado:
     - Botão "Prosseguir" será ocultado
 
 # Liberar botão Voltar
 *Exibe o botão "Voltar" caso esteja oculto*
 - Sintaxe:
-    - **Questionario().LiberaVoltar()**
+    - `Questionario().LiberaVoltar()`
 - Exemplo: 
-    - **Questionario().LiberaVoltar()**
+    - `Questionario().LiberaVoltar()`
 - Resultado:
     - Botão "Voltar" será exibido    
     
