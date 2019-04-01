@@ -126,7 +126,7 @@ pasta: "funcoesv2"
   - `SM("SM").NaoSelecionadas().Travar([1,2,3])`
 - Exemplo 2:
   - <pre>
-      <code>var opcoes = (pode ser o retorno de uma função ou estático)
-      var nrquestao = (pode ser o retorno de uma função ou estático)
-      SM("nrquestao ").NaoSelecionadas().Travar(opcoes)</code>
+    <code>var opcoes = (pode ser o retorno de uma função ou estático)
+    var nrquestao = (pode ser o retorno de uma função ou estático)
+    SM("nrquestao ").NaoSelecionadas().Travar(opcoes)</code>
     </pre>
