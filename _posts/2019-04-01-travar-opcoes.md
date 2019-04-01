@@ -6,8 +6,8 @@ permalink: /fastQuestAdmin/funcoesv2/travarOpcoes
 pasta: "funcoesv2"
 ---
 
-# Travar
-*Trava as opções declaradas na função "Travar"*
+# Travar()
+*Trava as opções declaradas na função **"Travar"***
 
 - Sintaxe:
 - Trava as opções declaradas na função "Travar" retornadas da funçao **"Todas()"**
