@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Cotas"
+title:  "Atualizar Cotas"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/cotas
+permalink: /fastQuestAdmin/funcoesv2/atualizaCotas
 pasta: "funcoesv2"
 ---
 
