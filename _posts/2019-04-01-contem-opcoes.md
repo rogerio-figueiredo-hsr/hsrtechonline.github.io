@@ -23,12 +23,15 @@ pasta: "funcoesv2"
   - Verifica se contém as opções declaradas na função "Contem" na lista de opções retornadas da funçao **"NaoSelecionadas()"**
     - `RU("NRQUESTAO").NaoSelecionadas().Contem(OPCOES)`
 
+
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
   - OPCOES: Códigos da opções numéricos entre colchetes
 - Exemplo 1:
   - `RM("Q1").Todas().Contem([1])`
   - `RU("Q1").Todas().Contem([1])`
+  - `RNK("Q1").Todas().Ocultar([1])`
+  - `SM("Q1").Todas().Ocultar([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
