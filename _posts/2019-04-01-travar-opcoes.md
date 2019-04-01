@@ -10,23 +10,30 @@ pasta: "funcoesv2"
 *Trava as opções declaradas na função **"Travar"***
 
 - Sintaxe:
-- Trava as opções declaradas na função "Travar" retornadas da funçao **"Todas()"**
-  - `RM("NRQUESTAO").Todas().Travar(OPCOES)`
-- Trava as opções declaradas na função "Travar" retornadas da funçao **"Selecionadas()"**
-  - `RM("NRQUESTAO").Selecionadas().Travar(OPCOES)`
-- Trava as opções declaradas na função "Travar" retornadas da funçao **"NaoSelecionadas()"**
-  - `RM("NRQUESTAO").NaoSelecionadas().Travar(OPCOES)`
-
+- Questoes Multiplas **(RM)**
+  - Trava as opções declaradas na função "Travar" retornadas da funçao **"Todas()"**
+    - `<b>RM</b>("NRQUESTAO").Todas().Travar(OPCOES)`
+  - Trava as opções declaradas na função "Travar" retornadas da funçao **"Selecionadas()"**
+    - `<b>RM</b>("NRQUESTAO").<b>Selecionadas()</b>.Travar(OPCOES)`
+  - Trava as opções declaradas na função "Travar" retornadas da funçao **"NaoSelecionadas()"**
+    - `<b>RM</b>("NRQUESTAO").NaoSelecionadas().Travar(OPCOES)`
+- Questao Única **(RU)**
+    - Trava as opções declaradas na função "Travar" retornadas da funçao **"Todas()"**
+      - `<b>RU</b>("NRQUESTAO").Todas().Travar(OPCOES)`
+    - Trava a opçao declaradaa na função "Travar" retornada da funçao **"Selecionada()"**
+      - `<b>RU</b>("NRQUESTAO").<b>Selecionada()</b>.Travar(OPCOES)`
+    - Trava as opções declaradas na função "Travar" retornadas da funçao **"NaoSelecionadas()"**
+      - `<b>RU</b>("NRQUESTAO").NaoSelecionadas().Travar(OPCOES)`
+  
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
   - OPCOES: Códigos da opções numéricos entre colchetes
 - Exemplo 1:
-  - `RM("Q1").Todas().Travar([1])`
-  - `RM("Q1").Selecionadas().Travar([1])`
-  - `RM("Q1").NaoSelecionadas().Travar([1])`
+  - `<b>RM</b>("Q1").Todas().Travar([1])`
+  - `<b>RU</b>("Q1").Todas().Travar([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
       var nrquestao = (pode ser o retorno de uma função ou estático)
-      RM(nrquestao).Todas().Travar(opções)</code>
+      <b>RM</b>(nrquestao).Todas().Travar(opções) ou <b>RU</b>(nrquestao).Todas().Travar(opções)</code>
       </pre>
