@@ -23,6 +23,7 @@ pasta: "funcoesv2"
 - Exemplo 1:
   - `RM("Q1").Todas().Travar([1])`
   - `RM("Q1").Selecionadas().Travar([1])`
+  - `RM("Q1").NaoSelecionadas().Travar([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
