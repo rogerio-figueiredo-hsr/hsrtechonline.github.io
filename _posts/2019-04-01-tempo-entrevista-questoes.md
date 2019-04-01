@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Cliente"
+title:  "Tempo Entrevista/Questoes"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/cliente
+permalink: /fastQuestAdmin/funcoesv2/tempoEntrevistaQuestoes
 pasta: "funcoesv2"
 ---
 # Tempo Entrevista/Questoes
