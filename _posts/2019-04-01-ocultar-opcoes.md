@@ -5,13 +5,6 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/ocultarOpcoes
 pasta: "funcoesv2"
 ---
----
-layout: post
-title:  "Travar Opções"
-projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/travarOpcoes
-pasta: "funcoesv2"
----
 
 # Ocultar
 *Oculta as opções declaradas na função "Ocultar"*
