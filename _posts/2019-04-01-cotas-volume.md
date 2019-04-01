@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Cotas"
+title:  "Lista Cotas Volume"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/cotas
+permalink: /fastQuestAdmin/funcoesv2/cotasVolume
 pasta: "funcoesv2"
 ---
 
