@@ -10,11 +10,11 @@ pasta: "funcoesv2"
 *Trava as opções declaradas na função "Travar"*
 
 - Sintaxe:
-- Trava as opções declaradas na função "Travar" retornadas da funçao "Todas()"
+- Trava as opções declaradas na função "Travar" retornadas da funçao **"Todas()"**
   - `RM("NRQUESTAO").Todas().Travar(OPCOES)`
-- Trava as opções declaradas na função "Travar" retornadas da funçao "Selecionadas()"
+- Trava as opções declaradas na função "Travar" retornadas da funçao **"Selecionadas()"**
   - `RM("NRQUESTAO").Selecionadas().Travar(OPCOES)`
-- Trava as opções declaradas na função "Travar" retornadas da funçao "NaoSelecionadas()"
+- Trava as opções declaradas na função "Travar" retornadas da funçao **"NaoSelecionadas()"**
   - `RM("NRQUESTAO").NaoSelecionadas().Travar(OPCOES)`
 
 - Parâmetros:
