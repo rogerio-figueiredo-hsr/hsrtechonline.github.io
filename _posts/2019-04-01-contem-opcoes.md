@@ -6,8 +6,8 @@ permalink: /fastQuestAdmin/funcoesv2/contemOpcoes
 pasta: "funcoesv2"
 ---
 
-# Contem
-*Verifica se contém as opções declaradas na função "Contem()"*
+# Contem()
+*Verifica se contém as opções declaradas na função **"Contem()"***
 
 - Sintaxe:
 - Verifica se contém as opções declaradas na função "Contem" na lista de opções retornadas da funçao **"Todas()"**
