@@ -18,9 +18,9 @@ pasta: "funcoesv2"
   - `SM(“Soma”).SomarOpcoes([1,2,3])`
 - Exemplo 2: 
   - <pre>
-      <code>var nrquestao = (pode ser o retorno de uma função ou estático)
-          var opcoes = (pode ser o retorno de uma função ou estático)
-          SM(nrquestao).SomarOpcoes(opcoes)</code>
+    <code>var nrquestao = (pode ser o retorno de uma função ou estático)
+    var opcoes = (pode ser o retorno de uma função ou estático)
+    SM(nrquestao).SomarOpcoes(opcoes)</code>
     </pre>
 - Retorno: 
   - A soma dos valores
@@ -37,8 +37,8 @@ pasta: "funcoesv2"
   - `SM(“Soma”).Max()`
 - Exemplo 2:
   - <pre>
-      <code>var nrquestao = (pode ser o retorno de uma função ou estático)
-            SM(nrquestao).Max()</code>
+    <code>var nrquestao = (pode ser o retorno de uma função ou estático)
+    SM(nrquestao).Max()</code>
     </pre>
 - Retorno:
   - 30
@@ -56,8 +56,8 @@ pasta: "funcoesv2"
   - `SM(“Soma”).Min()`
 - Exemplo 2:  
   - <pre>
-      <code>var nrquestao: (pode ser o retorno de uma função ou estático)
-            SM(nrquestao).Min()</code>
+    <code>var nrquestao: (pode ser o retorno de uma função ou estático)
+    SM(nrquestao).Min()</code>
     </pre>
 - Retorno:
   - 10
@@ -77,10 +77,10 @@ pasta: "funcoesv2"
     - `SM(“NRQUESTAO”).Selecionadas().Opcoes(OPCOES)`
   - Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro “op” representa cada opção retornada de “Selecionadas”
     - <pre>
-        <code>SM(“NRQUESTAO”).Selecionadas().ParaCada(op){ 
-        “Sentença para ser executada ”
-        }</code>
-     </pre> 
+      <code>SM(“NRQUESTAO”).Selecionadas().ParaCada(op){ 
+      “Sentença para ser executada ”
+      }</code>
+      </pre> 
   - Retorna quantidade de opções não selecionadas
     - `SM(“NRQUESTAO”).Selecionadas().Contar()`
   - Retorna a descrição das opções declaradas na função “Descricao”
@@ -92,9 +92,9 @@ pasta: "funcoesv2"
   - `SM("SM").Selecionadas().Travar([1,2,3])`
 - Exemplo 2:
   - <pre>
-      <code>Var nrquestao = (pode ser o retorno de uma função ou estático)
-      var opcoes = (pode ser o retorno de uma função ou estático)
-      SM(nrquestao).Selecionadas().Travar([opções])</code>
+    <code>Var nrquestao = (pode ser o retorno de uma função ou estático)
+    var opcoes = (pode ser o retorno de uma função ou estático)
+    SM(nrquestao).Selecionadas().Travar([opções])</code>
     </pre>
 
 # Não Selecionadas
@@ -111,9 +111,9 @@ pasta: "funcoesv2"
     - `SM(“NRQUESTAO”).NaoSelecionadas().Opcoes(OPCOES)`
   - Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro “op” representa cada opção retornada de “Selecionadas”
     - <pre>
-        <code>SM(“NRQUESTAO”).NaoSelecionadas().ParaCada(op){ 
-        “Sentença para ser executada ”
-        }</code>
+      <code>SM(“NRQUESTAO”).NaoSelecionadas().ParaCada(op){ 
+      “Sentença para ser executada ”
+      }</code>
       </pre>
   - Retorna quantidade de opções não selecionadas
     - `SM(“NRQUESTAO”).NaoSelecionadas().Contar()`
