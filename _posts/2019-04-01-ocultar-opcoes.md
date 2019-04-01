@@ -10,14 +10,6 @@ pasta: "funcoesv2"
 *Oculta as opções declaradas na função **"Ocultar"***
 
 - Sintaxe:
-- Oculta as opções declaradas na função "Ocultar" retornadas da funçao **"Todas()"**
-  - `RM("NRQUESTAO").Todas().Ocultar(OPCOES)`
-- Oculta as opções declaradas na função "Ocultar" retornadas da funçao **"Selecionadas()"**
-  - `RM("NRQUESTAO").Selecionadas().Ocultar(OPCOES)`
-- Oculta as opções declaradas na função "Ocultar" retornadas da funçao **"NaoSelecionadas()"**
-  - `RM("NRQUESTAO").NaoSelecionadas().Ocultar(OPCOES)`
-
-- Sintaxe:
 - Questoes Multiplas **(RM)**
   - Oculta as opções declaradas na função "Ocultar" retornadas da funçao **"Todas()"**
     - `<b>RM</b>("NRQUESTAO").Todas().Ocultar(OPCOES)`
