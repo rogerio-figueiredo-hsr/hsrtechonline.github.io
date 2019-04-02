@@ -25,15 +25,17 @@ pasta: "funcoesv2"
   - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"NaoSelecionadas()"**
     - `<b>RU</b>("NRQUESTAO").NaoSelecionadas().Descricao(OPCOES)`
 - Ranking **(RNK)**
-  - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"Todas()"**
-    - `<b>RNK</b>("NRQUESTAO").Todas().Descricao(OPCOES)`
+  - **Não Implementado**
+    - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"Todas()"**
+      - `<b>RNK</b>("NRQUESTAO").Todas().Descricao(OPCOES)`
   - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"Selecionadas()"**
     - `<b>RNK</b>("NRQUESTAO").<b>Selecionadas()</b>.Descricao(OPCOES)`
   - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"NaoSelecionadas()"**
     - `<b>RNK</b>("NRQUESTAO").NaoSelecionadas().Descricao(OPCOES)`
 - Somatoria **(SM)**
-  - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"Todas()"**
-    - `<b>SM</b>("NRQUESTAO").Todas().Descricao(OPCOES)`
+  - **Não Implementado**
+    - Retorna a descrição das opções declaradas na função "Descricao()" retornadas da funçao **"Todas()"**
+      - `<b>SM</b>("NRQUESTAO").Todas().Descricao(OPCOES)`
   - Retorna a descrição da opções declaradas na função "Descricao()" retornadas da funçao **"Selecionadas()"**
     - `<b>SM</b>("NRQUESTAO").<b>Selecionadas()</b>.Descricao(OPCOES)`
   - Retorna a descrição da opções declaradas na função "Descricao()" retornadas da funçao **"NaoSelecionadas()"**
@@ -45,8 +47,8 @@ pasta: "funcoesv2"
 - Exemplo 1:
   - `<b>RM</b>("Q1").Todas().Descricao([1])`
   - `<b>RU</b>("Q1").Todas().Descricao([1])`
-  - `<b>RNK</b>("Q1").Todas().Descricao([1])`
-  - `<b>SM</b>("Q1").Todas().Descricao([1])`
+  - `<b>RNK</b>("Q1").Selecionadas().Descricao([1])`
+  - `<b>SM</b>("Q1").Selecionadas().Descricao([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
