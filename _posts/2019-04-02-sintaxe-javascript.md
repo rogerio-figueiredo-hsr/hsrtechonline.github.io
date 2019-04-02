@@ -173,3 +173,15 @@ Resultado:  z = 11</code>
     </tr>
   </tbody>
 </table>
+
+# if/else
+
+Sintaxe:
+*Avalia uma condição e executa alguma função*
+
+<pre>
+<code>var time = new Date().getHours(); 
+if (time < 20) {
+  document.getElementById("demo").innerHTML = "Good day";
+}</code>
+</pre>
