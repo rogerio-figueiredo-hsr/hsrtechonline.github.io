@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/cota-atingida
 pasta: "funcoes"
 ---
 # $FUNCAO_CHECA_COTA_ATINGIDA (Cota)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/atualizaCotas">Atualiza cotas</a>***
+
 *Faz o  mesmo que a $FUNCAO_CHECA_COTA*
 - Parâmetros: 
     - CdCota: código de cota préviamente criado
