@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/checa-cota-obsoleto
 pasta: "funcoes"
 ---
 # $FUNCAO_CHECA_COTA (Cota)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/atualizaCotas">Atualiza cotas</a>***
 
 *Retorna 1 quando a cota está atingida, ou seja, não pode prosseguir com o questionário*
 *Retorna 0 quando a cota ainda não foi atingida, ou seja o questionário deve prosseguir*
