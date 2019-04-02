@@ -15,7 +15,7 @@ pasta: "funcoesv2"
     "Sentença para ser executada"
     }</code>
     </pre>
-  *Obs.: **ParaCada** pode ser usada após as seguintes funçoes: Todas(), Selecionadas ou NaoSelecionadas().*
+  *Obs.: **ParaCada** pode ser usada por Questões múltiplas (RM) e Questão única (RU), após as seguintes funçoes: Todas(), Selecionadas ou NaoSelecionadas().*
   
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
