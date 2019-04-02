@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/avanca-pagina
 pasta: "funcoes"
 ---
 # $FUNCAO_EXECUTA_ACAO (PROXIMA;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/proximaPagina">Próxima Página</a>***
 
 Executa um pulo para a próxima página do questionário, Valor: passar vazio
 
