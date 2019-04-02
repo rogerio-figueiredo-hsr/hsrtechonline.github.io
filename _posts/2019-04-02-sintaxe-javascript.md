@@ -91,16 +91,6 @@ Resultado:  z = 11</code>
     <td>x /= y</td>
     <td>x = x / y</td>
   </tr>
-  <tr>
-    <td>%=</td>
-    <td>x %= y</td>
-    <td>x = x % y</td>
-  </tr>
-  <tr>
-    <td>**=</td>
-    <td>x **= y</td>
-    <td>x = x ** y</td>
-  </tr>
 </tbody></table>  
 
 **Operadores de Comparação**
