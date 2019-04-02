@@ -13,7 +13,7 @@ pasta: "funcoesv2"
   - Seleciona as opções declaradas na função **"Selecionar()"**
     - `RM("NRQUESTAO").Todas().Selecionar(OPCOES)`
 - Questão Única **(RU)**
-  - Seleciona a opçao declaradas na função **"Selecionar()"**
+  - Seleciona a opção declaradas na função **"Selecionar()"**
     - `RU("NRQUESTAO").Todas().Selecionar(OPCAO)`
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
