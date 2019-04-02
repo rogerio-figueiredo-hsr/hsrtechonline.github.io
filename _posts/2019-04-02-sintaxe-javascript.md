@@ -16,7 +16,7 @@ No exemplo abaixo x, y e z são variáveis. x recebe 5, y recebe 6 e z recebe a 
 <code>var x = 5;
 var y = 6;
 var z = x + y;
-Resultado = 11</code>
+Resultado:  z = 11</code>
 </pre>
 
 **Operadores Aritméticos**
@@ -102,3 +102,48 @@ Resultado = 11</code>
     <td>x = x ** y</td>
   </tr>
 </tbody></table>  
+
+**Operadores de Comparação**
+<table class="w3-table-all notranslate">
+  <tbody><tr>
+    <th style="width:12%">Operador</th>
+    <th>Descrição</th>
+    <th>Exemplo</th>
+    </tr>
+    <tr>
+      <td>==</td>
+      <td>Igual a</td>
+      <td>a == b (retorna verdadeiro se forem iguais)</td>
+    </tr>
+    <tr>
+      <td>===</td>
+      <td>Igual a valor e igual ao tipo (texto/número)</td>
+      <td>a === b (retorna verdadeiro se forem iguais no valor e no tipo (texto com texto, número com número)</td>
+    </tr>
+    <tr>
+      <td>!=</td>
+      <td>Diferente</td>
+      <td>a != b (retorna verdadeiro se forem diferentes)</td>
+    </tr>
+    <tr>
+      <td>&gt;</td>
+      <td>Maior que</td>
+      <td>a > b (retorna verdadeiro se a for maior que b)</td>
+    </tr>
+    <tr>
+      <td>&lt;</td>
+      <td>Menor que</td>
+      <td>a < b (retorna verdadeiro se a for menor que b)</td>
+    </tr>
+    <tr>
+      <td>&gt;=</td>
+      <td>Maior que ou igual a</td>
+      <td>a >= b (retorna verdadeiro se a for maior ou igual a b)</td>
+    </tr>
+    <tr>
+      <td>&lt;=</td>
+      <td>Menor que ou igual a</td>
+      <td>a <= b (retorna verdadeiro se forem a for menor ou igual a b)</td>
+    </tr>
+  </tbody>
+</table>
