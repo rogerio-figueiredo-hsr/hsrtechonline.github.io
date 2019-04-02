@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/gravar-e-selecionar-resposta-multipla
 pasta: "funcoes"
 ---
 # $FUNCAO_GRAVA_OPCAO(NRQUESTAO;OPCOES)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/gravarOpcoes">Gravar Opções</a>***
+
 *Grava no banco e seleciona uma ou mais opções em uma questão multipla.*
 - Parâmetros: 
     - NRQUESTAO: código da questão
