@@ -16,7 +16,7 @@ No exemplo abaixo x, y e z são variáveis. x recebe 5, y recebe 6 e z recebe a 
 <code>var x = 5;
 var y = 6;
 var z = x + y;<code>
-<pre>
+</pre>
 Resultado = 11
 
 <table class="w3-table-all notranslate">
