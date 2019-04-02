@@ -113,37 +113,63 @@ Resultado:  z = 11</code>
     <tr>
       <td>==</td>
       <td>Igual a</td>
-      <td>a == b (retorna verdadeiro se forem iguais)</td>
+      <td>a == b (Retorna verdadeiro se forem iguais)</td>
     </tr>
     <tr>
       <td>===</td>
       <td>Igual a valor e igual ao tipo (texto/número)</td>
-      <td>a === b (retorna verdadeiro se forem iguais no valor e no tipo (texto com texto, número com número)</td>
+      <td>a === b (Retorna verdadeiro se forem iguais no valor e no tipo (texto com texto, número com número)</td>
     </tr>
     <tr>
       <td>!=</td>
       <td>Diferente</td>
-      <td>a != b (retorna verdadeiro se forem diferentes)</td>
+      <td>a != b (Retorna verdadeiro se forem diferentes)</td>
     </tr>
     <tr>
       <td>&gt;</td>
       <td>Maior que</td>
-      <td>a > b (retorna verdadeiro se a for maior que b)</td>
+      <td>a > b (Retorna verdadeiro se a for maior que b)</td>
     </tr>
     <tr>
       <td>&lt;</td>
       <td>Menor que</td>
-      <td>a < b (retorna verdadeiro se a for menor que b)</td>
+      <td>a < b (Retorna verdadeiro se a for menor que b)</td>
     </tr>
     <tr>
       <td>&gt;=</td>
       <td>Maior que ou igual a</td>
-      <td>a >= b (retorna verdadeiro se a for maior ou igual a b)</td>
+      <td>a >= b (Retorna verdadeiro se a for maior ou igual a b)</td>
     </tr>
     <tr>
       <td>&lt;=</td>
       <td>Menor que ou igual a</td>
-      <td>a <= b (retorna verdadeiro se forem a for menor ou igual a b)</td>
+      <td>a <= b (Retorna verdadeiro se forem a for menor ou igual a b)</td>
+    </tr>
+  </tbody>
+</table>
+
+**Operadores Lógicos**
+<table class="w3-table-all notranslate">
+  <tbody>
+    <tr>
+      <th style="width:12%">Operador</th>
+      <th>Descrição</th>
+      <th>Exemplo</th>
+    </tr>
+    <tr>
+      <td>&amp;&amp;</td>
+      <td>Operador lógico E</td>
+      <td>a && b (Retorna verdadeiro se a comparação "ambos" forem iguais ou retornarem verdadeiro e etc.)</td>
+    </tr>
+    <tr>
+      <td>||</td>
+      <td>Operador lógico OU</td>
+      <td>a || b (Retorna verdadeiro se "um deles" atender a uma determinada condição)</td>
+    </tr>
+    <tr>
+      <td>!</td>
+      <td>Operador lógico (Não/Negação)</td>
+      <td>!a (Inverte a condição de a. Se originalmente for verdadeiro, inverte para falso)</td>
     </tr>
   </tbody>
 </table>
