@@ -15,46 +15,50 @@ No exemplo abaixo x, y e z são variáveis. x recebe 5, y recebe 6 e z recebe a 
 <pre>
 <code>var x = 5;
 var y = 6;
-var z = x + y;</code>
+var z = x + y;
+Resultado = 11</code>
 </pre>
-Resultado = 11
 
+**Operadores Aritméticos**
 <table class="w3-table-all notranslate">
-<tbody><tr>
-<th style="width:25%">Operador</th>
-<th>Descrição</th>
-</tr>
-<tr>
-<td>+</td>
-<td>Adição</td>
-</tr>
-<tr>
-<td>-</td>
-<td>Subtração</td>
-</tr>
-<tr>
-<td>*</td>
-<td>Multiplicação</td>
-</tr>
-<tr>
-<td>**</td>
-<td>Exponenciação (<a href="js_es6.asp">ES2016</a>)</td>
-</tr>
-<tr>
-<td>/</td>
-<td>Divisão</td>
-</tr>
-<tr>
-<td>%</td>
-<td>Módulo (Resto da divisão)</td>
-</tr>
-<tr>
-<td>++</td>
-<td>Incremento</td>
-</tr>
-<tr>
-<td>--</td>
-<td>Decremento</td>
-</tr>
+<tbody>
+  <tr>
+    <th style="width:25%">Operador</th>
+    <th>Descrição</th>
+    <th>Exemplo:</th>
+  </tr>
+  <tr>
+    <td>+</td>
+    <td>Adição</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>Subtração</td>
+  </tr>
+  <tr>
+    <td>*</td>
+    <td>Multiplicação</td>
+  </tr>
+  <tr>
+    <td>**</td>
+    <td>Exponenciação</td>
+  </tr>
+  <tr>
+    <td>/</td>
+    <td>Divisão</td>
+  </tr>
+  <tr>
+    <td>%</td>
+    <td>Módulo (Resto da divisão)</td>
+  </tr>
+  <tr>
+    <td>++</td>
+    <td>Incremento</td>
+  </tr>
+  <tr>
+    <td>--</td>
+    <td>Decremento</td>
+  </tr>
 </tbody></table>
 
+  
