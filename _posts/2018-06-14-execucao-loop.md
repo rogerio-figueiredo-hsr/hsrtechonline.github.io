@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/execucao-em-loop
 pasta: "funcoes"
 ---
 # $FUNCAO_LOOP (ACAO;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/paraCada">ParaCada (Loop)</a>***
 
 *Executa uma instrução ou grupo de instruçoes N vezes onde N é a quantidade de opcoes separadas por pipe.*
 
