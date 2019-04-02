@@ -25,38 +25,37 @@ Resultado = 11</code>
   <tr>
     <th style="width:25%">Operador</th>
     <th>Descrição</th>
+    <th>Exemplo</th>
   </tr>
   <tr>
     <td>+</td>
     <td>Adição</td>
+    <td>var a = x + y</td>
   </tr>
   <tr>
     <td>-</td>
     <td>Subtração</td>
+    <td>var a = x - y</td>
   </tr>
   <tr>
     <td>*</td>
     <td>Multiplicação</td>
-  </tr>
-  <tr>
-    <td>**</td>
-    <td>Exponenciação</td>
+    <td>var a = x * y</td>
   </tr>
   <tr>
     <td>/</td>
     <td>Divisão</td>
-  </tr>
-  <tr>
-    <td>%</td>
-    <td>Módulo (Resto da divisão)</td>
+    <td>var a = x / y</td>
   </tr>
   <tr>
     <td>++</td>
     <td>Incremento</td>
+    <td>var a = x++ (atribui x + 1 para a)</td>
   </tr>
   <tr>
     <td>--</td>
     <td>Decremento</td>
+    <td>var a = x++ (atribui x - 1 para a)</td>
   </tr>
 </tbody></table>
 
