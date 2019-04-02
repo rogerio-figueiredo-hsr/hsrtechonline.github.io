@@ -22,20 +22,21 @@ pasta: "funcoesv2"
     - `RU("NRQUESTAO").Todas().Contem(OPCOES)`
   - Verifica se contém as opções declaradas na função "Contem" na lista de opções retornadas da funçao **"NaoSelecionadas()"**
     - `RU("NRQUESTAO").NaoSelecionadas().Contem(OPCOES)`
-- Ranking **(RNK)**
-  - Trava as opções declaradas na função "Contem" retornadas da funçao **"Todas()"**
-    - `<b>RNK</b>("NRQUESTAO").Todas().Contem(OPCOES)`
-  - Trava as opções declaradas na função "Contem" retornadas da funçao **"Selecionadas()"**
-    - `<b>RNK</b>("NRQUESTAO").<b>Selecionadas()</b>.Contem(OPCOES)`
-  - Trava as opções declaradas na função "Contem" retornadas da funçao **"NaoSelecionadas()"**
-    - `<b>RNK</b>("NRQUESTAO").NaoSelecionadas().Contem(OPCOES)`
-- Somatoria **(SM)**
-  - Trava as opções declaradas na função "Contem" retornadas da funçao **"Todas()"**
-    - `<b>SM</b>("NRQUESTAO").Todas().Contem(OPCOES)`
-  - Trava as opções declaradas na função "Contem" retornadas da funçao **"Selecionadas()"**
-    - `<b>SM</b>("NRQUESTAO").<b>Selecionadas()</b>.Contem(OPCOES)`
-  - Trava as opções declaradas na função "Contem" retornadas da funçao **"NaoSelecionadas()"**
-    - `<b>SM</b>("NRQUESTAO").NaoSelecionadas().Contem(OPCOES)`
+- **Não Implementado**
+  - Ranking **(RNK)**
+    - Trava as opções declaradas na função "Contem" retornadas da funçao **"Todas()"**
+      - `<b>RNK</b>("NRQUESTAO").Todas().Contem(OPCOES)`
+    - Trava as opções declaradas na função "Contem" retornadas da funçao **"Selecionadas()"**
+      - `<b>RNK</b>("NRQUESTAO").<b>Selecionadas()</b>.Contem(OPCOES)`
+    - Trava as opções declaradas na função "Contem" retornadas da funçao **"NaoSelecionadas()"**
+      - `<b>RNK</b>("NRQUESTAO").NaoSelecionadas().Contem(OPCOES)`
+  - Somatoria **(SM)**
+    - Trava as opções declaradas na função "Contem" retornadas da funçao **"Todas()"**
+      - `<b>SM</b>("NRQUESTAO").Todas().Contem(OPCOES)`
+    - Trava as opções declaradas na função "Contem" retornadas da funçao **"Selecionadas()"**
+      - `<b>SM</b>("NRQUESTAO").<b>Selecionadas()</b>.Contem(OPCOES)`
+    - Trava as opções declaradas na função "Contem" retornadas da funçao **"NaoSelecionadas()"**
+      - `<b>SM</b>("NRQUESTAO").NaoSelecionadas().Contem(OPCOES)`
 
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
@@ -43,8 +44,6 @@ pasta: "funcoesv2"
 - Exemplo 1:
   - `RM("Q1").Todas().Contem([1])`
   - `RU("Q1").Todas().Contem([1])`
-  - `RNK("Q1").Todas().Ocultar([1])`
-  - `SM("Q1").Todas().Ocultar([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
