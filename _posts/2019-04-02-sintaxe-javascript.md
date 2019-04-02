@@ -175,13 +175,38 @@ Resultado:  z = 11</code>
 </table>
 
 # if/else
-
-Sintaxe:
-*Avalia uma condição e executa alguma função*
+*Avalia uma condição no if e executa alguma função caso atenda, senão (else) executa outra função*
 
 <pre>
-<code>var time = new Date().getHours(); 
-if (time < 20) {
-  document.getElementById("demo").innerHTML = "Good day";
+<code>var opcoesSel = RM("nrquestao").Selecionadas().Contar() 
+if (opcoesSel < 5) {
+  "Executa qualquer expressão"
+}else{
+  "Executa outra expressão"
 }</code>
 </pre>
+
+# for
+*Executa o mesmo código repetidas vezes, sempre com um valor diferente.*
+
+<pre>
+<code>var opcoes = RM("Q1").Selecionadas().Contar()
+for (var i = 1; i <= opcoes; i++) { 
+  RM("Q2").Todas().Selecionar(i)
+}</code>
+</pre>
+
+# switch
+*A instrução switch é usada para executar ações diferentes com base em condições diferentes.*
+
+<pre>
+<code>switch(expressao) { <b>(Avalia a expressao)</b>
+  case x: <b>Caso seja x</b>
+    // "Bloco de código para ser executado"
+    break;
+  case y: <b>Caso seja x</b>
+    // "Bloco de código para ser executado"
+    break;
+  default:<b>Opcional. Caso não seja nenhum dos dois anteriores</b>
+    // "Bloco de código para ser executado"
+}
