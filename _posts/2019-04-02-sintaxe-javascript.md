@@ -60,4 +60,46 @@ Resultado = 11</code>
   </tr>
 </tbody></table>
 
-  
+**Operadores de Atribuição**
+<table class="w3-table-all notranslate">
+  <tbody><tr>
+    <th style="width:25%">Operador</th>
+    <th>Exemplo</th>
+    <th>O mesmo que</th>
+  </tr>
+  <tr>
+    <td>=</td>
+    <td>x = y</td>
+    <td>x = y</td>
+  </tr>
+  <tr>
+    <td>+=</td>
+    <td>x += y</td>
+    <td>x = x + y</td>
+  </tr>
+  <tr>
+    <td>-=</td>
+    <td>x -= y</td>
+    <td>x = x - y</td>
+  </tr>
+  <tr>
+    <td>*=</td>
+    <td>x *= y</td>
+    <td>x = x * y</td>
+  </tr>
+  <tr>
+    <td>/=</td>
+    <td>x /= y</td>
+    <td>x = x / y</td>
+  </tr>
+  <tr>
+    <td>%=</td>
+    <td>x %= y</td>
+    <td>x = x % y</td>
+  </tr>
+  <tr>
+    <td>**=</td>
+    <td>x **= y</td>
+    <td>x = x ** y</td>
+  </tr>
+</tbody></table>  
