@@ -25,15 +25,17 @@ pasta: "funcoesv2"
     - Oculta as opções declaradas na função "Ocultar" retornadas da funçao **"NaoSelecionadas()"**
       - `<b>RU</b>("NRQUESTAO").NaoSelecionadas().Ocultar(OPCOES)`
 - Ranking **(RNK)**
-  - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"Todas()"**
-    - `<b>RNK</b>("NRQUESTAO").Todas().Ocultar(OPCOES)`
+  - **Não Implementado**
+    - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"Todas()"**
+      - `<b>RNK</b>("NRQUESTAO").Todas().Ocultar(OPCOES)`
   - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"Selecionadas()"**
     - `<b>RNK</b>("NRQUESTAO").<b>Selecionadas()</b>.Ocultar(OPCOES)`
   - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"NaoSelecionadas()"**
     - `<b>RNK</b>("NRQUESTAO").NaoSelecionadas().Ocultar(OPCOES)`
 - Somatoria **(SM)**
-  - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"Todas()"**
-    - `<b>SM</b>("NRQUESTAO").Todas().Ocultar(OPCOES)`
+  - **Não Implementado**
+    - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"Todas()"**
+      - `<b>SM</b>("NRQUESTAO").Todas().Ocultar(OPCOES)`
   - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"Selecionadas()"**
     - `<b>SM</b>("NRQUESTAO").<b>Selecionadas()</b>.Ocultar(OPCOES)`
   - Trava as opções declaradas na função "Ocultar" retornadas da funçao **"NaoSelecionadas()"**
@@ -45,8 +47,8 @@ pasta: "funcoesv2"
 - Exemplo 1:
   - `<b>RM</b>("Q1").Todas().Ocultar([1])`
   - `<b>RU</b>("Q1").Todas().Ocultar([1])`
-  - `<b>SM</b>("Q1").Todas().Ocultar([1])`
-  - `<b>RNK</b>("Q1").Todas().Ocultar([1])`
+  - `<b>SM</b>("Q1").Selecionadas().Ocultar([1])`
+  - `<b>RNK</b>("Q1").Selecionadas().Ocultar([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
