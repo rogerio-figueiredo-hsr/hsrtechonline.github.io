@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/contar-opcoes
 pasta: "funcoes"
 ---
 # $FUNCAO_CONTAR_OPCOES (NRQUESTAO;[tipo])
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/contar">Contar</a>***
 
 *Conta o total de opções de uma determinada questão, a contagem de opções pode ser: total, total selecionado ou total não selecionado de acordo com o parâmetro tipo que é opcional*
 
