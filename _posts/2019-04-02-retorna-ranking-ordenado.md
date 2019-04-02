@@ -25,7 +25,7 @@ pasta: "funcoesv2"
     var qtdOpcoes = (pode ser o retorno de uma função ou estático)
     RNK(nrquestao).Asc(qtdOpcoes)</code>
     </pre>
-- Retorno: 5|4|2
+- Retorno: 5\|4\|2
 
 # Descendente (Desc())
 *Retorna o ranking dos itens na descendente conforme a quantidade de itens solicitados (QTD OPCOES)*
@@ -46,4 +46,4 @@ pasta: "funcoesv2"
     var qtdOpcoes = (pode ser o retorno de uma função ou estático)
     RNK(nrquestao).Desc(qtdOpcoes)</code>
     </pre>
-- Retorno: 7|10|2
+- Retorno: 7\|10\|2
