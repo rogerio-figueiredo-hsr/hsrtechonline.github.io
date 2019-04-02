@@ -25,7 +25,6 @@ Resultado = 11</code>
   <tr>
     <th style="width:25%">Operador</th>
     <th>Descrição</th>
-    <th>Exemplo:</th>
   </tr>
   <tr>
     <td>+</td>
