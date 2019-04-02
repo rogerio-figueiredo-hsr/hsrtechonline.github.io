@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/descricao-opcao
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_DESC_OPCAO (NRQUESTAO;OPCAO)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/descricao">Descrição</a>***
 
 Retorna a descrição de uma determinada opção geralmente utilizado nos campos de texto dos questionários para ajudar a formular uma pergunta baseado na descrição de uma opção selecionada anteriormente
 - Parâmetros: 
