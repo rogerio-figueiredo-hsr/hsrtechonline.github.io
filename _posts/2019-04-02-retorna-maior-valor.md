@@ -2,7 +2,7 @@
 layout: post
 title:  "Retorna maior Valor (Max)"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/retornaMaiorValor
+permalink: /fastQuestAdmin/funcoesv2/max
 pasta: "funcoesv2"
 ---
 
