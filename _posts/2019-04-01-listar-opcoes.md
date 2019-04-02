@@ -22,28 +22,27 @@ pasta: "funcoesv2"
       - `<b>RU</b>("NRQUESTAO").Todas().Opcoes(OPCOES)`
     - Retorna a lista das opções declaradas na função "Opcoes()" retornadas da funçao **"NaoSelecionadas()"**
       - `<b>RU</b>("NRQUESTAO").NaoSelecionadas().Opcoes(OPCOES)`
-- Ranking **(RNK)**
-  - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Todas()"**
-    - `<b>RNK</b>("NRQUESTAO").Todas().Opcoes(OPCOES)`
-  - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Selecionadas()"**
-    - `<b>RNK</b>("NRQUESTAO").<b>Selecionadas()</b>.Opcoes(OPCOES)`
-  - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"NaoSelecionadas()"**
-    - `<b>RNK</b>("NRQUESTAO").NaoSelecionadas().Opcoes(OPCOES)`
-- Somatoria **(SM)**
-  - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Todas()"**
-    - `<b>SM</b>("NRQUESTAO").Todas().Opcoes(OPCOES)`
-  - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Selecionadas()"**
-    - `<b>SM</b>("NRQUESTAO").<b>Selecionadas()</b>.Opcoes(OPCOES)`
-  - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"NaoSelecionadas()"**
-    - `<b>SM</b>("NRQUESTAO").NaoSelecionadas().Opcoes(OPCOES)`
+- **Não Implementado**      
+  - Ranking **(RNK)**
+    - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Todas()"**
+      - `<b>RNK</b>("NRQUESTAO").Todas().Opcoes(OPCOES)`
+    - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Selecionadas()"**
+      - `<b>RNK</b>("NRQUESTAO").<b>Selecionadas()</b>.Opcoes(OPCOES)`
+    - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"NaoSelecionadas()"**
+      - `<b>RNK</b>("NRQUESTAO").NaoSelecionadas().Opcoes(OPCOES)`
+  - Somatoria **(SM)**
+    - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Todas()"**
+      - `<b>SM</b>("NRQUESTAO").Todas().Opcoes(OPCOES)`
+    - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"Selecionadas()"**
+      - `<b>SM</b>("NRQUESTAO").<b>Selecionadas()</b>.Opcoes(OPCOES)`
+    - Trava as opções declaradas na função "Opcoes" retornadas da funçao **"NaoSelecionadas()"**
+      - `<b>SM</b>("NRQUESTAO").NaoSelecionadas().Opcoes(OPCOES)`
 - Parâmetros:
   - NRQUESTAO: Código da Questão (Texto entre aspas duplas) ou variável (sem aspas)
   - OPCOES: Códigos da opções numéricos entre colchetes
 - Exemplo 1:
   - `<b>RM</b>("Q1").Todas().Opcoes([1])`
   - `<b>RU</b>("Q1").Todas().Opcoes([1])`
-  - `<b>RNK</b>("Q1").Todas().Opcoes([1])`
-  - `<b>SM</b>("Q1").Todas().Opcoes([1])`
 - Exemplo 2:
     - <pre>
       <code>var opcoes = (pode ser o retorno de uma função ou estático)
