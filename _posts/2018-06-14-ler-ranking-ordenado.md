@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/ler-ranking-ordenado
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_RANKING (NRQUESTAO;QTD OPCOES;  [ORDEM];[POSICAO])
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/rankingOrdenado">Limpar Cotas</a>***
 
 Retorna a resposta de uma questão de RANKING ordenada do primeiro ao último clique ou ao contrário dependendo do parâmetro [DESC]
 
