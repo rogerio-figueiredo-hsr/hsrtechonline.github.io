@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/ler-dados-listagem
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_LISTAGEM (COLUNA)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/obterCampoListagem">Limpar Cotas</a>***
+
 Retorna a informação importada para em uma determinada coluna do projeto
 - Parâmetros: 
     - COLUNA: nome pre definido de uma coluna de dados do projeto
