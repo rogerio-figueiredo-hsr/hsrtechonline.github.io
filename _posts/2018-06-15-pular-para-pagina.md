@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/pular-para-pagina
 pasta: "funcoes"
 ---
 # $FUNCAO_EXECUTA_ACAO (PAGINA;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/pularPagina">Pular para Página</a>***
+
 Indica para qual página o questionário será redirecionado, valor: número da página
 
 - Parametros: 
