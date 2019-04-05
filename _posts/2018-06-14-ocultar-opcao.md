@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/ocultar-opcao
 pasta: "funcoes"
 ---
 # $FUNCAO_EXECUTA_ACAO (OCULTAROPCAO;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/ocultarOpcoes">Ocultar Opções</a>***
 
 Fará com que uma determinada opção fique oculta. valor: NRQUESTAO>OPCAO
 - Parametros: 
