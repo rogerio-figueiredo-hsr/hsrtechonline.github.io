@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/obter-soma-pontuacao
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_SOMA_PONTUACAO(NRQUESTAO...)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/obterSomaPontuacao">Obter Soma Pontuação</a>***
+
 *Recuperar a soma das pontuações de uma lista de questões.*
 - Parâmetros:
     - NRQUESTAO..: Lista de identificador da questão separados por pipe "\|".
