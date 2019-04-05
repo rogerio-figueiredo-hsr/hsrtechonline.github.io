@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoesv2/ocultarOpcoes
 pasta: "funcoesv2"
 ---
 
-# Ocultar()
+# Ocultar Opções
 *Oculta as opções declaradas na função **"Ocultar"***
 
 - Sintaxe:
