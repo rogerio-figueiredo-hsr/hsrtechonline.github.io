@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/pagina-anterior
 pasta: "funcoes"
 ---
 # $FUNCAO_EXECUTA_ACAO (ANTERIOR;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/pularPagina">Pular para Página</a>***
 
 Retrocede para a página anterior
 - Parametros: 
