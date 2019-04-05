@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoesv2/somarOpcoes
 pasta: "funcoesv2"
 ---
 
-# SomarOpcoes()
+# Somar Opcoes
 *Retorna a soma dos valores das opções informadas.*
 
 - Sintaxe: 
