@@ -8,6 +8,7 @@ pasta: "funcoes"
 <div class="row" markdown="1">
 <div class="6u 12u(small)" markdown="1">
 ## $FUNCAO_EXECUTA_ACAO (ENCERRAMENTO;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/status">Troca/Grava Status</a>***
 
 Obs: Função válida somente para os status compartilhados entre todos os Jobs. 
 
