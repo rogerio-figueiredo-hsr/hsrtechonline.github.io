@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/total-somatorio
 pasta: "funcoes"
 ---	
 # $FUNCAO_RETORNA_VALOR_MAX_SOMATORIO(NRQUESTAO)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/somarOpcoes">Somar Opções</a>***
+
 *Retorna o total somado de todos os valores das opções da questão de somatório informada no parametro*
 
 - Parametros: 
