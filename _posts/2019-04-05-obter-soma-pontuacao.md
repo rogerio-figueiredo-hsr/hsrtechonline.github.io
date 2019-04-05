@@ -18,7 +18,7 @@ pasta: "funcoes"
 - Exemplo 2:
   - <pre>
     <code>var nrquestao = (pode ser o retorno de uma função ou estático)
-    Pontuacao().ObterSomaPontuacao(nrquestao)<code>
-    <pre>
+    Pontuacao().ObterSomaPontuacao(nrquestao)</code>
+    </pre>
 - Resultado:
   - Retorna o valor da soma da pontuação atribuido à(s) questão(ões) declarada(s)
