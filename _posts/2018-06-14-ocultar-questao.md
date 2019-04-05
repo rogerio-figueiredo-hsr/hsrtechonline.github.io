@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/ocultar-questao
 pasta: "funcoes"
 ---
 # $FUNCAO_EXECUTA_ACAO (OCULTARQUESTAO;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/ocultarQuestao">Ocultar Questão</a>***
+
 Fará com que a questão não seja renderizada na página. Valor: NRQUESTAO
 - Parametros: 
     - ACAO: OCULTARQUESTAO
