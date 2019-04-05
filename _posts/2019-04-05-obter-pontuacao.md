@@ -3,7 +3,7 @@ layout: post
 title:  "Obter Pontuação"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/obterPontuacao
-pasta: "funcoes"
+pasta: "funcoesv2"
 ---	
 
 # Obter Pontuação
