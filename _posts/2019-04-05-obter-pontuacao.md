@@ -2,7 +2,7 @@
 layout: post
 title:  "Obter Pontuação"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2//obterPontuacao
+permalink: /fastQuestAdmin/funcoesv2/obterPontuacao
 pasta: "funcoes"
 ---	
 
@@ -18,5 +18,7 @@ pasta: "funcoes"
 - Exemplo 2:
   - <pre>
     <code>var nrquestao = (pode ser o retorno de uma função ou estático)
-    Pontuacao().ObterPontuacao(nrquestao)<code>
-    <pre>
+    Pontuacao().ObterPontuacao(nrquestao)</code>
+    </pre>
+- Resultado:
+  - Retorna o valor da pontuação atribuido à questão declarada
