@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/lista-cotas-proporcional
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_COTAS_PROPORCIONAL (QTDCOTAS;LISTA*)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/cotas-proporcional">Cotas Proporcional</a>***
+
 Retorna uma lista com cotas que tem metas a serem cumpridas ordenadas pela cota menos cumprida até a cotá mais próxima de cumprir.
 OBS.: Pode se também delimitar um range de cotas atráves do parametro (LISTA), que quando informado, busca a cota menos realizada dentro do range informado.
 - Parametros: 
