@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/retorna-tempo-questoes
 pasta: "funcoes"
 ---	
 # Retorna Tempo Questões
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/tempoEntrevistaQuestoes">Tempo Entrevista/Questões</a>***
 
 ## $FUNCAO_RETORNA_TEMPO_QUESTOES (P1;P2;P3;P4...)
 
