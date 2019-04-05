@@ -3,7 +3,7 @@ layout: post
 title:  "Gravar Pontuação"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/gravarPontuacao
-pasta: "funcoes"
+pasta: "funcoesv2"
 ---	
 
 # Gravar Pontuação
