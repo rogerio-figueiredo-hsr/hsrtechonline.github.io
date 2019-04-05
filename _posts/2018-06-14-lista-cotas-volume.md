@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/lista-cotas-por-volume
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_COTAS_VOLUME (QTDCOTAS;LISTA*)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/cotasVolume">Cotas Volume</a>***
+
 Retorna uma lista com cotas que tem metas a serem cumpridas ordenadas pela cota menos realizada até a cotá mais realizada
 OBS.: Pode se também delimitar um range de cotas atráves do parametro (LISTA), que quando informado, busca a cota menos realizada dentro do range informado.
 - Parametros: 
