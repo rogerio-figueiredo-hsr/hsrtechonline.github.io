@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/gravar-pontuacao
 pasta: "funcoes"
 ---
 # $FUNCAO_GRAVAR_PONTUCAO(NRQUESTAO;PONTOS)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/gravarPontuacao">Gravar Pontuação</a>***
+
 *Atribui uma pontuação para uma determinada questão.*
 - Parâmetros:
     - NRQUESTAO: identificador da questão.
