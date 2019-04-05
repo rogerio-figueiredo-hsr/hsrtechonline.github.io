@@ -3,7 +3,7 @@ layout: post
 title:  "Obter Soma Pontuação"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/obterSomaPontuacao
-pasta: "funcoes"
+pasta: "funcoesv2"
 ---	
 
 # Obter Soma Pontuação
