@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoesv2/descricao
 pasta: "funcoesv2"
 ---
 
-# Descricao()
+# Descrição
 *Retorna a descriçao das opções declaradas na função **"Descricao()"***
 
 - Sintaxe:
