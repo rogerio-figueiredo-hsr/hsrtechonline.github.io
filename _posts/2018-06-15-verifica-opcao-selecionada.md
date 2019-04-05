@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/verifica-opcao-selecionada
 pasta: "funcoes"
 ---	
 # $FUNCAO_VERIFICA_OPCAO_SELECIONADA (NRQUESTAO;OPCAO)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/contemOpcoes">Contém Opções</a>***
+
 *Indica se uma determinada opção foi selecionada ou não*
 - Parametros: 
     - NRQUESTAO: código que identifica a questão
