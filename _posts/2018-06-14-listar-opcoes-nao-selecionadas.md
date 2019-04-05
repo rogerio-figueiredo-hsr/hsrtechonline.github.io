@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoes/listar-opcoes-nao-selecionadas
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_OPCOES_NAO_SELECIONADAS (NRQUESTAO)
-*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoes/listar-opcoes">Listar Opções</a>***
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/listarOpcoes">Listar Opções</a>***
 
 Independente de ser uma RU ou RM devolve a lista de opções que não foram selecionadas separadas por pipe. 
 Obs. caso queira uma lista de opções selecionadas consulte __$FUNCAO_RETORNA_RESPOSTA__
