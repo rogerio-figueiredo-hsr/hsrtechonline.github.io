@@ -7,6 +7,7 @@ pasta: "funcoes"
 ---	
 
 # $FUNCAO_&#8203;RETORNA_&#8203;VALOR_&#8203;OP_&#8203;SOMATORIO (NRQUESTAO;OPCAO)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/somarOpcoes">Somar Opções</a>***
 {: .teste}
 
 *Retorna o valor atribuido a opção de soma indicada no parametro*
