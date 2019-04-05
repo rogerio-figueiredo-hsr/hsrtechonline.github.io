@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoesv2/paraCada
 pasta: "funcoesv2"
 ---
 
-# ParaCada()
+# Para Cada (Looping)
 *Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro "op" representa cada opção retornada da funçao anterior*
 
 - Sintaxe
