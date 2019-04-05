@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/troca-telefone
 pasta: "funcoes"
 ---	
 # $FUNCAO_EXECUTA_ACAO (TROCATELEFONE;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/trocaTelefone">Troca Telefone</a>***
 
 *Atualiza um numero de telefone na listagem. Valor: TELEFONE>POSICAO. onde TELEFONE é o nr. de telefone novo e posição é qual posição do telefone será atualizada, a posição varia de 1 a 5*
 
