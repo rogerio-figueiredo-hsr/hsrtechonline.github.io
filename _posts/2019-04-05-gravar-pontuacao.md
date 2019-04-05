@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Verificar Resposta"
+title:  "Gravar Pontuação"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoes/verificar-resposta
+permalink: /fastQuestAdmin/funcoes/gravarPontuacao
 pasta: "funcoes"
 ---	
 
