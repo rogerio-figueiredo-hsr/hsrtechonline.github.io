@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/tempo-entrevista
 pasta: "funcoes"
 ---	
 # Tempo Entrevista
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/tempoEntrevistaQuestoes">Tempo Entrevista/Questões</a>***
+
 Essa função Retorna o Tempo em segundos de duração da Entrevista e não recebe nenhum parâmetro de entrada. 
 
 - Exemplo
