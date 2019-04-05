@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/funcoes/listar-opcoes
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_OPCOES (NRQUESTAO)
-*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoes/listar-opcoes">Listar Opções</a>***
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/listarOpcoes">Listar Opções</a>***
 
 Independente de ser uma RU ou RM devolve a lista de opções separadas por pipe
 - Parâmetros: 
