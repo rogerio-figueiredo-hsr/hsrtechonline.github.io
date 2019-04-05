@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/trava-opcao
 pasta: "funcoes"
 ---	
 # $FUNCAO_EXECUTA_ACAO (TRAVA;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/travarOpcoes">Travar Opções</a>***
+
 *Bloqueia uma determinada opção de uma questão. Valor: NRQUESTAO>OPCAO. lembrando que o sinal "\>" server para separar o código da questão do valor da opção*
 
 - Parametros: 
