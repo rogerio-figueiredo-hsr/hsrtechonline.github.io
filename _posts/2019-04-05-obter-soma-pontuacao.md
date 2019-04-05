@@ -2,7 +2,7 @@
 layout: post
 title:  "Obter Soma Pontuação"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoes/obterSomaPontuacao
+permalink: /fastQuestAdmin/funcoesv2/obterSomaPontuacao
 pasta: "funcoes"
 ---	
 
