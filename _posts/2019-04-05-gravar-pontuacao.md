@@ -2,7 +2,7 @@
 layout: post
 title:  "Gravar Pontuação"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoes/gravarPontuacao
+permalink: /fastQuestAdmin/funcoesv2/gravarPontuacao
 pasta: "funcoes"
 ---	
 
