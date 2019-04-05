@@ -20,5 +20,7 @@ pasta: "funcoes"
   - <pre>
     <code>var nrquestao = (pode ser o retorno de uma função ou estático)
     var pontuacao = (pode ser o retorno de uma função ou estático)
-    Pontuacao().GravarPontuacao(nrquestao,pontuacao)<code>
-    <pre>
+    Pontuacao().GravarPontuacao(nrquestao,pontuacao)</code>
+    </pre>
+- Resultado:
+  - Grava o valor declarado da pontuação atribuido à questão também declarada
