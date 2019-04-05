@@ -22,3 +22,4 @@ pasta: "funcoes"
     </pre>
 - Resultado:
   - Retorna o valor da pontuação atribuido à questão declarada
+  
