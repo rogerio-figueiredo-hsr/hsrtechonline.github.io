@@ -10,11 +10,11 @@ pasta: "funcoesv2"
 *Retorna a informação importada para em uma determinada coluna do projeto*
 
 - Sintaxe:
-  - `Listagem("COLUNA")
+  - `Listagem("COLUNA")`
 - Parâmetro:
   - COLUNA: Nome da coluna da listagem
 - Exemplo:
-  - Listagem("Nome")
+  - `Listagem("Nome")`
   
 - Resultado:
   - Retorna o nome do cliente que está respondendo o questionário que foi préviamente importado via listagem
