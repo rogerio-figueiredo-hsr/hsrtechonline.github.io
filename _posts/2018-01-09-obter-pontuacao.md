@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/obter-pontuacao
 pasta: "funcoes"
 ---
 # $FUNCAO_RETORNA_PONTUACAO(NRQUESTAO)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/somarOpcoes">Somar Opções</a>***
+
 *Recupera a pontuação para uma determinada questão.*
 - Parâmetros:
     - NRQUESTAO: identificador da questão.
