@@ -6,6 +6,8 @@ permalink: /fastQuestAdmin/funcoes/trocar-contato
 pasta: "funcoes"
 ---	
 # $FUNCAO_EXECUTA_ACAO (TROCACONTATO;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/trocaContato">Trocar Contato</a>***
+
 *Atualiza o nome do contato na listagem. Valor: novo nome*
 - Parametros: 
     - ACAO: **TROCACONTATO**
