@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/seleciona-opcao
 pasta: "funcoes"
 ---	
 # $FUNCAO_EXECUTA_ACAO (SELECIONAOPCAO;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/selecionarOpcao">Selecionar Opções</a>***
 
 *Seleciona uma determinada opção em uma questão. Valor: NRQUESTAO>OPCAO. lembrando que o sinal ">" serve para separar o código da questão do valor da opção*
 
