@@ -6,6 +6,7 @@ permalink: /fastQuestAdmin/funcoes/verificar-resposta
 pasta: "funcoes"
 ---	
 # $FUNCAO_RESPOSTA_NULO_OU_VAZIO (NRQUESTAO)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/contemOpcoes">Contém Opções</a>***
 
 Verifica se a questão informada possuí resposta caso o retorno seja 1 significa que não há resposta, caso seja 0 significa que já existe resposta
 
