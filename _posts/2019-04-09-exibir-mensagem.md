@@ -21,8 +21,7 @@ pasta: "funcoesv2"
   - <pre>
     <code>var <b>nrQuestao</b> = (estático ou o retorno de outra função)
     var <b>msg</b> = (estático ou o retorno de outra função)
-    - Questionario().Questao(<b>nrQuestao</>).ExibirMensagem(<b>msg</b>)
-    </code>
+    - Questionario().Questao(<b>nrQuestao</>).ExibirMensagem(<b>msg</b>)</code>
     </pre>
 - Resultado:
   - As questões declaradas ganharão uma borda vermelha
