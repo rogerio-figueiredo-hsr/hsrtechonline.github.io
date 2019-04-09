@@ -5,7 +5,9 @@ projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoes/exibir-mensagem
 pasta: "funcoes"
 ---
-# $FUNCAO_EXECUTA_ACAO (MENSAGEM;VALOR) 
+# $FUNCAO_EXECUTA_ACAO (MENSAGEM;VALOR)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/exibirMensagem">Exibir Mensagem</a>***
+
 Abre uma mensagem de validação na página do questionário, a mensagem aparece depois de clicar no botão prosseguir e não permitirá que o questionário avance para a próxima página
 
 - Parâmetros: 
@@ -19,6 +21,8 @@ Abre uma mensagem de validação na página do questionário, a mensagem aparece
 OU
 
 ## $FUNCAO_EXIBIR_MENSAGEM (MENSAGEM)
+*Esta função está deprecada, utilizar **<a href="/fastQuestAdmin/funcoesv2/exibirMensagem">Exibir Mensagem</a>***
+
 - Parametro:
     - MENSAGEM: Texto que irá aparecer na tela para orientação do respondente
 - Exemplo:
