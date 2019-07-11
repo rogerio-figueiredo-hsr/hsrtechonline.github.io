@@ -31,15 +31,27 @@ pasta: "Usuarios"
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 {:start="4"}
-4. Preencha todos campos do formulário.
+4. Preencha todos campos do formulário com dados válidos;
+* Nome;
+* CPF;
+* Login;
+* Senha;
+* Email;
+* Id da PA.
 
 Em codPerfil teremos as opções:
 
 - Admin: Tem acesso a todas áreas do sistema;
-- Diretoria;
-- Gerencia;
-- Client Service;
-- Entrevistador: Tem acesso somente aos projetos que lhe foi concedido permissão.
+- Diretoria; Tem acesso restrito de acordo com o que for determinado
+- Gerencia; Tem acesso restrito de acordo com o que for determinado
+- Client Service; Tem acesso restrito de acordo com o que for determinado
+- Entrevistador: Não tem acesso ao site administrativo.
+
+Em Idioma teremos as opções:
+
+- Português;
+- Espanhol;
+- inglês;
 
 {:start="5"}
 5. Clique em "Enviar".
