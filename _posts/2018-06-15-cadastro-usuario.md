@@ -34,15 +34,10 @@ pasta: "Usuarios"
 4. Preencha todos campos do formulário com dados válidos:
   
   Nome;
-  
   CPF;
-  
   Login;
-  
   Senha;
-  
   Email;
-  
   Id da PA.
 
 Em codPerfil teremos as opções:
