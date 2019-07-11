@@ -31,13 +31,13 @@ pasta: "Usuarios"
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 {:start="4"}
-4. Preencha todos campos do formulário com dados válidos;
-Nome;
-CPF;
-Login;
-Senha;
-Email;
-Id da PA.
+4. Preencha todos campos do formulário com dados válidos:
+- Nome;
+- CPF;
+- Login;
+- Senha;
+- Email;
+- Id da PA.
 
 Em codPerfil teremos as opções:
 
