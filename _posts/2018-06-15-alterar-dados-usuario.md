@@ -35,11 +35,12 @@ pasta: "Usuarios"
 
 Em codPerfil teremos as opções:
 
-Admin: Tem acesso a todas áreas do sistema;
-Diretoria; Tem acesso restrito de acordo com o que for determinado
-Gerencia; Tem acesso restrito de acordo com o que for determinado
-Client Service; Tem acesso restrito de acordo com o que for determinado
-Entrevistador: Não tem acesso ao site administrativo.
+  Admin: Tem acesso a todas áreas do sistema;  
+  Diretoria; Tem acesso restrito de acordo com o que for determinado  
+  Gerencia; Tem acesso restrito de acordo com o que for determinado  
+  Client Service; Tem acesso restrito de acordo com o que for determinado  
+  Entrevistador: Não tem acesso ao site administrativo.  
+  
 Em Idioma teremos as opções:
 
   Português;  
