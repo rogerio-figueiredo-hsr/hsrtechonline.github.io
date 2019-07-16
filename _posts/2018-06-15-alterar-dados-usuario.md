@@ -25,7 +25,7 @@ pasta: "Usuarios"
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 {:start="5"}
-5. Altere os campos com dados válidos:
+5. Altere os campos com dados válidos:  
   Nome;  
   CPF;  
   Login;  
