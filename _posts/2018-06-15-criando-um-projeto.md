@@ -40,7 +40,7 @@ Clique em "Incluir novo registro" no canto inferior esquerdo;
 
 10. Defina se o questionário está ativo ou não, selecionando a opção "ativo".
 
-11. Se o tipo de coleta for CAWI defina a Versão do Layout.
+11. Se o tipo de coleta for CAWI ou SHOPPER defina a Versão do Layout.
 
 Clique em "Enviar".
 </div>
