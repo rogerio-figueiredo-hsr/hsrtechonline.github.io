@@ -49,6 +49,15 @@ pasta: "Relatorio"
 4. Solicitação imediata de SPS
 5. Solicitação de agendamento com ou sem repetição priódica de SPSS
 6. Permite consultar o tipo de periodicidade aplicado ao template, caso exista um.
+> A imagem abaixo mostra a recorrencia de um template
+![Lista recorrencias]({{ "/assets/img/ListaRecorrencia.png" | prepend: site.baseurl }})
+> É possível remover a recorrência selecionando a linha e clicando na lixeira 
+
+## Solicitar sem informar data
+![Agendamento de banco de respostas]({{ "/assets/img/SolicitarRelatorioSemData.jpg" | prepend: site.baseurl }})
+
+## Solicitar com data de inicio e fim
+![Agendamento de banco de respostas]({{ "/assets/img/SolicitarRelatorioComData.jpg" | prepend: site.baseurl }})
 
 ## Agendar um relatório
 ![Agendamento de banco de respostas]({{ "/assets/img/SolicitarAgendamentoBancaoRespostaNaoRepete.jpg" | prepend: site.baseurl }})
