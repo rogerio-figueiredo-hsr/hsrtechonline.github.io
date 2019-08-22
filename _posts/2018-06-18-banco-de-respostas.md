@@ -21,7 +21,8 @@ pasta: "Relatorio"
 </div>
 
 {:start="4"}
-4. Se desejar apenas as questões com respostas, selecione "Apenas questões com respostas";
+4. A lista de templates irá aparecer
+> um template é um conjunto de "Status", "Campos de listagem" e "Questões" a qual se deseja gerar o relatório
 
 5. Se deseja mostrar os nomes das opções, selecione "Mostrar labels das opções";
 
