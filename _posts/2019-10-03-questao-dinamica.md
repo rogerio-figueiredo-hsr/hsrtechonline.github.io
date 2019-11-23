@@ -3,7 +3,7 @@ layout: post
 title:  "Questão Dinâmica"
 projeto: "fastQuestAdminDocTec"
 permalink: /fastQuestAdminDocTec/questionario/questao-dinamica
-pasta: "Questionario"
+pasta: "questionario"
 ---
 # Questão Dinâmica
 ---
