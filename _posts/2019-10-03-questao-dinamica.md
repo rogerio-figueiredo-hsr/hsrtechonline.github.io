@@ -53,3 +53,9 @@ páginas 12,17 e 22 são cópias da página 9,14 e 19 respectivamente aplicadas 
 páginas 13,18 e 23 são cópias da página 9,14 e 19 respectivamente aplicadas para a opção 4 da Base Dinâmica
 
 ![Imagem de apoio 1]({{ "/assets/img/QuestaoDinamica2.png" | prepend: site.baseurl }})
+
+
+## Conclusão
+---
+A Questão dinâmica nada mais é do que um multiplicador de páginas de acordo com a quantidade de opções da questão de base.
+Todas as páginas são replicadas para todas as opções, e quando qualquer coisa nas questões de base é alterada ou excluída deve ser replicado para as questões dinâmicas
