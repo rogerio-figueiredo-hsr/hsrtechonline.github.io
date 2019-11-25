@@ -56,3 +56,5 @@ Portanto é possível concluir que a rotina que localiza a próxima página a se
 A procedure que retorna a próxima página a ser exibida e tem toda essa regra de negócio é: pr_RetornaPaginaQuestaoProxima  
 
 Essa procedure é camada toda vez que o entrevistado clica no botrão prosseguir da ferramenta de coleta
+
+
