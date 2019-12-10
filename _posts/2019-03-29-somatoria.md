@@ -6,61 +6,85 @@ permalink: /fastQuestAdmin/funcoesv2/somatoria
 pasta: "funcoesv2"
 ---
 
-# Somar Opções
+# Somar
 *Retorna a soma dos valores das opções informadas.*
 
 - Sintaxe: 
-  - `SM(“NRQUESTAO”).SomarOpcoes([OPCOES])}`
+  - `SM(“NRQUESTAO”).Selecionadas().Somar([OPCOES])}`
 - Parâmetros:
   - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
   - OPCOES: Sequência numérica informado com o numero das opções da questão.
 - Exemplo 1: 
-  - `SM(“Soma”).SomarOpcoes([1,2,3])`
+  - `SM(“Soma”).Selecionadas().SomarOpcoes([1,2,3])`
 - Exemplo 2: 
   - <pre>
     <code>var nrquestao = (pode ser o retorno de uma função ou estático)
     var opcoes = (pode ser o retorno de uma função ou estático)
-    SM(nrquestao).SomarOpcoes(opcoes)</code>
+    SM(nrquestao).Selecionadas().SomarOpcoes(opcoes)</code>
     </pre>
 - Retorno: 
   - A soma dos valores
 
-# Max
+# Max (Opções, Valor, Descrição)
 *Retorna o maior valor entre as opções respondidas*
 
 - Sintaxe: 
-  - `SM(“NRQUESTAO”).Max()`
+  - `SM(“NRQUESTAO”).Selecionadas().Max([OPCOES]).Opcao()`
+  - `SM(“NRQUESTAO”).Selecionadas().Max([OPCOES]).Valor()`
+  - `SM(“NRQUESTAO”).Selecionadas().Max([OPCOES]).Descricao()`  
 - Parâmetros:
   - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - OPCOES: (OPCIONAL) Opcoes entre colchetes e separados por vírgula
 - Exemplo 1:
   - `1@10|2@20|3@30|4@0`
-  - `SM(“Soma”).Max()`
+  - `SM(“Soma”).Selecionadas().Max().Valor()`
+  - `SM(“Soma”).Selecionadas().Max([1,2]).Valor()`
 - Exemplo 2:
+  - `1@10|2@20|3@30|4@0`
+  - `SM(“Soma”).Selecionadas().Max().Opcao()`  
+- Exemplo 3:
   - <pre>
     <code>var nrquestao = (pode ser o retorno de uma função ou estático)
-    SM(nrquestao).Max()</code>
+    SM(nrquestao).Selecionadas().Max()</code>
     </pre>
 - Retorno:
-  - 30
+  - Ex: 1
+    - 30
+    - 20 (filtrado)
+  - Ex: 2
+    - 2    
+  - Ex: 3
+    - 30
 
-
-# Min
+# Min (Opções, Valor, Descrição)
 *Retorna o menor valor entre as opções respondidas*
 
 - Sintaxe: 
-  - `SM(“NRQUESTAO”).Min()`
+  - `SM(“NRQUESTAO”).Selecionadas().Min().Opcao()`
+  - `SM(“NRQUESTAO”).Selecionadas().Min().Valor()`
+  - `SM(“NRQUESTAO”).Selecionadas().Min().Descricao()` 
 - Parâmetros:
   - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
 - Exemplo 1:
   - `1@10|2@20|3@30|4@0`
-  - `SM(“Soma”).Min()`
-- Exemplo 2:  
+  - `SM(“Soma”).selecionadas().Min().Valor()`
+  - `SM(“Soma”).Selecionadas().Min([2,4]).Valor()`
+- Exemplo 2:
+  - `1@10|2@20|3@30|4@0`
+  - `SM(“Soma”).Selecionadas().Min().Opcao()`  
+- Exemplo 3:  
   - <pre>
     <code>var nrquestao: (pode ser o retorno de uma função ou estático)
-    SM(nrquestao).Min()</code>
+    SM(nrquestao).Selecionadas().Min()</code>
     </pre>
 - Retorno:
-  - 10
+  - Ex: 1
+    - 30
+    - 20 (filtrado)
+  - Ex: 2
+    - 2    
+  - Ex: 3
+    - 30
 
 
 # Selecionadas
