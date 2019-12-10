@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Pontuação"
+projeto: "fastQuestAdmin"
+permalink: /fastQuestAdmin/funcoesv2/pontuacao
+pasta: "funcoesv2"
+---
+
 # Obter Soma Pontuação
 *Retorna a soma da pontuação para uma ou mais questões.*
 
