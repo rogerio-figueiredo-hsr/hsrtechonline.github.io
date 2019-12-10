@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Obter Campo Listagem"
+title:  "Listagem - Obter valor Campo"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/funcoesv2/obterCampoListagem
 pasta: "funcoesv2"
