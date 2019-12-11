@@ -22,8 +22,6 @@ pasta: "funcoesv2"
     var opcoes = (pode ser o retorno de uma função ou estático)
     SM(nrquestao).Selecionadas().SomarOpcoes(opcoes)</code>
     </pre>
-- Retorno: 
-  - A soma dos valores
 
 # Max (Opções, Valor, Descrição)
 *Retorna o maior valor entre as opções respondidas*
@@ -47,14 +45,6 @@ pasta: "funcoesv2"
     <code>var nrquestao = (pode ser o retorno de uma função ou estático)
     SM(nrquestao).Selecionadas().Max()</code>
     </pre>
-- Retorno:
-  - Ex: 1
-    - 30
-    - 20 (filtrado)
-  - Ex: 2
-    - 2    
-  - Ex: 3
-    - 30
 
 # Min (Opções, Valor, Descrição)
 *Retorna o menor valor entre as opções respondidas*
@@ -77,75 +67,104 @@ pasta: "funcoesv2"
     <code>var nrquestao: (pode ser o retorno de uma função ou estático)
     SM(nrquestao).Selecionadas().Min()</code>
     </pre>
-- Retorno:
-  - Ex: 1
-    - 30
-    - 20 (filtrado)
-  - Ex: 2
-    - 2    
-  - Ex: 3
-    - 30
 
+# Travar
+*Trava as opções selecionadas*
 
-# Selecionadas
-*Retorna as opções selecionadas*
+- Sintaxe
+  - `SM("NRQUESTAO").Selecionadas().Travar(PARAMETROS)`
+  - `SM("NRQUESTAO").NaoSelecionadas().Travar(PARAMETROS)`
+  - `SM("NRQUESTAO").Todas().Travar(PARAMETROS)`
 
-- Sintaxe: 
-  - Trava as opções declaradas na função “Travar” 
-    - `SM(“NRQUESTAO”).Selecionadas().Travar(OPCOES)`
-  - Oculta as opções declaradas na função “Ocultar”
-    - `SM(“NRQUESTAO”).Selecionadas().Ocultar(OPCOES)`
-  - Verifica se os códigos das “Opções” declaradas na função “Contem”, existem no retorno das opções selecionadas. Caso sim, retorna         verdadeiro, senão falso
-    - `SM(“NRQUESTAO”).Selecionadas().Contem(OPCOES)`
-  - Retorna as opções declaradas na função “Opcoes”
-    - `SM(“NRQUESTAO”).Selecionadas().Opcoes(OPCOES)`
-  - Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro “op” representa cada opção retornada de “Selecionadas”
-    - <pre>
-      <code>SM(“NRQUESTAO”).Selecionadas().ParaCada(op){ 
-      “Sentença para ser executada ”
-      }</code>
-      </pre> 
-  - Retorna quantidade de opções não selecionadas
-    - `SM(“NRQUESTAO”).Selecionadas().Contar()`
-  - Retorna a descrição das opções declaradas na função “Descricao”
-    - `SM(“NRQUESTAO”).Selecionadas().Descricao(OPCOES)`
 - Parâmetros:
   - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
   - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da(s) opção(ões) desejadas (sequência numérica entre [], número de     uma opção ou uma variável)
-- Exemplo 1:
+  
+- Exemplos:
   - `SM("SM").Selecionadas().Travar([1,2,3])`
-- Exemplo 2:
-  - <pre>
-    <code>Var nrquestao = (pode ser o retorno de uma função ou estático)
-    var opcoes = (pode ser o retorno de uma função ou estático)
-    SM(nrquestao).Selecionadas().Travar([opções])</code>
-    </pre>
+  - `SM("SM").Selecionadas().Travar(1)`
+  - `SM("SM").Selecionadas().Travar()`  
+  
+# Ocultar
+*Oculta as opções selecionadas*
+
+- Sintaxe
+  - `SM("NRQUESTAO").Selecionadas().Ocultar(PARAMETROS)`
+  - `SM("NRQUESTAO").NaoSelecionadas().Ocultar(PARAMETROS)`
+  - `SM("NRQUESTAO").Todas().Ocultar(PARAMETROS)`
+
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da(s) opção(ões) desejadas (sequência numérica entre [], número de     uma opção ou uma variável)
+  
+- Exemplos:
+  - `SM("SM").Selecionadas().Ocultar([1,2,3])`
+  - `SM("SM").Selecionadas().Ocultar(1)`
+  - `SM("SM").Selecionadas().Ocultar()`
+  
+# Opcoes
+*Retorna as opções selecionadas*
+
+- Sintaxe
+  - `SM(“NRQUESTAO”).Selecionadas().Opcoes(PARAMETROS)`
+  - `SM("NRQUESTAO").NaoSelecionadas().Opcoes(PARAMETROS)`
+  - `SM("NRQUESTAO").Todas().Opcoes(PARAMETROS)`
+  
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da(s) opção(ões) desejadas (sequência numérica entre [], número de     uma opção ou uma variável)  
+  
+- Exemplos:
+  - `SM("SM").Selecionadas().Opcoes([1,2,3])`
+  - `SM("SM").Selecionadas().Opcoes(1)`    
+  - `SM("SM").Selecionadas().Opcoes()`      
+
+# Contar
+*Retorna a quantidade de opções da questão selecionada*
+
+- Sintaxe
+  - `SM(“NRQUESTAO”).Selecionadas().Contar()`
+  - `SM("NRQUESTAO").NaoSelecionadas().Contar()`
+  - `SM("NRQUESTAO").Todas().Contar()`
+  
+- Exemplo 1:
+  - `SM("SM").Selecionadas().Contar()`
+  
+# Descricao
+*Retorna a descrição das opções selecionadas*
+
+- Sintaxe
+  - `SM(“NRQUESTAO”).Selecionadas().Descricao(PARAMETROS)`
+  - `SM("NRQUESTAO").NaoSelecionadas().Contar(PARAMETROS)`
+  - `SM("NRQUESTAO").Todas().Contar(PARAMETROS)`
+  
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da(s) opção(ões) desejadas (sequência numérica entre [], número de     uma opção ou uma variável)
+  
+- Exemplos:
+  - `SM("SM").Selecionadas().Descricao([1,2,3])`
+  - `SM("SM").Selecionadas().Descricao(1)`    
+  - `SM("SM").Selecionadas().Descricao()`
+  
+# Funções Comparadoras
+*Maior, MaiorIgual, Menor, MenorIgual e Entre*
+*Retorna as opções, valores ou descrição conforme o comparador informado*  
 
 # Não Selecionadas
 *Retorna as opções que não foram selecionadas*
 
 - Sintaxe: 
-  - Trava as opções declaradas na função “Travar” 
-    - `SM(“NRQUESTAO”).NaoSelecionadas().Travar(OPCOES)`
-  - Oculta as opções declaradas na função “Ocultar”
-    - `SM(“NRQUESTAO”).NaoSelecionadas().Ocultar(OPCOES)`
   - Verifica se os códigos das “Opções” declaradas na função “Contem”, existem no retorno das opções selecionadas. Caso sim, retorna         verdadeiro, senão falso
     - `SM(“NRQUESTAO”).NaoSelecionadas().Contem(OPCOES)`
-  - Retorna as opções declaradas na função “Opcoes”
-    - `SM(“NRQUESTAO”).NaoSelecionadas().Opcoes(OPCOES)`
+
   - Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro “op” representa cada opção retornada de “Selecionadas”
     - <pre>
       <code>SM(“NRQUESTAO”).NaoSelecionadas().ParaCada(op){ 
       “Sentença para ser executada ”
       }</code>
       </pre>
-  - Retorna quantidade de opções não selecionadas
-    - `SM(“NRQUESTAO”).NaoSelecionadas().Contar()`
-  - Retorna a descrição das opções declaradas na função “Descricao”
-    - `SM(“NRQUESTAO”).NaoSelecionadas().Descricao(OPCOES)`
-- Parâmetros:
-  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
-  - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da(s) opção(ões) desejadas. sequência numérica entre [], número de     uma opção ou uma variável.
+
 - Exemplo 1:
   - `SM("SM").NaoSelecionadas().Travar([1,2,3])`
 - Exemplo 2:
