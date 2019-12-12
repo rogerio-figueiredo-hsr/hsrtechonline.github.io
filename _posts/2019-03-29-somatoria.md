@@ -230,7 +230,7 @@ pasta: "funcoesv2"
   - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Contar()`
   - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Descricao(PARAMETROS2)`
 
-***Obs.: É a mesma sintaxe das funções ***MaiorIgual, Menor, MenorIgual***
+***Obs.: É a mesma sintaxe para as funções MaiorIgual, Menor, MenorIgual***
 
   - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Travar(PARAMETROS2)`
   - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Ocultar(PARAMETROS2)`
