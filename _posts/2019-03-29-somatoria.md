@@ -146,20 +146,101 @@ pasta: "funcoesv2"
   - `SM("SM").Selecionadas().Descricao([1,2,3])`
   - `SM("SM").Selecionadas().Descricao(1)`    
   - `SM("SM").Selecionadas().Descricao()`
-  
-# Funções Comparadoras
-*Maior, MaiorIgual, Menor, MenorIgual e Entre*
-*Retorna as opções, valores ou descrição conforme o comparador informado*
+
+# Valores
+*Retorna os valores das opções selecionadas*
+
+- Sintaxe
+  - `SM(NRQUESTAO).Selecionadas().Valores()`
+
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+
+- Exemplos:
+  - `SM(“SM”).Selecionadas().Valores()`
 
 # Funções de Ordenação
 *Desc Asc*
 
 # Descendente (Desc)
+*Ordena na Descendente opcoes/valores/descricao*
 
-  - Sintaxe
-  - `SM(NRQUESTAO)`
-  
+- Sintaxe
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Opcoes()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Max().Opcao()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Max().Valor()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Max().Descricao()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Min().Opcao()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Min().Valor()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Min().Descricao()`
+  - `SM(NRQUESTAO).Desc(PARAMETROS).Min().Valores()`
+
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da quantidade de opções ou uma variável
+
+- Exemplos:
+  - `SM(“SM”).Desc(5).Opcoes()`
+  - `SM(“SM”).Desc().Min().Valor()`
+
 # Ascendente (Asc)
 
-  - Sintaxe  
+- Sintaxe
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Opcoes()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Max().Opcao()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Max().Valor()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Max().Descricao()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Min().Opcao()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Min().Valor()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Min().Descricao()`
+  - `SM(NRQUESTAO).Asc(PARAMETROS).Min().Valores()`
 
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+  - **(Opcional)** PARAMETROS: Informar em parâmetros o(s) número(s) da quantidade de opções ou uma variável
+
+- Exemplos:
+  - `SM(“SM”).Asc(5).Opcoes()`
+  - `SM(“SM”).Asc().Min().Valor()`
+
+# ParaCada
+
+- Sintaxe
+  - `SM(NRQUESTAO).Selecionadas().ParaCada(op){ }`
+  - `SM(NRQUESTAO).NaoSelecionadas().ParaCada(op){ }`
+  - `SM(NRQUESTAO).Todas().ParaCada(op){ }`
+
+- Parâmetros:
+  - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas
+
+- Exemplos:
+  - `SM(“SM”).Selecionadas().ParaCada(op) { ***sentença*** }`
+
+  
+# Funções Comparadoras
+*Maior, MaiorIgual, Menor, MenorIgual e Entre*
+*Retorna as opções, valores ou descrição conforme o comparador informado*
+
+- Sintaxe
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Travar(PARAMETROS2)`
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Ocultar(PARAMETROS2)`
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Opcoes(PARAMETROS2)`
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Valores()`
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).ParaCada()`
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Contar()`
+  - `SM(NRQUESTAO).Selecionadas().Maior(PARAMETROS1).Descricao(PARAMETROS2)`
+***Obs.: É a mesma sintaxe das funções ***MaiorIgual, Menor, MenorIgual***
+
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Travar(PARAMETROS2)`
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Ocultar(PARAMETROS2)`
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Opcoes(PARAMETROS2)`
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Valores()`
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).ParaCada()`
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Contar()`
+  - `SM(NRQUESTAO).Selecionadas().Entre(PARAMETRO_INICIAL, PARAMETRO_FINAL).Descricao(PARAMETROS2)`
+
+- Parâmetros:
+   - NRQUESTAO: Código da questão (Texto entre aspas duplas) ou variável sem aspas.
+   - PARAMETROS1: Informar em parâmetros um número inteiro ou decimal com “.”.
+   - **(Opcional)** PARAMETROS2: Informar em parâmetros um número inteiro ou decimal com “.” Ou variável.
+   - PARAMETRO_INICIAL/PARAMETRO_FINAL: Número inteiro, decimal com “.” ou variável.
