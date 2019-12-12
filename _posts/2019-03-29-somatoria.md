@@ -149,27 +149,17 @@ pasta: "funcoesv2"
   
 # Funções Comparadoras
 *Maior, MaiorIgual, Menor, MenorIgual e Entre*
-*Retorna as opções, valores ou descrição conforme o comparador informado*  
+*Retorna as opções, valores ou descrição conforme o comparador informado*
 
-# Não Selecionadas
-*Retorna as opções que não foram selecionadas*
+# Funções de Ordenação
+*Desc Asc*
 
-- Sintaxe: 
-  - Verifica se os códigos das “Opções” declaradas na função “Contem”, existem no retorno das opções selecionadas. Caso sim, retorna         verdadeiro, senão falso
-    - `SM(“NRQUESTAO”).NaoSelecionadas().Contem(OPCOES)`
+# Descendente (Desc)
 
-  - Itera sobre todas as opções retornadas da função Selecionadas. O parâmetro “op” representa cada opção retornada de “Selecionadas”
-    - <pre>
-      <code>SM(“NRQUESTAO”).NaoSelecionadas().ParaCada(op){ 
-      “Sentença para ser executada ”
-      }</code>
-      </pre>
+  - Sintaxe
+  - `SM(NRQUESTAO)`
+  
+# Ascendente (Asc)
 
-- Exemplo 1:
-  - `SM("SM").NaoSelecionadas().Travar([1,2,3])`
-- Exemplo 2:
-  - <pre>
-    <code>var opcoes = (pode ser o retorno de uma função ou estático)
-    var nrquestao = (pode ser o retorno de uma função ou estático)
-    SM("nrquestao ").NaoSelecionadas().Travar(opcoes)</code>
-    </pre>
+  - Sintaxe  
+
