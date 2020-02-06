@@ -21,6 +21,7 @@ pasta: "Listagem"
 </div>
 
 {:start="4"}
+6. teste
 4. Selecione a listagem a ser exportada;
 
 5. Clique em "Exportar arquivos selecionados" e o navegador irá iniciar um download do arquivo selecionado no mesmo formato que foi importado ao sistema.
