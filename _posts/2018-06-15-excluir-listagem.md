@@ -23,17 +23,17 @@ pasta: "Listagem"
 {:start="4"}
 4. Selecione a listagem a ser excluída;
 
-5. Clique em "Apagar registro selecionado", se algum cliente da listagem a ser excluída já ter respondido a listagem, a mesma não poderá ser apagada;
+5. Clique em "Excluir Arquivo", se algum cliente da listagem a ser excluída já ter respondido a listagem, a mesma não poderá ser apagada;
 
-![Imagem de apoio 2]({{ "/assets/img/excluir-listagem-02.png" | prepend: site.baseurl }})
+![Imagem de apoio 2]({{ "/assets/img/excluir-listagem-novo-01.png" | prepend: site.baseurl }})
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 
 {:start="6"}
-6. Clique em "Apagar".
+6. Clique em "OK".
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 3]({{ "/assets/img/excluir-listagem-03.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/excluir-listagem-novo-01.png" | prepend: site.baseurl }})
 </div>                               
 </div>
