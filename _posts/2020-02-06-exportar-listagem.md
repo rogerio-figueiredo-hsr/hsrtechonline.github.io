@@ -3,7 +3,7 @@ layout: post
 title:  "Exportar Listagem"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/listagem/exportar-listagem
-pasta: "Listagem"x'
+pasta: "Listagem"
 ---
 # Exportar Listagem
 
