@@ -34,6 +34,6 @@ pasta: "Listagem"
 6. Clique em "OK".
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 3]({{ "/assets/img/excluir-listagem-novo-01.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/excluir-listagem-novo-02.png" | prepend: site.baseurl }})
 </div>                               
 </div>
