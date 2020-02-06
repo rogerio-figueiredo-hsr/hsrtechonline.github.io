@@ -27,8 +27,8 @@ pasta: "Listagem"
     ![Imagem de apoio 3]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
 </div>
 
-4. Selecione a listagem a ser exportada;
+5. Selecione a listagem a ser exportada;
 
-5. Clique em "Exportar arquivos selecionados" e o navegador irá iniciar um download do arquivo selecionado no mesmo formato que foi importado ao sistema.
+6. Clique em "Exportar arquivos selecionados" e o navegador irá iniciar um download do arquivo selecionado no mesmo formato que foi importado ao sistema.
 
 ![Imagem de apoio 2]({{ "/assets/img/exportar-listagem-01.png" | prepend: site.baseurl }})
