@@ -24,7 +24,7 @@ pasta: "Listagem"
 
 4. Bloco de instruções de uso
 <div class="6u 12u$(small)" markdown="1">
-    ![Imagem de apoio 3]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
 </div>
 
 5. Selecione a listagem a ser exportada;
