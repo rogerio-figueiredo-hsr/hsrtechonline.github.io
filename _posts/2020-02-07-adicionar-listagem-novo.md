@@ -39,11 +39,11 @@ pasta: "Listagem"
 
 
 <div class="row" markdown="1">
-<div class="6u 12u$(small)" markdown="4">
+<div class="6u 12u$(small)" markdown="1">
 {:start="2"}
 2. Clique em "Adicionar Campo";
 </div>
-<div class="6u 12u$(small)" markdown="4">
+<div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 4]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
 </div>
 </div>
