@@ -21,18 +21,20 @@ pasta: "Listagem"
 </div>
 
 {:start="4"}
-4. Selecione o arquivo para importação. (Deve ser um arquivo .csv);
 <div class="6u 12u$(small)" markdown="1">
+{:start="4"}
+
+4. Selecione o arquivo para importação. (Deve ser um arquivo .csv);
 ![Imagem de apoio 2]({{ "/assets/img/adicionar-listagem-02.png" | prepend: site.baseurl }})
 </div>                               
 
 
 {:start="5"}
 
-4. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
+5. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
 ![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
 </div>
----
+----
 
 ## Se não existir todos os campos da listagem
 
