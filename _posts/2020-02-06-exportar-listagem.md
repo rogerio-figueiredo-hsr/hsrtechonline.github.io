@@ -33,4 +33,5 @@ pasta: "Listagem"
 
 ![Imagem de apoio 3]({{ "/assets/img/exportar-listagem-novo-02.png" | prepend: site.baseurl }})
 
+{:start="7"}
  7. O navegador irá iniciar um download do arquivo selecionado no mesmo formato que foi importado ao sistema.
