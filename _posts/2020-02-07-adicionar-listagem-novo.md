@@ -34,7 +34,7 @@ pasta: "Listagem"
 
 5. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
 ![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
-</div>
+
 
 ---
 
