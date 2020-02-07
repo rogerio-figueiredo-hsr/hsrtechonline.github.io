@@ -61,9 +61,11 @@ pasta: "Listagem"
 
 7. Clique em "Enviar";
 </div>
-
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 5]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
 </div>
 
+{:start="8"}
+8. Caso queira adicionar mais de um campo, clique em "Como importar campos adicionais"
+![Imagem de apoio 6]({{ "/assets/img/instrucoes-listagem-04.png" | prepend: site.baseurl }})
 </div>
