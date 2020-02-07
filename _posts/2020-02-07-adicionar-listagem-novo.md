@@ -48,6 +48,8 @@ pasta: "Listagem"
 </div>
 </div>
 
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
 {:start="3"}
 3. Adicione uma "Descrição";
 
@@ -61,3 +63,5 @@ pasta: "Listagem"
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 4]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
 </div>    
+</div>
+</div>
