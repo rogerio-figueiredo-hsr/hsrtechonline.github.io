@@ -20,21 +20,29 @@ pasta: "Listagem"
 </div>                               
 </div>
 
+{:start="4"}
+
+4. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
+![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
+
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
-{:start="4"}
-4. Selecione o arquivo para importação. (Deve ser um arquivo .csv);
+{:start="5"}
+5. Selecione o arquivo para importação. (Deve ser um arquivo .csv);
 </div>
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 2]({{ "/assets/img/adicionar-listagem-02.png" | prepend: site.baseurl }})
 </div>                               
 </div>
 
-{:start="5"}
+{:start="6"}
 
-5. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
-![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
+6. Caso queira um template com as colunas disponiveis
+![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-06 .png" | prepend: site.baseurl }})
 
+{:start="7"}
+7. Seleciones as colunas que você queira e clique em "Baixar"
+![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-07 .png" | prepend: site.baseurl }})
 
 ---
 
