@@ -20,7 +20,7 @@ pasta: "Listagem"
 </div>                               
 </div>
 
-{:start="6"}
+
 
 4. Selecione a listagem a ser exportada;
 
