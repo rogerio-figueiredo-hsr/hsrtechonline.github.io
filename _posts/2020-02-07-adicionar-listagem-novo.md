@@ -23,7 +23,6 @@ pasta: "Listagem"
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 {:start="4"}
-
 4. Selecione o arquivo para importação. (Deve ser um arquivo .csv);
 </div>
 <div class="6u 12u$(small)" markdown="1">
