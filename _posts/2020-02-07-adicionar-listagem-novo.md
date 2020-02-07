@@ -60,11 +60,6 @@ pasta: "Listagem"
 7. Clique em "Enviar";
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 4]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
-</div>    
-
-
-</div>
-<div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 4]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
-</div>                               
+</div> 
+</div>                           
 </div>
