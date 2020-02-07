@@ -20,7 +20,7 @@ pasta: "Listagem"
 </div>                               
 </div>
 
-
+{:start="4"}
 
 4. Selecione a listagem a ser exportada;
 
@@ -28,6 +28,7 @@ pasta: "Listagem"
 
 ![Imagem de apoio 2]({{ "/assets/img/exportar-listagem-novo-01.png" | prepend: site.baseurl }})
 
+{:start="6"}
 6. Selecione as colunas que você quiser que tenha no arquivo e clique em exportar.
 
 ![Imagem de apoio 3]({{ "/assets/img/exportar-listagem-novo-02.png" | prepend: site.baseurl }})
