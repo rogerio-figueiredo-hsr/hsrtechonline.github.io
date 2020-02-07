@@ -22,7 +22,7 @@ pasta: "Listagem"
 
 {:start="4"}
 
-4. Sigas as intruções de bloco
+4. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
 ![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
 
 
@@ -33,7 +33,7 @@ pasta: "Listagem"
 1. Clique em "Gerenciar campos adicionais";
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 3]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/instrucoes-listagem-02.png" | prepend: site.baseurl }})
 </div>                               
 </div>
 
@@ -42,15 +42,27 @@ pasta: "Listagem"
 <div class="6u 12u$(small)" markdown="1">
 
 {:start="2"}
-2. Adicione uma "Descrição";
+2. Clique em "Adicionar Campo";
 
-3. Adicione o "Nome da Coluna" existente na listagem a ser importada;
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 4]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
+</div>  
 
-4. "CodTipoDado" é o tipo dos dados existentes na coluna;
+{:start="3"}
+3. Adicione uma "Descrição";
 
-5. Selecione "Aceitar nulo" se o campo não for obrigatório;
+4. Adicione o "Nome da Coluna" existente na listagem a ser importada;
 
-6. Clique em "Enviar";
+5. "CodTipoDado" é o tipo dos dados existentes na coluna;
+
+6. Selecione "Aceitar nulo" se o campo não for obrigatório;
+
+7. Clique em "Enviar";
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 4]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
+</div>    
+
+
 </div>
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 4]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
