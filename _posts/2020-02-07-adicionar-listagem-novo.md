@@ -41,8 +41,16 @@ pasta: "Listagem"
 ![Imagem de apoio 8]({{ "/assets/img/instrucoes-listagem-06.png" | prepend: site.baseurl }})
 
 {:start="7"}
-7. Seleciones as colunas que você queira e clique em "Baixar"
+7. Seleciones as colunas  e clique em "Baixar"
 ![Imagem de apoio 9]({{ "/assets/img/instrucoes-listagem-07.png" | prepend: site.baseurl }})
+
+
+{:start="8"}
+8. Após o processamento, o arquivo será adicionado ao grid onde estara esperando ser excutado ou cancelado
+![Imagem de apoio 10]({{ "/assets/img/instrucoes-listagem-08.png" | prepend: site.baseurl }})
+
+{:start="9"}
+9. Para finalizar a o processo clique em "executar o processamento" (Atenção não é possivel cancelar o processamento após isso o inicio da executação)
 
 ---
 
