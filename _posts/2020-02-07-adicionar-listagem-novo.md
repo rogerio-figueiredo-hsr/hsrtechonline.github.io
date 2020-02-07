@@ -39,9 +39,13 @@ pasta: "Listagem"
 
 
 <div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="4">
 {:start="2"}
 2. Clique em "Adicionar Campo";
+</div>
+<div class="6u 12u$(small)" markdown="4">
 ![Imagem de apoio 4]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
+</div>
 
 {:start="3"}
 3. Adicione uma "Descrição";
