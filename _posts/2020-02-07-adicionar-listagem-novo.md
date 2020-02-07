@@ -24,3 +24,35 @@ pasta: "Listagem"
 
 4. Sigas as intruções de bloco
 ![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
+
+
+## Se não existir todos os campos da listagem
+
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+1. Clique em "Gerenciar campos adicionais";
+</div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 3]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
+</div>                               
+</div>
+
+
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+
+{:start="2"}
+2. Adicione uma "Descrição";
+
+3. Adicione o "Nome da Coluna" existente na listagem a ser importada;
+
+4. "CodTipoDado" é o tipo dos dados existentes na coluna;
+
+5. Selecione "Aceitar nulo" se o campo não for obrigatório;
+
+6. Clique em "Enviar";
+</div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 4]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
+</div>                               
+</div>
