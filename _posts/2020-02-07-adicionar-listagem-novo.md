@@ -25,14 +25,29 @@ pasta: "Listagem"
 4. Sigas as intruções para fazer uma importação 
 ![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-importar.png" | prepend: site.baseurl }})
 
-{:start="6"}
-6. Caso queira um template com as colunas disponiveis
+{:start="5"}
+5. Caso queira um template com as colunas disponiveis
 ![Imagem de apoio 8]({{ "/assets/img/instrucoes-listagem-06.png" | prepend: site.baseurl }})
 
-{:start="7"}
-7. Seleciones as colunas  e clique em "Baixar"
+{:start="6"}
+6. Seleciones as colunas  e clique em "Baixar"
 ![Imagem de apoio 9]({{ "/assets/img/instrucoes-listagem-07.png" | prepend: site.baseurl }})
 
+{:start="7"}
+7. O navegador irá iniciar um download do template
+
+8. Selecione o arquivo para processar
+![Imagem de apoio 10]({{"/assets/img/arquivo-processamento.png" | prepend: site.baseurl}})
+
+{:start="9"}
+9. Selecione "Importar Arquivo"
+![Imagem de apoio 11]({{"/assets/img/arquivo-processamento-importar.png" | prepend: site.baseurl}})
+
+{:start="10"}
+10. Caso queira visualizar a importacao clique em "Pré-visualizar"
+![Imagem de apoio 12]({{"/assets/img/arquivo-processamento-visualizar.png" | prepend: site.baseurl}})
+
+![Imagem de apoio 12]({{"/assets/img/arquivo-processamento-preview.png" | prepend: site.baseurl}})
 
 {:start="8"}
 8. Após o processamento, o arquivo será adicionado ao grid onde estara esperando ser excutado ou cancelado
