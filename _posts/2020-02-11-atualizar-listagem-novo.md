@@ -32,3 +32,20 @@ pasta: "Listagem"
 {:start="6"}
 6. Faça as alterações necessárias no arquivo CSV gerado, mas mantenha a primeira coluna "CodCliente" intacta, é através desta coluna que o FastQuest identificará quais registros deverão ser atualizados
 ![Imagem de apoio 4]({{ "/assets/img/lista-atualizacao.png" | prepend: site.baseurl }})
+
+{:start="7"}
+7. Para fazer a atualização dos registros:
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+*A primeira linha do arquivo deve conter o nome das colunas que serão importadas
+*A primeira coluna deve conter o campo "CodCliente" que foi exportado anteriormente
+*Deixe apenas um cliente por linha
+*A separação das colunas no arquivo CSV pode ser por ";" ou "|"
+*Selecione o arquivo para atualização
+*Defina qual é a separação das colunas
+*Marque a opção "Atualizar listagem" e clique em "Processar"
+</div>
+<div class="6u 12u$(small)" markdown="1">
+    ![Imagem de apoio 4]({{ "/assets/img/atualizacao-listagem.png" | prepend: site.baseurl }})
+</div>
+</dib>
