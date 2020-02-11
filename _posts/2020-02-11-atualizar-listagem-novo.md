@@ -20,3 +20,7 @@ pasta: "Listagem"
 ![Imagem de apoio 1]({{ "/assets/img/adicionar-listagem-01.png" | prepend: site.baseurl }})
 </div>                               
 </div>
+
+{:start="4"}
+4. Sigas as intruções para fazer uma importação 
+![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-atualizar.png" | prepend: site.baseurl }})
