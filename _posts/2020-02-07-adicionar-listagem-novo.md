@@ -22,12 +22,10 @@ pasta: "Listagem"
 
 {:start="4"}
 
-4. Sigas as intruções para fazer uma importação/atualização e adicionar campos 
-![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-01.png" | prepend: site.baseurl }})
-</div>
+4. Sigas as intruções para fazer uma importação 
+![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-importar.png" | prepend: site.baseurl }})
 
 {:start="6"}
-
 6. Caso queira um template com as colunas disponiveis
 ![Imagem de apoio 8]({{ "/assets/img/instrucoes-listagem-06.png" | prepend: site.baseurl }})
 
