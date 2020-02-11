@@ -50,7 +50,7 @@ pasta: "Listagem"
 ![Imagem de apoio 10]({{ "/assets/img/instrucoes-listagem-08.png" | prepend: site.baseurl }})
 
 {:start="9"}
-9. Para finalizar a o processo clique em "executar o processamento" (Atenção não é possivel cancelar o processamento após isso o inicio da executação)
+9. Para finalizar a o processo clique em "executar o processamento" (Atenção não é possivel cancelar o processamento após isso o inicio da execução)
 
 ---
 
