@@ -21,7 +21,6 @@ pasta: "Listagem"
 </div>
 
 {:start="4"}
-
 4. Sigas as intruções para fazer uma importação 
 ![Imagem de apoio 2]({{ "/assets/img/instrucoes-listagem-importar.png" | prepend: site.baseurl }})
 
@@ -47,11 +46,12 @@ pasta: "Listagem"
 10. Caso queira visualizar a importacao clique em "Pré-visualizar"
 ![Imagem de apoio 12]({{"/assets/img/arquivo-processamento-visualizar.png" | prepend: site.baseurl}})
 
-![Imagem de apoio 13]({{ "/assets/img/arquivo-processamento-preview.png" | prepend: site.baseurl }})
+{:start="11"}
+11. Para fazer a importação  do arquivo, clique no botão "Processar"
+![Imagem de apoio 13]({{"/assets/img/arquivo-processamento-processar.png" | prepend: site.baseurl}})
 
-
-{:start="8"}
-8. Após o processamento, o arquivo será adicionado ao grid onde estara esperando ser excutado ou cancelado
+{:start="11"}
+8. Após o processamento, o arquivo será adicionado a lista onde estara esperando ser excutado ou cancelado
 ![Imagem de apoio 10]({{ "/assets/img/instrucoes-listagem-08.png" | prepend: site.baseurl }})
 
 {:start="9"}
