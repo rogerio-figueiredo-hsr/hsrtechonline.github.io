@@ -52,4 +52,56 @@ pasta: "Listagem"
 
 {:start="8"}
 8. Após clicar no botão "Processar", será adicionado um novo item na lista "Lista de processamentos". Assim que o arquivo for processado será enviada uma mensagem através do sistema de mensagens (sino)
-![Imagem de apoio 9]({{ "/assets/img/lista-processamento.png" | prepend: site.baseurl }})
+![Imagem de apoio 5]({{ "/assets/img/lista-processamento.png" | prepend: site.baseurl }})
+
+---
+
+## Se não existir todos os campos da listagem
+
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+1. Clique em "Gerenciar campos adicionais";
+</div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 6]({{ "/assets/img/instrucoes-listagem-02.png" | prepend: site.baseurl }})
+</div>                               
+</div>
+
+
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+{:start="2"}
+2. Clique em "Adicionar Campo";
+</div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 7]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
+</div>
+</div>
+
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+{:start="3"}
+3. Adicione uma "Descrição";
+
+4. Adicione o "Nome da Coluna" existente na listagem a ser importada;
+
+5. "CodTipoDado" é o tipo dos dados existentes na coluna;
+
+6. Selecione "Aceitar nulo" se o campo não for obrigatório;
+
+7. Clique em "Enviar";
+</div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 8]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
+</div>
+</div>
+
+<div class="row" markdown="1">
+<div class="6u 12u$(small)" markdown="1">
+{:start="8"}
+8. Caso queira adicionar mais de um campo de um só vez, clique em "Como importar campos adicionais"
+</div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 9]({{ "/assets/img/instrucoes-listagem-04.png" | prepend: site.baseurl }})
+</div>
+</div>
