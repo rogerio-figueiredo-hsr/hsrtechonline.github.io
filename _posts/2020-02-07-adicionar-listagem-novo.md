@@ -47,7 +47,8 @@ pasta: "Listagem"
 10. Caso queira visualizar a importacao clique em "Pré-visualizar"
 ![Imagem de apoio 12]({{"/assets/img/arquivo-processamento-visualizar.png" | prepend: site.baseurl}})
 
-![Imagem de apoio 13]({{"/assets/img/arquivo-processamento-preview.png" | prepend: site.baseurl}})
+![Imagem de apoio 13]({{ "/assets/img/arquivo-processamento-preview.png" | prepend: site.baseurl }})
+
 
 {:start="8"}
 8. Após o processamento, o arquivo será adicionado ao grid onde estara esperando ser excutado ou cancelado
