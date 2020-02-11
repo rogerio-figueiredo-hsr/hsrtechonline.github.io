@@ -27,7 +27,7 @@ pasta: "Listagem"
 
 {:start="5"}
 5. Faça a exportacao do arquivo que você deseja atualizar
-![Imagem de apoio 3]({{ "/assets/img/exportar-listagem-novo.png" | prepend: site.baseurl }})
+![Imagem de apoio 3]({{ "/assets/img/exportar-listagem-novo-01.png" | prepend: site.baseurl }})
 
 {:start="6"}
 6. Faça as alterações necessárias no arquivo CSV gerado, mas mantenha a primeira coluna "CodCliente" intacta, é através desta coluna que o FastQuest identificará quais registros deverão ser atualizados
