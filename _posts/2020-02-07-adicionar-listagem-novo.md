@@ -41,7 +41,7 @@ pasta: "Listagem"
 
 {:start="9"}
 9. Selecione "Importar Arquivo"
-![Imagem de apoio 11]({{"/assets/img/arquivo-processamento-importar.png" | prepend: site.baseurl}})
+![Imagem de apoio 11]({{ "/assets/img/arquivo-processamento-importar.png" | prepend: site.baseurl }})
 
 {:start="10"}
 10. Caso queira visualizar a importacao clique em "Pré-visualizar"
