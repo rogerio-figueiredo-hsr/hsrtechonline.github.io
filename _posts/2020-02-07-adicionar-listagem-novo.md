@@ -50,12 +50,9 @@ pasta: "Listagem"
 11. Para fazer a importação  do arquivo, clique no botão "Processar"
 ![Imagem de apoio 13]({{"/assets/img/arquivo-processamento-processar.png" | prepend: site.baseurl}})
 
-{:start="11"}
-8. Após o processamento, o arquivo será adicionado a lista onde estara esperando ser excutado ou cancelado
-![Imagem de apoio 10]({{ "/assets/img/instrucoes-listagem-08.png" | prepend: site.baseurl }})
-
-{:start="9"}
-9. Para finalizar a o processo clique em "executar o processamento" (Atenção não é possivel cancelar o processamento após isso o inicio da execução)
+{:start="12"}
+12. Após clicar no botão "Processar", será adicionado um novo item na lista "Lista de processamentos". Assim que o arquivo for processado será enviada uma mensagem através do sistema de mensagens (sino)
+![Imagem de apoio 10]({{ "/assets/img/lista-processamento.png" | prepend: site.baseurl }})
 
 ---
 
