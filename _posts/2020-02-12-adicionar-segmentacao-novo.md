@@ -27,6 +27,8 @@ pasta: "Segmentacao"
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
+
+{:start="5"}
 5. Adicione uma "Descrição";
 
 6. Marque se a segmentação estará ativa ou não;
@@ -46,13 +48,6 @@ pasta: "Segmentacao"
 </div>                               
 </div>
 
-<div class="row" markdown="1">
-<div class="6u 12u$(small)" markdown="1">
 {:start="12"}
 12. Clique em "Segmentar listagens" para as configurações da segmentação funcionarem no PABX.
 ![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-novo-03.png" | prepend: site.baseurl }})
-</div>
-
-
-
-</div>
