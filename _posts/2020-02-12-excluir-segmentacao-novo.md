@@ -25,10 +25,10 @@ pasta: "Segmentacao"
 ![Imagem de apoio 2]({{ "/assets/img/excluir-segmentacao-novo.png" | prepend: site.baseurl }})
 
 {:start="5"}
-5. Clique em "Remover Segmentações"
+5. Clique em "Remover Segmentação"
 ![Imagem de apoio 3]({{ "/assets/img/excluir-segmentacao-novo-01.png" | prepend: site.baseurl }})
 
 
 {:start="6"}
 6. Clique em "Sim"
-![Imagem de apoio 3]({{ "/assets/img/excluir-segmentacao-novo-02.png" | prepend: site.baseurl }})
+![Imagem de apoio 4]({{ "/assets/img/excluir-segmentacao-novo-02.png" | prepend: site.baseurl }})
