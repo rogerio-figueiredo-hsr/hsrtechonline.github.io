@@ -85,7 +85,7 @@ pasta: "Listagem"
 
 4. Adicione o "Nome da Coluna" existente na listagem a ser importada;
 
-5. "CodTipoDado" é o tipo dos dados existentes na coluna;
+5. "TipoDado" é o tipo dos dados existentes na coluna;
 
 6. Selecione "Aceitar nulo" se o campo não for obrigatório;
 
