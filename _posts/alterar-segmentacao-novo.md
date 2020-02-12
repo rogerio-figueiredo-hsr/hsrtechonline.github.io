@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Alterar Segmentação"
+title:  "Alterar Segmentação Novo"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/segmentacao/alterar-segmentacao
+permalink: /fastQuestAdmin/segmentacao/alterar-segmentacao-novo
 pasta: "Segmentacao"
 ---
 # Alterar Segmentação
@@ -21,5 +21,11 @@ pasta: "Segmentacao"
 </div>
 
 {:start="4"}
-4. Clique no botão editar
+4. Clique no botão "Editar Segmentação"
 ![Imagem de apoio 2]({{ "/assets/img/alterar-segmentacao-novo-01.png" | prepend: site.baseurl }})
+
+{:start="5"}
+5. Edite todos campos desejados de acordo com suas informações e depois clique em "Editar";
+![Imagem de apoio 2]({{ "/assets/img/alterar-segmentacao-novo-02.png" | prepend: site.basurl }})
+
+
