@@ -46,9 +46,6 @@ pasta: "Listagem"
 * Marque a opção "Atualizar listagem" e clique em "Processar"
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 4]({{ "/assets/img/atualizacao-listagem.png" | prepend: site.baseurl }})
-</div>
-<div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 5]({{ "/assets/img/atualizacao-listagem-novo.png" | prepend: site.baseurl }})
 </div>
 </div>
