@@ -24,10 +24,9 @@ pasta: "Segmentacao"
 <div class="6u 12u$(small)" markdown="1">
 {:start="4"}
 4. Clique em "Incluir novo registro"
-</div>
-<div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 2]({{ "/assets/img/adicionar-segmentacao-novo-01.png" | prepend: site.baseurl }})
 </div>
+
 </div>
 
 <div class="row" markdown="1">
@@ -55,8 +54,9 @@ pasta: "Segmentacao"
 <div class="6u 12u$(small)" markdown="1">
 {:start="12"}
 12. Clique em "Segmentar listagens" para as configurações da segmentação funcionarem no PABX.
-</div>
-<div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-novo-03.png" | prepend: site.baseurl }})
 </div>
+
+
+
 </div>
