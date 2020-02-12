@@ -49,5 +49,10 @@ pasta: "Segmentacao"
 </div>
 
 {:start="12"}
-12. Clique em "Segmentar listagens" para as configurações da segmentação funcionarem no PABX.
+12. Clique em "Segmentar listagens" 
 ![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-novo-03.png" | prepend: site.baseurl }})
+
+{:start="13"}
+13. Marque "Segmentar todas" caso queira que a segmentar todos os segmentos e/ou marque "Deseja agendar" caso deseje agendar a segmentação 
+e clique em "Segmentar"
+![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-novo-04.png" | prepend: site.baseurl }})
