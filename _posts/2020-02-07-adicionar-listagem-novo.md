@@ -99,7 +99,7 @@ pasta: "Listagem"
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 {:start="8"}
-8. Caso queira adicionar mais de um campo de um só vez, clique em "Como importar campos adicionais"
+8. Caso queira saber como adicionar mais de um campo de um só vez, clique em "Como importar campos adicionais"
 </div>
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 13]({{ "/assets/img/instrucoes-listagem-04.png" | prepend: site.baseurl }})
