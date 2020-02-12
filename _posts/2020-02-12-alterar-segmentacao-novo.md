@@ -21,11 +21,13 @@ pasta: "Segmentacao"
 </div>
 
 {:start="4"}
-4. Clique no botão "Editar Segmentação"
-![Imagem de apoio 2]({{ "/assets/img/alterar-segmentacao-novo-01.png" | prepend: site.baseurl }})
+4. Selecione uma segmentação para editar.
+![Imagem de apoio 2]({{ "/assets/img/alterar-segmentacao-novo.png" | prepend: site.baseurl }})
 
 {:start="5"}
-5. Edite todos campos desejados de acordo com suas informações e depois clique em "Editar";
-![Imagem de apoio 3]({{ "/assets/img/alterar-segmentacao-novo-02.png" | prepend: site.basurl }})
+5. Clique no botão "Editar Segmentação"
+![Imagem de apoio 3]({{ "/assets/img/alterar-segmentacao-novo-01.png" | prepend: site.baseurl }})
 
-
+{:start="6"}
+6. Edite todos campos desejados de acordo com suas informações e depois clique em "Editar";
+![Imagem de apoio 4]({{ "/assets/img/alterar-segmentacao-novo-02.png" | prepend: site.basurl }})
