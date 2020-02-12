@@ -21,7 +21,7 @@ pasta: "Segmentacao"
 </div>
 
 {:start="4"}
-4. Clique em "Incluir novo registro"
+4. Clique em "Nova Segmentação"
 ![Imagem de apoio 2]({{ "/assets/img/adicionar-segmentacao-novo-01.png" | prepend: site.baseurl }})
 
 
