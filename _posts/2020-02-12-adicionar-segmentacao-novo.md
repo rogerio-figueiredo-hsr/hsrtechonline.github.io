@@ -43,7 +43,7 @@ pasta: "Segmentacao"
 
 11. Clique em "Adicionar";
 </div>
-<div class="6u 12u$(small)" markdown="1">
+<div class="6u 12u$(small)" markdown="1" style="margin-left:auto">
 ![Imagem de apoio 3]({{ "/assets/img/adicionar-segmentacao-novo-02.png" | prepend: site.baseurl }})
 </div>                               
 </div>
