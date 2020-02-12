@@ -20,13 +20,10 @@ pasta: "Segmentacao"
 </div>                               
 </div>
 
-
 {:start="4"}
 4. Clique em "Incluir novo registro"
 ![Imagem de apoio 2]({{ "/assets/img/adicionar-segmentacao-novo-01.png" | prepend: site.baseurl }})
 
-
-</div>
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
