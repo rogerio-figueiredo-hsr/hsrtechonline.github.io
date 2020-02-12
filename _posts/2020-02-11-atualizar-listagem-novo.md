@@ -48,11 +48,14 @@ pasta: "Listagem"
 <div class="6u 12u$(small)" markdown="1">
 ![Imagem de apoio 4]({{ "/assets/img/atualizacao-listagem.png" | prepend: site.baseurl }})
 </div>
+<div class="6u 12u$(small)" markdown="1">
+![Imagem de apoio 5]({{ "/assets/img/atualizacao-listagem-novo.png" | prepend: site.baseurl }})
+</div>
 </div>
 
 {:start="8"}
 8. Após clicar no botão "Processar", será adicionado um novo item na lista "Lista de processamentos". Assim que o arquivo for processado será enviada uma mensagem através do sistema de mensagens (sino)
-![Imagem de apoio 5]({{ "/assets/img/lista-processamento.png" | prepend: site.baseurl }})
+![Imagem de apoio 6]({{ "/assets/img/lista-processamento.png" | prepend: site.baseurl }})
 
 ---
 
