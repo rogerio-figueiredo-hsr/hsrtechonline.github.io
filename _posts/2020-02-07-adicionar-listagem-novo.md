@@ -39,7 +39,7 @@ pasta: "Listagem"
 ![Imagem de apoio 5]({{"/assets/img/arquivo-processamento-selecionar.png" | prepend: site.baseurl}})
 
 {:start="9"}
-9. Selecione "Importar Arquivo"
+9. Marque a opção "Importar Arquivo"
 ![Imagem de apoio 6]({{ "/assets/img/arquivo-processamento-importar.png" | prepend: site.baseurl }})
 
 {:start="10"}
