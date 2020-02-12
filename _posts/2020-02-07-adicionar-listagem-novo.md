@@ -36,7 +36,7 @@ pasta: "Listagem"
 7. O navegador irá iniciar um download do template
 
 8. Selecione o arquivo para processar
-![Imagem de apoio 5]({{"/assets/img/arquivo-processamento.png" | prepend: site.baseurl}})
+![Imagem de apoio 5]({{"/assets/img/arquivo-processamento-selecionar.png" | prepend: site.baseurl}})
 
 {:start="9"}
 9. Selecione "Importar Arquivo"
