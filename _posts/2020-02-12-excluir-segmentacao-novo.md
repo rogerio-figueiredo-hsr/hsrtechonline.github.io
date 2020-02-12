@@ -8,7 +8,7 @@ pasta: "Segmentacao"
 # Excluir Segmentação
 
 <div class="row" markdown="1">
-<div class="6u 12u$(small)" markdown="1">
+<div class="6u 12u$(small)" markdown="1">s
 1. Selecione o projeto na página inicial;
 
 2. Após o projeto estar selecionado e ter redirecionado para a página do mesmo, clique em "Campo";
