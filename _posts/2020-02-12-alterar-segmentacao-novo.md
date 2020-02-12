@@ -26,6 +26,6 @@ pasta: "Segmentacao"
 
 {:start="5"}
 5. Edite todos campos desejados de acordo com suas informações e depois clique em "Editar";
-![Imagem de apoio 2]({{ "/assets/img/alterar-segmentacao-novo-02.png" | prepend: site.basurl }})
+![Imagem de apoio 3]({{ "/assets/img/alterar-segmentacao-novo-02.png" | prepend: site.basurl }})
 
 
