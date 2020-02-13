@@ -55,8 +55,9 @@ pasta: "Segmentacao"
 {:start="13"}
 13. Marque "Segmentar todas" caso queira que segmentar todos os segmentos e/ou marque "Deseja agendar" caso deseje agendar a segmentação 
 e clique em "Segmentar"
-![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-novo-04.png" | prepend: site.baseurl }})
+![Imagem de apoio 5]({{ "/assets/img/adicionar-segmentacao-novo-04.png" | prepend: site.baseurl }})
 
 {:start="14"}
 14. Após clicar no botão "Segmentar", será adicionado um novo item na lista “Lista de processamentos”. Assim que o arquivo for processado será enviada uma mensagem através do sistema de mensagens (sino)
-![Imagem de apoio 4]({{ "/assets/img/adicionar-segmentacao-novo-05.png" | prepend: site.baseurl }})
+![Imagem de apoio 6]({{ "/assets/img/adicionar-segmentacao-novo-05.png" | prepend: site.baseurl }})
+![Imagem de apoio 7]({{ "/assets/img/sino.png" | prepend: site.baseurl }})

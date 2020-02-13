@@ -53,6 +53,7 @@ pasta: "Listagem"
 {:start="12"}
 12. Após clicar no botão "Processar", será adicionado um novo item na lista "Lista de processamentos". Assim que o arquivo for processado será enviada uma mensagem através do sistema de mensagens (sino)
 ![Imagem de apoio 9]({{ "/assets/img/lista-processamento.png" | prepend: site.baseurl }})
+![Imagem de apoio 10]({{ "/assets/img/sino.png" | prepend: site.baseurl }})
 
 ---
 
@@ -63,7 +64,7 @@ pasta: "Listagem"
 1. Clique em "Gerenciar campos adicionais";
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 10]({{ "/assets/img/instrucoes-listagem-02.png" | prepend: site.baseurl }})
+![Imagem de apoio 11]({{ "/assets/img/instrucoes-listagem-02.png" | prepend: site.baseurl }})
 </div>                               
 </div>
 
@@ -74,7 +75,7 @@ pasta: "Listagem"
 2. Clique em "Adicionar Campo";
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 11]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
+![Imagem de apoio 12]({{ "/assets/img/instrucoes-listagem-03.png" | prepend: site.baseurl }})
 </div>
 </div>
 
@@ -92,7 +93,7 @@ pasta: "Listagem"
 7. Clique em "Enviar";
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 12]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
+![Imagem de apoio 13]({{ "/assets/img/adicionar-listagem-04.png" | prepend: site.baseurl }})
 </div>
 </div>
 
@@ -102,6 +103,6 @@ pasta: "Listagem"
 8. Caso queira saber como adicionar mais de um campo de um só vez, clique em "Como importar campos adicionais"
 </div>
 <div class="6u 12u$(small)" markdown="1">
-![Imagem de apoio 13]({{ "/assets/img/instrucoes-listagem-04.png" | prepend: site.baseurl }})
+![Imagem de apoio 14]({{ "/assets/img/instrucoes-listagem-04.png" | prepend: site.baseurl }})
 </div>
 </div>
