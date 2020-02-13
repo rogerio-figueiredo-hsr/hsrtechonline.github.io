@@ -61,3 +61,7 @@ e clique em "Segmentar"
 14. Após clicar no botão "Segmentar", será adicionado um novo item na lista “Lista de processamentos”. Assim que o arquivo for processado será enviada uma mensagem através do sistema de mensagens (sino)
 ![Imagem de apoio 6]({{ "/assets/img/adicionar-segmentacao-novo-05.png" | prepend: site.baseurl }})
 ![Imagem de apoio 7]({{ "/assets/img/sino.png" | prepend: site.baseurl }})
+
+{:start="15"}
+15. Clique no icone "Play" para iniciar o processamento. Caso queira cancelar o processamento clique no icone da "Lixeira"
+![Imagem de apoio 8]({{ "/assets/img/processamento.png" | prepend: site.baseurl }})
