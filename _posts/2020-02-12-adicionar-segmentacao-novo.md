@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adicionar Segmentação"
+title:  "Adicionar Segmentação Novo"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/segmentacao/adicionar-segmentacao-novo
 pasta: "Segmentacao"

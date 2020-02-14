@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Alterar Segmentação"
+title:  "Alterar Segmentação Novo"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/segmentacao/alterar-segmentacao-novo
 pasta: "Segmentacao"

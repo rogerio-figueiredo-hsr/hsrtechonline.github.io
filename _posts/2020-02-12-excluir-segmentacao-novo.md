@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Excluir Segmentação"
+title:  "Excluir Segmentação Novo"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/segmentacao/excluir-segmentacao-novo
 pasta: "Segmentacao"
