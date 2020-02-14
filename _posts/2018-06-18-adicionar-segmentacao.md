@@ -3,6 +3,7 @@ layout: post
 title:  "Adicionar Segmentação"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/segmentacao/adicionar-segmentacao
+pasta: "Segmentacao"
 ---
 # Adicionar Segmentação
 
