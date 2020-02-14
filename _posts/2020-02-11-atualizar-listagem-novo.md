@@ -64,7 +64,7 @@ pasta: "Listagem"
 {:start="9"}
 9.  Caso queira cancelar o processamento clique no icone da "Lixeira"
 (Não é possível cancelar o processo após o inicio)
-![Imagem de apoio 7]({{ "/assets/img/atualizar-segmentacao-novo-02.png" | prepend: site.baseurl }})
+![Imagem de apoio 7]({{ "/assets/img/atualizacao-listagem-novo-02.png" | prepend: site.baseurl }})
 
 ---
 
