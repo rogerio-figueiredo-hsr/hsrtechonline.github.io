@@ -6,7 +6,7 @@ permalink: /fastQuestAdmin/listagem/atualizar-listagem-novo
 pasta: "Listagem"
 ---
 
-# Atulizar Listagem
+# Atualizar Listagem
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
