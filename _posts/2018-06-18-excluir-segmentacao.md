@@ -3,7 +3,7 @@ layout: post
 title:  "Excluir Segmentação"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/segmentacao/excluir-segmentacao
-pasta: "Segmentacaox"
+pasta: "Segmentacao"
 ---
 # Excluir Segmentação
 
