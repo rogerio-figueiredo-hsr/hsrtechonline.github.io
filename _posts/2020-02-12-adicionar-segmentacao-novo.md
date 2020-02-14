@@ -65,4 +65,4 @@ e clique em "Segmentar"
 {:start="15"}
 15. Caso queira cancelar o processamento clique no icone da "Lixeira"
 (Não é possível cancelar o processo após o inicio)
-![Imagem de apoio 8]({{ "/assets/img/processamento.png" | prepend: site.baseurl }})
+![Imagem de apoio 8]({{ "/assets/img/processamento-segmentacao-novo.png" | prepend: site.baseurl }})
