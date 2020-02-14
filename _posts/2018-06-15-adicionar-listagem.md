@@ -3,7 +3,7 @@ layout: post
 title:  "Adicionar Listagem"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/listagem/adicionar-listagem
-pasta: "Listagem"
+
 ---
 # Adicionar Listagem
 

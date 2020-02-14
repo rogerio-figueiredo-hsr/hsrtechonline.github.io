@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adicionar Listagem Novo"
+title:  "Adicionar Listagem"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/listagem/adicionar-listagem-novo
 pasta: "Listagem"

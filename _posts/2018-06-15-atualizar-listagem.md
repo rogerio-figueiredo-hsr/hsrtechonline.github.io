@@ -3,7 +3,7 @@ layout: post
 title:  "Atualizar Listagem"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/listagem/atualizar-listagem
-pasta: "Listagem"
+
 ---
 # Atualizar Listagem
 
