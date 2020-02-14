@@ -56,7 +56,7 @@ pasta: "Listagem"
 ![Imagem de apoio 10]({{ "/assets/img/sino.png" | prepend: site.baseurl }})
 
 {:start="13"}
-13. Clique no icone "Play" para iniciar o processamento. Caso queira cancelar o processamento clique no icone da "Lixeira"
+13. Caso queira cancelar o processamento clique no icone da "Lixeira"
 (Não é possível cancelar o processo após o inicio)
 ![Imagem de apoio 10]({{ "/assets/img/processamento.png" | prepend: site.baseurl }})
 

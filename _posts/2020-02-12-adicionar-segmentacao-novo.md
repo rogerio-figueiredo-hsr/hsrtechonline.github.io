@@ -63,6 +63,6 @@ e clique em "Segmentar"
 ![Imagem de apoio 7]({{ "/assets/img/sino.png" | prepend: site.baseurl }})
 
 {:start="15"}
-15. Clique no icone "Play" para iniciar o processamento. Caso queira cancelar o processamento clique no icone da "Lixeira"
+15. Caso queira cancelar o processamento clique no icone da "Lixeira"
 (Não é possível cancelar o processo após o inicio)
 ![Imagem de apoio 8]({{ "/assets/img/processamento.png" | prepend: site.baseurl }})
