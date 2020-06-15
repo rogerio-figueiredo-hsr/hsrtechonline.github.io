@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Selecionando Projetos"
+title:  "Selecionando Jobs"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/projetos/procurando-projetos
-pasta: "Projetos"
+permalink: /fastQuestAdmin/jobs/procurando-projetos
+pasta: "Jobs"
 ---
-## Selecionado Projetos
+## Selecionado Jobs
 <div class="row" markdown="1">
 <div class="12u 12u$(small)" markdown="1">
 A lista de projetos/jobs é dividade em três Pastas:

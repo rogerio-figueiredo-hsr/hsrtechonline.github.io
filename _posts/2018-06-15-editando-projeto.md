@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Editando Projeto"
+title:  "Editando Job"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/projetos/editando-projeto
-pasta: "Projetos"
+permalink: /fastQuestAdmin/jobs/editando-projeto
+pasta: "Jobs"
 ---
 # Editando Projeto
 1. Na página inicial clique em "Gestão de Job";

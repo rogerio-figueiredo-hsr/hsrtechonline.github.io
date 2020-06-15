@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Configurando um Projeto"
+title:  "Configurando um Job"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/projetos/configurando-projeto
-pasta: "Projetos"
+permalink: /fastQuestAdmin/jobs/configurando-projeto
+pasta: "Jobs"
 ---
-# Configurando um Projeto
+# Configurando um Job
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
 1. Selecione o projeto na página inicial;

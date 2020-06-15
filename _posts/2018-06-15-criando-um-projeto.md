@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Criando um Projeto"
+title:  "Criando um Job"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/projetos/criando-um-projeto
-pasta: "Projetos"
+permalink: /fastQuestAdmin/jobs/criando-um-projeto
+pasta: "Jobs"
 ---
-# Criando um Projeto
+# Criando um Job
 
 <div class="row" markdown="1">
 <div class="6u 12u$(small)" markdown="1">
