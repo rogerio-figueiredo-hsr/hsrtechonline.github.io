@@ -1,10 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
-@font-face {
-    font-family: openSans;
-    src: url(../fonts/OpenSans-Light.woff);
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 
 /*
 	Intensify by TEMPLATED
@@ -1622,10 +1619,10 @@
 
 	body, input, select, textarea {
 		color: #767d85;
-		font-family: "Open Sans", Arial, Helvetica, sans-serif;
-		font-size: 13pt;
+		font-family: "Roboto", sans-serif;
+		font-size: 16px;
 		font-weight: 300;
-		line-height: 1.65;
+		line-height: 1.5;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1693,7 +1690,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #727a82;
 		font-weight: 700;
-		font-family: "Montserrat", sans-serif;
+		font-family: "Roboto Slab", sans-serif;
 		line-height: 1.5;
 		margin: 0em 0 1.2em 0;
 	}
@@ -2178,7 +2175,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 

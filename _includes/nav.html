@@ -21,22 +21,44 @@
                 {%endif%}
             {%endfor%}
 
-            {% for list in site.posts %}
+            {% assign sorted_threat_posts = site.posts | sort: 'section' %}
+
+            {% for list in sorted_threat_posts %}
                 {%if list.projeto == page.projeto %}
-                {%if list.nomePasta %}
-                    <div class="dropdown">
-                        <a href="{{ list.permalink }}">{{ list.title }}</a>                                                
-                        <i class="fa fa-caret-down dropdown-btn"></i>
-                        <div class="dropdown-container">
-                            {% assign sorted_threat_posts = site.posts | sort: 'title' %}
-                            {% for link in sorted_threat_posts | sort: 'title' %}
-                                {% if list.nomePasta == link.pasta %}
-                                    <i class="fa fa-angle-right sub-item-menu"></i>
-                                    <a href="{{ link.permalink }}" class="options">{{ link.title }}</a>
-                                {%endif%}
-                            {% endfor %}
+                    {%if list.nomePasta %}
+                        <div class="dropdown">
+                            {% assign subMenus = sorted_threat_posts | where_exp: "item", "item.mainsection == list.section" %}
+
+                            <a href="{{ list.permalink }}">{{ list.title }}</a>  
+                            {% if subMenus.size > 0 %}
+                                <i class="fa fa-caret-down dropdown-btn"></i>
+                            {%endif%}     
+                            <div class="dropdown-container">
+                                {% for link in subMenus %}
+                                        {% assign subSubMenus = sorted_threat_posts | where_exp: "item", "item.mainsection == link.section" %}
+
+                                        <div class="dropdown">
+                                            {% if subSubMenus.size == 0 %}
+                                            <i class="fa fa-angle-right sub-item-menu"></i>
+                                            {%endif%}   
+                                            <a href="{{ link.permalink }}" class="options">{{ link.title }}</a>
+
+                                            {% if subSubMenus.size > 0 %}
+                                            <i class="fa fa-caret-down dropdown-btn"></i>
+                                            {%endif%}
+
+                                            <div class="dropdown-container">
+                                                {% for link2 in subSubMenus %}
+                                                            {% if link.section == link2.mainsection %}
+                                                                <i class="fa fa-angle-right sub-item-menu"></i>
+                                                                <a href="{{ link2.permalink }}" class="options">{{ link2.title }}</a>
+                                                            {%endif%}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                {% endfor %}
+                            </div>
                         </div>
-                    </div>
                     {%endif%}                        
                 {% endif %}
             {%endfor%}
