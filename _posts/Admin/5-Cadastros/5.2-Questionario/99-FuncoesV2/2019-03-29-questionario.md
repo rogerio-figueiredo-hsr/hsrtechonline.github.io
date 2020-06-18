@@ -2,7 +2,7 @@
 layout: post
 title:  "Questionario"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/questionario
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/questionario
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.274

@@ -2,7 +2,7 @@
 layout: post
 title:  "Pontuação"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/pontuacao
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/pontuacao
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.281

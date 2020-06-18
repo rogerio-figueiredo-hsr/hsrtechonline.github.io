@@ -2,7 +2,7 @@
 layout: post
 title:  "Sintaxe Javascript"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/sintaxeJavascript
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/sintaxeJavascript
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.279

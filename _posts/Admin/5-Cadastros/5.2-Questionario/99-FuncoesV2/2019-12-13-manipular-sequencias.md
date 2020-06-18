@@ -2,7 +2,7 @@
 layout: post
 title:  "Manipular Sequências"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/manipularSequencias
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/manipularSequencias
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.283

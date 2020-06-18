@@ -2,7 +2,7 @@
 layout: post
 title:  "Base Alternativa"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/base-alternativa
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/base-alternativa
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.287

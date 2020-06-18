@@ -2,7 +2,7 @@
 layout: post
 title:  "Base Única"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/base-unica
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/base-unica
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.288

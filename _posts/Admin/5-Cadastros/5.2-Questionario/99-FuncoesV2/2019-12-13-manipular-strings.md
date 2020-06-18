@@ -2,7 +2,7 @@
 layout: post
 title:  "Manipular Texto"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/manipularString
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/manipularString
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.284

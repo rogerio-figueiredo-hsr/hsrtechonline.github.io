@@ -2,7 +2,7 @@
 layout: post
 title:  "Somatória"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/somatoria
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/somatoria
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.278

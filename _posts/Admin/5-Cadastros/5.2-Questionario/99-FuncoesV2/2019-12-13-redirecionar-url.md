@@ -2,7 +2,7 @@
 layout: post
 title:  "Redirecionar Url"
 projeto: "fastQuestAdmin"
-permalink: /fastQuestAdmin/funcoesv2/redirecionarUrl
+permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/redirecionarUrl
 pasta: "funcoesv2"
 mainsection: 5.27
 section: 5.285
