@@ -46,11 +46,5 @@ section: 3
     {% endfor %}    
 </div> 
 
----
-
-### Visualizando campos de listagem do cliente
-
-campos-listagem-cliente
-
 
 

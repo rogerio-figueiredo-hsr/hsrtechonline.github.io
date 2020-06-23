@@ -5,7 +5,7 @@ projeto: "fastQuestColeta"
 permalink: /fastQuestColeta/questionario/trocando-contato
 pasta: ""
 mainsection: 3
-section: 3.1
+section: 3.3
 ---
 
 # Trocando contato de um cliente
