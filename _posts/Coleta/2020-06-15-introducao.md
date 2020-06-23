@@ -4,6 +4,11 @@ title:  "Introdução"
 projeto: "fastQuestColeta"
 permalink: /fastQuestColeta/introducao
 ---	
+# Introdução
+
+O FastQuest Coleta é um produto da HSRTECH empresa do grupo HSR, que tem por objetivo aplicar os questionários formulados na ferramenta FastQuest Admin de maneira fluída por meio de entrevistadores por telefone, pessoalmente, e sem entrevistador através da internet do entrevistado.
+
+---
 
 ### Índice
 
