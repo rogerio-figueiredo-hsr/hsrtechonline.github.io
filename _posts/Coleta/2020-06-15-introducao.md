@@ -6,7 +6,7 @@ permalink: /fastQuestColeta/introducao
 ---	
 # Introdução
 
-O FastQuest Coleta é um produto da HSRTECH empresa do grupo HSR, que tem por objetivo aplicar os questionários formulados na ferramenta FastQuest Admin de maneira fluída por meio de entrevistadores por telefone, pessoalmente, e sem entrevistador através da internet do entrevistado.
+O **FastQuest Coleta** é um produto da [HSRTECH](http://hsrtech.com.br/) empresa do grupo [HSR](https://hsr.specialistresearchers.com.br/), que tem por objetivo aplicar os questionários formulados na ferramenta [FastQuest Admin](https://hsrtechonline.github.io/fastQuestAdmin/introducao) de maneira fluída por meio de entrevistadores por telefone, pessoalmente, e sem entrevistador através da internet do entrevistado.
 
 ---
 
