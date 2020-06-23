@@ -27,7 +27,7 @@ section: 3.5
 
 - **Evento:** Ocorrências que indicam que algo inesperado aconteceu e eventualmente será feita uma nova tentativa de contatar esse número.
 - **Encerramento:** Ocorrências que invalidam o número, não ocorrerá outra tentativa de contato com o número exceto se for feito uma [volta de status](/fastQuestAdmin/campo/volta-status). 
-
+ 
 {:start="6"}
 6. Selecione a ocorrência. *As ocorrências listadas podem variar de acordo com o que foi selecionado previamente e o que foi cadastrado para o Job no módulo Admin na [tela de Status](/fastQuestAdmin/cadastros/status/)*
 ![Status de Evento]({{ "/assets/img/coleta/status-evento.png" | prepend: site.baseurl }})
