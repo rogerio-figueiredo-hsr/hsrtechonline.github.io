@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RequestURL"
+title:  "BaseGeral"
 projeto: "fastQuestAdmin"
 permalink: /fastQuestAdmin/cadastros/questionario/funcoes-fastscript/base-geral
 pasta: "funcoesv2"
